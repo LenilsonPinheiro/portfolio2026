@@ -4,6 +4,41 @@
   var CANONICAL_BASE = 'https://lenilsonpinheiro.github.io/portfolio2026/';
   var STORAGE_KEY = 'portfolio_lang';
 
+  function cookiePath() {
+    try {
+      var segs = window.location.pathname.split('/').filter(Boolean);
+      if (!segs.length) return '/';
+      return '/' + segs[0] + '/';
+    } catch (e) {
+      return '/';
+    }
+  }
+
+  function getCookie(name) {
+    try {
+      var re = new RegExp('(?:^|; )' + String(name).replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '=([^;]*)');
+      var m = document.cookie.match(re);
+      return m ? decodeURIComponent(m[1]) : '';
+    } catch (e) {
+      return '';
+    }
+  }
+
+  function setCookie(name, value, maxAgeSeconds) {
+    try {
+      var age = maxAgeSeconds || 31536000;
+      document.cookie =
+        name +
+        '=' +
+        encodeURIComponent(value) +
+        '; max-age=' +
+        age +
+        '; path=' +
+        cookiePath() +
+        '; SameSite=Lax';
+    } catch (e) {}
+  }
+
   var T = {
     en: {
       htmlLang: 'en-US',
@@ -448,6 +483,8 @@
       var s = localStorage.getItem(STORAGE_KEY);
       if (s) return normalizeLang(s);
     } catch (e) {}
+    var c = getCookie('lp_lang');
+    if (c) return normalizeLang(c);
     return 'en';
   }
 
@@ -519,6 +556,7 @@
     try {
       localStorage.setItem(STORAGE_KEY, lang);
     } catch (e) {}
+    setCookie('lp_lang', lang, 31536000);
     try {
       var u = new URL(window.location.href);
       if (lang === 'en') u.searchParams.delete('lang');

@@ -18,13 +18,21 @@ O conteúdo profissional (cargos, datas, métricas e empresas) está **alinhado 
 | `robots.txt` | `Allow` + `Sitemap` + agentes de IA comuns |
 | `sitemap.xml` | URL canónica + `hreflang` em XHTML |
 | `llms.txt` | Índice legível para assistentes / LLM crawlers |
+| `sw.js` | Service Worker — cache de assets estáticos |
 | `.github/workflows/deploy.yml` | Deploy GitHub Pages |
 
 ## Idioma e URL
 
 - **Padrão:** `en-US` (conteúdo e `<html lang>` após o script de i18n).
 - **Trocar idioma:** selector no topo ou query string `?lang=pt` / `?lang=es`.
-- Preferência guardada em `localStorage` (`portfolio_lang`).
+- Preferência guardada em `localStorage` (`portfolio_lang`) e espelhada num **cookie** pequeno `lp_lang` (1 ano, `SameSite=Lax`, path do repositório) para consistência entre visitas.
+
+## Cache e performance (cliente)
+
+- **`sw.js` (Service Worker):** na segunda e seguintes visitas, **CSS, JS, manifest, favicon, llms/robots/sitemap** tendem a servir a partir do **Cache Storage** (rápido); o **HTML** usa *network-first* com recurso ao cache se estiver offline.
+- Após alterações grandes em ficheiros, **incremente `VERSION` em `sw.js`** para forçar renovação do cache.
+- **Cookies não são usados para guardar o site inteiro** (seria lento e inviável); o cookie `lp_lang` é só o idioma.
+- **`preload`** em `index.html` para `css/site.css` e `js/i18n.js`.
 
 ## Formulário de contato (FormSubmit)
 
@@ -37,7 +45,7 @@ O conteúdo profissional (cargos, datas, métricas e empresas) está **alinhado 
 - **Canonical:** `https://lenilsonpinheiro.github.io/portfolio2026/`
 - **Sitemap:** `sitemap.xml` (atualize `lastmod` quando mudar conteúdo relevante).
 - **Schema.org:** `Person`, `WebSite`, `ProfilePage` em JSON-LD.
-- **Tópicos / keywords:** bloco expansível `<details>` (índice de hashtags e skills) + `knowsAbout` no JSON-LD — abordagem explícita a crawlers, sem texto “escondido” enganoso.
+- **Tópicos / keywords:** JSON-LD + `<template id="discovery-seeds">` (preenchido por JS) + `knowsAbout` no `Person`.
 
 ## Testar localmente
 
