@@ -18,6 +18,7 @@ ASSETS = [
     ("/css/site.css", "css", ["body", "{"]),
     ("/js/contact-endpoint.js", "contact-endpoint", ["PORTFOLIO_APPS_SCRIPT_WEBAPP_URL"]),
     ("/js/contact-form.js", "contact-form", ["contactForm", "portfolio:i18n-applied"]),
+    ("/js/i18n.js", "i18n", ["applyLanguage", "T"]),
     ("/site.webmanifest", "manifest", ["name", "icons"]),
     ("/robots.txt", "robots", ["User-agent", "Sitemap"]),
     ("/sitemap.xml", "sitemap", ["<urlset", "loc"]),
