@@ -1,7 +1,7 @@
 /* Portfolio offline/cache — bump VERSION after deploy when assets change meaningfully. */
 'use strict';
 
-var VERSION = '2026-05-05-v5';
+var VERSION = '2026-05-05-v6';
 var CACHE_NAME = 'lp-portfolio-' + VERSION;
 var ORIGIN = self.location.origin;
 

@@ -24,7 +24,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        
+
+      - name: Inject Google Apps Script Web App URL
+        env:
+          FROM_SECRET: ${{ secrets.PORTFOLIO_APPS_SCRIPT_WEBAPP_URL }}
+          FROM_VAR: ${{ vars.PORTFOLIO_APPS_SCRIPT_WEBAPP_URL }}
+        run: |
+          export GAS_URL="${FROM_SECRET:-$FROM_VAR}"
+          python3 scripts/inject_gas_url.py
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
         

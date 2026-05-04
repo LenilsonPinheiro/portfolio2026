@@ -13,7 +13,8 @@ O conteúdo profissional (cargos, datas, métricas e empresas) está **alinhado 
 | `index.html` | Página única: `<header>`, `<main>`, `<footer>`, formulário, alternates `hreflang` |
 | `css/site.css` | Estilos (mobile-first, reduced motion, foco visível) |
 | `js/i18n.js` | Traduções `en` / `pt` / `es`, meta dinâmicos, JSON-LD `Person` |
-| `js/contact-endpoint.js` | URL do Web App do Apps Script (`/exec`); editar após implantar o script |
+| `js/contact-endpoint.js` | URL do Web App (`/exec`); em produção preenchida pelo CI a partir do secret/variable `PORTFOLIO_APPS_SCRIPT_WEBAPP_URL` |
+| `scripts/inject_gas_url.py` | Usado no GitHub Actions para injetar a URL antes do deploy |
 | `js/contact-form.js` | Liga o `<form>` ao endpoint, aviso se URL em falta, `?sent=1` |
 | `google-apps-script/` | Código e instruções para criar o endpoint de e-mail na Google |
 | `favicon.svg` | Ícone vetorial |
@@ -40,8 +41,8 @@ O conteúdo profissional (cargos, datas, métricas e empresas) está **alinhado 
 ## Formulário de contato (Google Apps Script)
 
 1. Crie o projeto em [script.google.com](https://script.google.com), cole `google-apps-script/Code.gs` e **implante** como **aplicativo da Web** (executar como você, acesso **Qualquer pessoa**). Detalhes: `google-apps-script/README.md`.
-2. Copie a URL que termina em `/exec` para `js/contact-endpoint.js` (`PORTFOLIO_APPS_SCRIPT_WEBAPP_URL`).
-3. O browser faz `POST` em `application/x-www-form-urlencoded` para o Google; após sucesso o script redireciona para `?sent=1#contact` (definido em `CFG.returnUrl` no Apps Script).
+2. **Automático no deploy:** no GitHub, crie o secret **ou** variable de repositório `PORTFOLIO_APPS_SCRIPT_WEBAPP_URL` com a URL `/exec`. O workflow (`.github/workflows/deploy.yml`) corre `scripts/inject_gas_url.py` antes do upload — não precisa de alterar `js/contact-endpoint.js` no Git para produção.
+3. O browser faz `POST` em `application/x-www-form-urlencoded` para o Google; após sucesso o script redireciona para `?sent=1#contact` (`CFG.returnUrl` no Apps Script).
 4. **Quotas** de envio: limites oficiais do Gmail / `MailApp` aplicam-se (contas gratuitas têm teto diário).
 
 ## SEO e descoberta

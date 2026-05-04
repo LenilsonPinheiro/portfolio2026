@@ -45,7 +45,7 @@ https://lenilsonpinheiro.github.io/portfolio2026/
 ## Depois de ativo
 
 - Cada `git push` na `main` atualiza o site em cerca de 1–2 minutos (workflow + Pages).
-- **Formulário de contacto:** usa **Google Apps Script** (`MailApp`). Configure a URL `/exec` em `js/contact-endpoint.js` após implantar o script (ver `google-apps-script/README.md`). Sem ativação de terceiros tipo FormSubmit.
+- **Formulário de contacto:** usa **Google Apps Script** (`MailApp`). Crie o script e a implantação Web **uma vez** no Google (ver `google-apps-script/README.md`). Depois registe a URL `/exec` no GitHub como secret ou variable **`PORTFOLIO_APPS_SCRIPT_WEBAPP_URL`** — o workflow injeta-a automaticamente em cada deploy; não precisa de editar `js/contact-endpoint.js` no repositório para produção.
 
 ## Nota
 

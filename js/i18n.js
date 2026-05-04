@@ -132,7 +132,7 @@
       formHint:
         'Sends email to lenilsonpinheiro@gmail.com via Google Apps Script (your Gmail / Google account). No third-party inbox activation.',
       formNotConfigured:
-        'Contact form is disabled until you set your Web App URL: edit js/contact-endpoint.js and paste the URL ending in /exec (see google-apps-script/README.md).',
+        'Contact form is disabled until deploy injects your Web App URL. Add the repository secret or variable PORTFOLIO_APPS_SCRIPT_WEBAPP_URL (see google-apps-script/README.md), then run the Pages workflow again.',
       formSentSuccess: 'Thank you — your message was sent. I will reply as soon as I can.',
       labelName: 'Name',
       labelEmail: 'Email',
@@ -274,7 +274,7 @@
       formHint:
         'Envia e-mail para lenilsonpinheiro@gmail.com via Google Apps Script (MailApp na sua conta Google). Sem ativação de serviço de terceiros.',
       formNotConfigured:
-        'Formulário desativado: defina a URL do aplicativo da Web em js/contact-endpoint.js (URL que termina em /exec; veja google-apps-script/README.md).',
+        'Formulário desativado até o deploy injetar a URL do aplicativo Web. Adicione o secret ou variable de repositório PORTFOLIO_APPS_SCRIPT_WEBAPP_URL (veja google-apps-script/README.md) e volte a executar o workflow do Pages.',
       formSentSuccess: 'Obrigado — a mensagem foi enviada. Responderei o quanto antes.',
       labelName: 'Nome',
       labelEmail: 'E-mail',
@@ -416,7 +416,7 @@
       formHint:
         'Envía correo a lenilsonpinheiro@gmail.com mediante Google Apps Script (MailApp en tu cuenta Google). Sin activación de terceros.',
       formNotConfigured:
-        'Formulario desactivado: configura la URL del aplicativo web en js/contact-endpoint.js (URL que termina en /exec; ver google-apps-script/README.md).',
+        'Formulario desactivado hasta que el despliegue inyecte la URL del aplicación web. Añade el secret o variable del repositorio PORTFOLIO_APPS_SCRIPT_WEBAPP_URL (ver google-apps-script/README.md) y vuelve a ejecutar el workflow de Pages.',
       formSentSuccess: 'Gracias — tu mensaje fue enviado. Responderé lo antes posible.',
       labelName: 'Nombre',
       labelEmail: 'Correo',
