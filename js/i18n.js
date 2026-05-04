@@ -57,7 +57,7 @@
       exp2b2:
         'AI & risk: directed ML models for fraud detection, achieving +15% predictive accuracy improvement (as stated on résumé).',
       exp2b3:
-        'Data strategy: governed BI pipelines and integrations involving global payment rails (SWIFT, ISO 20022) and multi-bank coordination per résumé.',
+        'Data strategy: governed BI pipelines and integrations involving global payment rails (SWIFT, ISO 20022), including multi-bank coordination as described on the 2026.1 résumé (Citibank / Goldman Sachs context).',
       exp3Role: 'NTConsult, Sonda IT & prior delivery leadership',
       exp3Meta: '2010 – 2019 · Architecture, banking PM, BI & telecom',
       exp3b1:
@@ -167,7 +167,7 @@
       exp2b2:
         'IA & fraude: direção da implementação de modelos de ML para detecção de fraudes, com <span class="highlight">+15% na precisão preditiva</span> (currículo).',
       exp2b3:
-        'Dados: governança e pipelines de BI integrando sistemas globais (SWIFT, ISO 20022) e coordenação multi-banco, conforme descrito no CV.',
+        'Dados: governança e pipelines de BI com trilhos de pagamento globais (SWIFT, ISO 20022), incluindo coordenação multi-banco conforme CV 2026.1 (Citibank / Goldman Sachs).',
       exp3Role: 'NTConsult, Sonda IT e lideranças anteriores',
       exp3Meta: '2010 – 2019 · Arquitetura, PM bancário, BI e telecom',
       exp3b1:
@@ -277,7 +277,7 @@
       exp2b2:
         'IA y riesgo: modelos ML para detección de fraude con <span class="highlight">+15% de mejora en precisión predictiva</span> (CV).',
       exp2b3:
-        'Datos: gobierno y pipelines de BI con raíles de pago globales (SWIFT, ISO 20022) y coordinación multi-banco, según CV.',
+        'Datos: gobierno y pipelines de BI con raíles de pago globales (SWIFT, ISO 20022), incluyendo coordinación multi-banco según CV 2026.1 (Citibank / Goldman Sachs).',
       exp3Role: 'NTConsult, Sonda IT y roles anteriores',
       exp3Meta: '2010 – 2019 · Arquitectura, PM bancario, BI y telecom',
       exp3b1:
