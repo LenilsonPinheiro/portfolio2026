@@ -1,0 +1,19 @@
+{
+  "name": "Lenilson Pinheiro — Portfolio",
+  "short_name": "Lenilson P.",
+  "description": "Senior full-stack engineer, data & LLM systems. Portfolio and contact.",
+  "start_url": "/portfolio2026/",
+  "scope": "/portfolio2026/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#00f0ff",
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

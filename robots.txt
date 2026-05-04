@@ -1,0 +1,27 @@
+# https://lenilsonpinheiro.github.io/portfolio2026/
+User-agent: *
+Allow: /
+
+# AI / research crawlers (allow; respect site terms in llms.txt)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+Sitemap: https://lenilsonpinheiro.github.io/portfolio2026/sitemap.xml

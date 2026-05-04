@@ -1,63 +1,26 @@
-# 🚀 Guia Rápido: Ativar GitHub Pages
+# GitHub Pages — guia rápido
 
-## Link de Produção (após ativação):
+## URL de produção
+
 ```
 https://lenilsonpinheiro.github.io/portfolio2026/
 ```
 
----
+## Ativar (uma vez)
 
-## 📱 Passo a Passo para Ativar:
+1. Abra: https://github.com/LenilsonPinheiro/portfolio2026  
+2. **Settings** → **Pages**  
+3. **Source**: *Deploy from a branch* → **Branch: `main`**, pasta **`/ (root)`** → **Save**  
+4. Aguarde 1–5 minutos até o link aparecer como publicado.
 
-### 1️⃣ Acesse o Repositório
-Abra no navegador: **https://github.com/LenilsonPinheiro/portfolio2026**
+## Atualizar o site
 
-### 2️⃣ Vá para Settings (Configurações)
-- Clique na aba **"Settings"** no topo do repositório
-- (É a última aba, ao lado de "Insights")
+Faça `git push` na branch `main`. O workflow em `.github/workflows/deploy.yml` publica o conteúdo da raiz (incluindo `index.html`, `css/`, `js/`, `robots.txt`, `sitemap.xml`, `llms.txt`, etc.).
 
-### 3️⃣ Encontre a Seção "Pages"
-- No menu lateral esquerdo, role até encontrar **"Pages"**
-- Clique em **"Pages"**
+## Verificar
 
-### 4️⃣ Configure a Source
-- Em **"Source"**, você verá um dropdown
-- Selecione: **"Deploy from a branch"**
-- Em **"Branch"**, selecione: **"main"**
-- Em **"Folder"**, selecione: **"/ (root)"**
-- Clique no botão **"Save"** (Salvar)
-
-### 5️⃣ Aguarde a Publicação
-- Aparecerá uma mensagem: *"Your site is ready to be published at..."*
-- Aguarde **1-5 minutos** para o GitHub processar
-- O link aparecerá em verde quando estiver pronto
-
-### 6️⃣ Acesse seu Portfólio
-Abra no celular ou navegador:
-```
-https://lenilsonpinheiro.github.io/portfolio2026/
+```bash
+python testar_site.py
 ```
 
----
-
-## ✅ Como Saber se Está Funcionando:
-
-- ✅ **Funcionando**: A página carrega com seu portfólio completo
-- ❌ **Não funcionando**: Aparece erro 404 ou página em branco
-
-**Se aparecer 404:**
-- Aguarde mais alguns minutos (pode levar até 10 minutos)
-- Verifique se salvou as configurações corretamente
-- Certifique-se de que a branch "main" existe
-
----
-
-## 🔄 Atualizar o Site:
-
-Sempre que você fizer alterações e fizer `git push`, o GitHub Pages atualiza automaticamente em 1-2 minutos!
-
----
-
-## 📞 Precisa de Ajuda?
-
-Se tiver dificuldade, me avise que eu ajudo passo a passo!
+Mais detalhes: `ATIVAR_AUTOMATICO.md` e `README.md`.

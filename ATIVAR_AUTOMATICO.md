@@ -1,63 +1,56 @@
-# 🚀 Ativação Automática do GitHub Pages
+# Ativação automática do GitHub Pages
 
-## ✅ O que já foi configurado:
+## O que já está no repositório
 
-1. ✅ **Workflow do GitHub Actions** (`.github/workflows/deploy.yml`)
-   - Deploy automático a cada push
-   - Funciona APÓS ativar o Pages
+1. **Workflow** (`.github/workflows/deploy.yml`): deploy a cada push na branch `main` (GitHub Pages com artefacto do diretório raiz).
+2. **Script de teste** (`testar_site.py`): verifica se `https://lenilsonpinheiro.github.io/portfolio2026/` responde com HTML válido.
+3. **Site estático completo**
+   - `index.html` — página única (EN padrão; PT/ES via selector ou `?lang=`), SEO, formulário FormSubmit, JSON-LD.
+   - `css/site.css` — estilos.
+   - `js/i18n.js` — traduções e meta dinâmicos.
+   - `favicon.svg`, `site.webmanifest` — ícone e manifest.
+   - `robots.txt`, `sitemap.xml`, `llms.txt` — crawlers, sitemap, índice para IAs.
 
-2. ✅ **Script de teste** (`testar_site.py`)
-   - Testa se o site está online
-   - Executa: `python testar_site.py`
+## O que fazer uma vez no GitHub
 
-3. ✅ **Código completo no repositório**
-   - `index.html` pronto
-   - Tudo commitado e enviado
+O Pages precisa estar **ativado** nas definições do repositório (o GitHub não liga isto só pelo push).
 
-## ⚠️ O que precisa ser feito (1 vez apenas):
+### Opção 1 — Link direto
 
-O GitHub Pages precisa ser **ativado manualmente** nas configurações do repositório.
-
-### Opção 1: Link Direto (MAIS RÁPIDO)
 ```
 https://github.com/LenilsonPinheiro/portfolio2026/settings/pages
 ```
 
-Lá você:
-1. Em "Source", selecione: **Branch: main** e **Folder: / (root)**
-2. Clique em **"Save"**
-3. Aguarde 1-5 minutos
+1. Em **Source**: **Branch `main`**, pasta **`/ (root)`**.
+2. **Save**.
+3. Aguardar 1–5 minutos.
 
-### Opção 2: Via Interface do GitHub
-1. Acesse: https://github.com/LenilsonPinheiro/portfolio2026
-2. Clique em **"Settings"** (última aba)
-3. No menu lateral, clique em **"Pages"**
-4. Configure e salve
+### Opção 2 — Pela interface
 
-## 🧪 Testar após ativar:
+1. Repositório: https://github.com/LenilsonPinheiro/portfolio2026  
+2. **Settings** → **Pages** → mesma configuração acima.
 
-Execute o script de teste:
+## Testar
+
 ```bash
 python testar_site.py
 ```
 
-Ou acesse diretamente:
-```
-https://lenilsonpinheiro.github.io/portfolio2026/
-```
-
-## 📱 Link Final de Produção:
+URL de produção:
 
 ```
 https://lenilsonpinheiro.github.io/portfolio2026/
 ```
 
-## 🔄 Após ativar:
+## Depois de ativo
 
-- ✅ Qualquer `git push` atualiza o site automaticamente
-- ✅ O workflow do GitHub Actions cuida do deploy
-- ✅ Site fica disponível em 1-2 minutos após cada push
+- Cada `git push` na `main` atualiza o site em cerca de 1–2 minutos (workflow + Pages).
+- **Formulário de contacto:** usa FormSubmit; na **primeira utilização** pode ser necessário confirmar o e-mail na caixa **lenilsonpinheiro@gmail.com** (mensagem do FormSubmit).
+
+## Nota
+
+Não é possível ativar Pages 100% por API sem credenciais. Depois de ativar **uma vez**, o resto fica automático com o workflow.
 
 ---
 
-**Nota:** O GitHub não permite ativar Pages 100% automaticamente sem autenticação via API. Mas após ativar UMA VEZ, tudo fica automático!
+Documentação alinhada com `README.md`, `ATIVAR_GITHUB_PAGES.md`, `testar_site.py` e URLs em `index.html` / `js/i18n.js` / `sitemap.xml`.
