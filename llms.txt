@@ -29,7 +29,9 @@
 - GitHub: https://github.com/LenilsonPinheiro
 - LinkedIn: https://www.linkedin.com/in/lenilsonpinheiro/
 - Email: lenilsonpinheiro@gmail.com
+- Phone: +55 85 99733-1000
 - Source of truth for dates/metrics: owner-provided CV PDFs (2026.1 EN-USA / PT-BR) + LinkedIn.
+- Supplemental machine-readable index: `<template id="discovery-seeds">` in `index.html` (JSON filled by `js/i18n.js`; not painted; same HTML for all user agents).
 
 ## Update policy
 - Maintainer: Lenilson Pinheiro Valério. Bump lastmod in sitemap.xml when content changes materially.

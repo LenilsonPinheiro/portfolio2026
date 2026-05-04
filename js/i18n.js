@@ -102,6 +102,35 @@
       labelSend: 'Send message',
       formPrivacy:
         'By sending, you agree I may reply using your email. No marketing lists; no resale of your data.',
+      titleLogo: 'Return to top of the portfolio (home anchor)',
+      titleLang: 'Site language: English US default; Portuguese BR or Spanish ES',
+      titleNavHome: 'Go to introduction (hero)',
+      titleNavAbout: 'Go to profile summary and KPI cards',
+      titleNavExperience: 'Go to résumé-aligned experience',
+      titleNavTech: 'Go to skills and tools grid',
+      titleNavProjects: 'Go to program highlights',
+      titleNavContact: 'Go to contact and message form',
+      titleHeroPrimary: 'Scroll to highlights: Open Finance, AI/fraud, Petrobras',
+      titleHeroSecondary: 'Scroll to contact: email, phone, LinkedIn, form',
+      titleStat1: 'KPI: years in IT and delivery leadership (~25 per 2026.1 résumé).',
+      titleStat2: 'KPI: fraud-model precision uplift on Citibank program (+15% per résumé).',
+      titleStat3: 'KPI: flagship certifications — PMP and PSM I.',
+      titleStat4: 'KPI: years leading Citibank programs via Qintess (rounded).',
+      titleEmail: 'Compose email to lenilsonpinheiro@gmail.com',
+      titlePhone: 'Phone / WhatsApp: +55 85 99733-1000',
+      titleLinkedIn: 'Open LinkedIn profile (corroborate experience)',
+      titleGitHub: 'Open GitHub (code samples)',
+      titleSubmit: 'Send message via FormSubmit (HTTPS); first send may require inbox confirmation',
+      titleTechCard: 'Skill from CV; grid is a visual index',
+      titleProjectCard: 'Program narrative; verify on LinkedIn and PDF CV',
+      titleFormSection: 'Contact form — each field has a hint below the label',
+      hintName: 'How you want to be addressed (e.g. first and last name).',
+      hintEmail: 'Use an address you check often so I can reply.',
+      hintMsg: 'Role type, region, timeline, and how I can help (max 4000 characters).',
+      phName: 'Your name',
+      phEmail: 'you@company.com',
+      phMsg: 'Your message…',
+      loadingTitle: 'Loading portfolio…',
       topicsSummary: 'Recruiting & search keywords',
       topicsBody:
         '#LenilsonPinheiroValerio #LenilsonPinheiro #SeniorProjectManager #PMP #PSM #Scrum #OpenFinance #DigitalTransformation #DataGovernance #MachineLearning #AI #Citibank #Qintess #TCS #Petrobras #BancoDoNordeste #SondaIT #SUNAT #NTConsult #SAP #OutSystems #Salesforce #PowerBI #Tableau #Hadoop #Spark #AWS #Azure #GCP #Kubernetes #Kafka #MongoDB #Python #Java #CSharp #ITIL #COBIT #TOGAF #PhD #UNIFOR #Fortaleza #Hiring #ProgramManagement',
@@ -212,6 +241,35 @@
       labelSend: 'Enviar mensagem',
       formPrivacy:
         'Ao enviar, você concorda que eu possa responder usando seu e-mail. Sem listas de marketing; sem revenda de dados.',
+      titleLogo: 'Voltar ao topo do portfólio (início)',
+      titleLang: 'Idioma do site: inglês EUA padrão; português BR ou espanhol ES',
+      titleNavHome: 'Ir para a introdução (hero)',
+      titleNavAbout: 'Ir para o resumo do perfil e indicadores',
+      titleNavExperience: 'Ir para experiência alinhada ao CV',
+      titleNavTech: 'Ir para competências e ferramentas',
+      titleNavProjects: 'Ir para destaques de programa',
+      titleNavContact: 'Ir para contato e formulário',
+      titleHeroPrimary: 'Ir para destaques: Open Finance, IA/fraude, Petrobras',
+      titleHeroSecondary: 'Ir para contato: e-mail, telefone, LinkedIn, formulário',
+      titleStat1: 'Indicador: anos em TI e liderança de entregas (~25 no CV 2026.1).',
+      titleStat2: 'Indicador: ganho de precisão em modelo antifraude no Citibank (+15% no CV).',
+      titleStat3: 'Indicador: certificações PMP e PSM I.',
+      titleStat4: 'Indicador: anos liderando programas no Citibank via Qintess (arredondado).',
+      titleEmail: 'Abrir cliente de e-mail para lenilsonpinheiro@gmail.com',
+      titlePhone: 'Telefone / WhatsApp: +55 85 99733-1000',
+      titleLinkedIn: 'Abrir LinkedIn (conferir experiência)',
+      titleGitHub: 'Abrir GitHub (amostras de código)',
+      titleSubmit: 'Enviar mensagem via FormSubmit (HTTPS); primeiro envio pode exigir confirmação no e-mail',
+      titleTechCard: 'Competência do CV; grade é índice visual',
+      titleProjectCard: 'Narrativa de programa; datas no LinkedIn e CV PDF',
+      titleFormSection: 'Formulário — cada campo tem dica abaixo do rótulo',
+      hintName: 'Como prefere ser chamado (ex.: nome e sobrenome).',
+      hintEmail: 'Um e-mail válido que você acompanha para eu responder.',
+      hintMsg: 'Tipo de papel, região, prazo e como posso ajudar (até 4000 caracteres).',
+      phName: 'Seu nome',
+      phEmail: 'voce@empresa.com',
+      phMsg: 'Sua mensagem…',
+      loadingTitle: 'A carregar o portfólio…',
       topicsSummary: 'Palavras-chave para recrutamento e busca',
       topicsBody:
         '#LenilsonPinheiroValerio #LenilsonPinheiro #GerenteDeProjetos #PMP #PSM #Scrum #OpenFinance #TransformacaoDigital #GovernancaDeDados #MachineLearning #IA #Citibank #Qintess #TCS #Petrobras #BancoDoNordeste #SondaIT #SUNAT #NTConsult #SAP #OutSystems #Salesforce #PowerBI #Tableau #Hadoop #Spark #AWS #Azure #GCP #Kubernetes #Kafka #MongoDB #Python #Java #CSharp #ITIL #COBIT #TOGAF #Doutorado #UNIFOR #Fortaleza #Contratacao #GestaoDeProjetos',
@@ -322,6 +380,35 @@
       labelSend: 'Enviar mensaje',
       formPrivacy:
         'Al enviar, aceptas que pueda responder usando tu correo. Sin listas de marketing; sin reventa de datos.',
+      titleLogo: 'Volver al inicio del portafolio',
+      titleLang: 'Idioma: inglés EE.UU. por defecto; portugués BR o español ES',
+      titleNavHome: 'Ir a la introducción (hero)',
+      titleNavAbout: 'Ir al resumen del perfil e indicadores',
+      titleNavExperience: 'Ir a experiencia alineada al CV',
+      titleNavTech: 'Ir a competencias y herramientas',
+      titleNavProjects: 'Ir a hitos de programa',
+      titleNavContact: 'Ir a contacto y formulario',
+      titleHeroPrimary: 'Ir a hitos: Open Finance, IA/fraude, Petrobras',
+      titleHeroSecondary: 'Ir a contacto: correo, teléfono, LinkedIn, formulario',
+      titleStat1: 'KPI: años en TI y liderazgo de entregas (~25 en CV 2026.1).',
+      titleStat2: 'KPI: mejora de precisión antifraude en Citibank (+15% en CV).',
+      titleStat3: 'KPI: certificaciones PMP y PSM I.',
+      titleStat4: 'KPI: años liderando programas en Citibank vía Qintess (redondeado).',
+      titleEmail: 'Abrir cliente de correo para lenilsonpinheiro@gmail.com',
+      titlePhone: 'Teléfono / WhatsApp: +55 85 99733-1000',
+      titleLinkedIn: 'Abrir LinkedIn (verificar experiencia)',
+      titleGitHub: 'Abrir GitHub (código)',
+      titleSubmit: 'Enviar vía FormSubmit (HTTPS); el primer envío puede requerir confirmación en el correo',
+      titleTechCard: 'Habilidad del CV; cuadrícula visual',
+      titleProjectCard: 'Relato de programa; fechas en LinkedIn y CV PDF',
+      titleFormSection: 'Formulario — cada campo tiene una pista bajo la etiqueta',
+      hintName: 'Cómo prefiere que le llamemos.',
+      hintEmail: 'Un correo válido que revise para poder responder.',
+      hintMsg: 'Tipo de rol, región, plazo y en qué ayudo (máx. 4000 caracteres).',
+      phName: 'Su nombre',
+      phEmail: 'usted@empresa.com',
+      phMsg: 'Su mensaje…',
+      loadingTitle: 'Cargando portafolio…',
       topicsSummary: 'Palabras clave para reclutamiento',
       topicsBody:
         '#LenilsonPinheiroValerio #LenilsonPinheiro #SeniorProjectManager #PMP #PSM #Scrum #OpenFinance #TransformacionDigital #GobiernoDelDato #MachineLearning #IA #Citibank #Qintess #TCS #Petrobras #SUNAT #NTConsult #SAP #OutSystems #Salesforce #PowerBI #Tableau #Hadoop #Spark #AWS #Azure #GCP #Kubernetes #Kafka #MongoDB #Python #Java #ITIL #COBIT #TOGAF #Doctorado #UNIFOR #Fortaleza #Contratacion',
@@ -410,6 +497,20 @@
       };
       ld.textContent = JSON.stringify(data);
     }
+
+    var ldAbout = document.getElementById('jsonld-about');
+    if (ldAbout) {
+      ldAbout.textContent = JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'AboutPage',
+        name: t.schemaName + ' — Portfolio',
+        url: CANONICAL_BASE,
+        description: t.metaDescription,
+        keywords: t.metaKeywords,
+        inLanguage: t.htmlLang,
+        isPartOf: { '@type': 'WebSite', url: CANONICAL_BASE },
+      });
+    }
   }
 
   function applyLanguage(lang) {
@@ -435,6 +536,36 @@
       if (useHtml) el.innerHTML = pack[key];
       else el.textContent = pack[key];
     });
+
+    document.querySelectorAll('[data-i18n-title]').forEach(function (el) {
+      var k = el.getAttribute('data-i18n-title');
+      if (pack[k]) el.setAttribute('title', pack[k]);
+    });
+
+    document.querySelectorAll('[data-i18n-placeholder]').forEach(function (el) {
+      var k = el.getAttribute('data-i18n-placeholder');
+      if (pack[k]) el.setAttribute('placeholder', pack[k]);
+    });
+
+    var tmpl = document.getElementById('discovery-seeds');
+    if (tmpl) {
+      tmpl.textContent = JSON.stringify(
+        {
+          purpose: 'Professional discovery index (HTML template; not painted; same document for all user agents)',
+          lang: lang,
+          name: pack.schemaName,
+          headline: pack.metaTitle,
+          summary: pack.metaDescription,
+          keywordList: pack.metaKeywords.split(',').map(function (s) {
+            return s.trim();
+          }),
+          hashtagLine: pack.topicsBody || '',
+          resumeRef: '2026.1 EN / PT PDF + LinkedIn',
+        },
+        null,
+        0
+      );
+    }
 
     var sel = document.getElementById('langSelect');
     if (sel) {
