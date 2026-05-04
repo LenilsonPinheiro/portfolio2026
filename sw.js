@@ -1,27 +1,29 @@
 /* Portfolio offline/cache — bump VERSION after deploy when assets change meaningfully. */
 'use strict';
 
-var VERSION = '2026-05-05-v3';
+var VERSION = '2026-05-05-v4';
 var CACHE_NAME = 'lp-portfolio-' + VERSION;
 var ORIGIN = self.location.origin;
 
+/** Directory containing sw.js, always with trailing slash (e.g. /portfolio2026/) */
 function baseDir() {
   var p = self.location.pathname || '/';
-  if (p.endsWith('/sw.js')) return p.slice(0, -5);
-  if (p.endsWith('sw.js')) return p.slice(0, -6) || '/';
-  return p.replace(/\/?sw\.js$/, '/') || '/';
+  var noSw = p.replace(/\/?sw\.js$/i, '');
+  if (!noSw || noSw === '/') return '/';
+  return noSw.endsWith('/') ? noSw : noSw + '/';
 }
 
 var BASE = baseDir();
-if (BASE.charAt(0) !== '/') BASE = '/' + BASE;
-if (!BASE.endsWith('/')) BASE += '/';
 
 function abs(path) {
   var rel = String(path || '').replace(/^\//, '');
-  return ORIGIN + BASE + rel;
+  if (BASE === '/') return ORIGIN + '/' + rel;
+  var base = BASE.endsWith('/') ? BASE : BASE + '/';
+  return ORIGIN + base + rel;
 }
 
 var PRECACHE_URLS = [
+  abs('index.html'),
   abs('css/site.css'),
   abs('js/i18n.js'),
   abs('favicon.svg'),
@@ -35,9 +37,13 @@ self.addEventListener('install', function (event) {
   self.skipWaiting();
   event.waitUntil(
     caches.open(CACHE_NAME).then(function (cache) {
-      return cache.addAll(
+      return Promise.all(
         PRECACHE_URLS.map(function (u) {
-          return new Request(u, { cache: 'reload', credentials: 'same-origin' });
+          return cache
+            .add(new Request(u, { cache: 'reload', credentials: 'same-origin' }))
+            .catch(function () {
+              return cache.add(u).catch(function () {});
+            });
         })
       );
     })
@@ -71,14 +77,18 @@ function sameOrigin(url) {
   }
 }
 
+function isNavigationRequest(req) {
+  if (req.mode === 'navigate') return true;
+  if (req.destination === 'document') return true;
+  var accept = req.headers.get('accept') || '';
+  return accept.indexOf('text/html') !== -1 && req.headers.get('sec-fetch-dest') === 'document';
+}
+
 self.addEventListener('fetch', function (event) {
   var req = event.request;
   if (req.method !== 'GET' || !sameOrigin(req.url)) return;
 
-  var accept = req.headers.get('accept') || '';
-  var isDocument = req.mode === 'navigate' || accept.indexOf('text/html') !== -1;
-
-  if (isDocument) {
+  if (isNavigationRequest(req)) {
     event.respondWith(
       fetch(req)
         .then(function (res) {

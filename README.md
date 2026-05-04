@@ -55,7 +55,7 @@ python -m http.server 8080
 
 Abra `http://localhost:8080/` (ou a raiz que o servidor mostrar).
 
-Teste de produção (script existente):
+Teste de produção: o script faz GET na homepage e em assets críticos (`sw.js`, CSS, i18n, manifest, robots, sitemap, `llms.txt`, favicon) e verifica trechos mínimos em cada resposta.
 
 ```bash
 python testar_site.py

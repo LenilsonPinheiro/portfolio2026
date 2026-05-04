@@ -1,67 +1,95 @@
 #!/usr/bin/env python3
 """
-Script simples para testar se o site está online
+Testes de regressão: homepage e assets críticos em produção (GitHub Pages).
 """
-import urllib.request
-import urllib.error
-import time
+from __future__ import annotations
+
 import ssl
+import sys
+import time
+import urllib.error
+import urllib.request
 
-PAGES_URL = "https://lenilsonpinheiro.github.io/portfolio2026/"
+BASE = "https://lenilsonpinheiro.github.io/portfolio2026"
+ASSETS = [
+    ("/", "index", ["<html", "lenilson", "serviceWorker", "i18n"]),
+    ("/index.html", "index.html", ["<html", "lenilson"]),
+    ("/sw.js", "sw", ["addEventListener", "CACHE_NAME", "baseDir"]),
+    ("/css/site.css", "css", ["body", "{"]),
+    ("/js/i18n.js", "i18n", ["applyLanguage", "T"]),
+    ("/site.webmanifest", "manifest", ["name", "icons"]),
+    ("/robots.txt", "robots", ["User-agent", "Sitemap"]),
+    ("/sitemap.xml", "sitemap", ["<urlset", "loc"]),
+    ("/llms.txt", "llms", ["Portfolio"]),
+    ("/favicon.svg", "favicon", ["<svg", "viewBox"]),
+]
 
-def test_site():
-    print(f"Testando: {PAGES_URL}\n")
-    
-    # Cria contexto SSL que aceita certificados
-    ssl_context = ssl.create_default_context()
-    
-    for i in range(5):
+
+def fetch(url: str, ctx: ssl.SSLContext) -> tuple[int, bytes]:
+    req = urllib.request.Request(url)
+    req.add_header("User-Agent", "Mozilla/5.0 (compatible; LP-PortfolioTest/1.0)")
+    with urllib.request.urlopen(req, timeout=15, context=ctx) as resp:
+        return resp.getcode(), resp.read()
+
+
+def run_once(ctx: ssl.SSLContext) -> bool:
+    ok_all = True
+    for path, label, needles in ASSETS:
+        url = BASE.rstrip("/") + path
         try:
-            req = urllib.request.Request(PAGES_URL)
-            req.add_header('User-Agent', 'Mozilla/5.0')
-            
-            with urllib.request.urlopen(req, timeout=10, context=ssl_context) as response:
-                status_code = response.getcode()
-                content = response.read().decode('utf-8')
-                
-                if status_code == 200:
-                    print(f"[OK] SITE ESTA ONLINE! (Tentativa {i+1})")
-                    print(f"Link de producao: {PAGES_URL}")
-                    print(f"Status: {status_code}")
-                    print(f"Tamanho: {len(content)} bytes")
-                    
-                    # Verifica se é HTML válido
-                    if '<html' in content.lower() and 'lenilson' in content.lower():
-                        print("[OK] Conteudo HTML valido detectado!")
-                        print("[OK] Portfolio carregado com sucesso!")
-                    else:
-                        print("[AVISO] Conteudo pode estar incompleto")
-                    
-                    return True
-                else:
-                    print(f"[AGUARDANDO] Status {status_code} - Tentativa {i+1}/5")
+            code, body = fetch(url, ctx)
         except urllib.error.HTTPError as e:
-            if e.code == 404:
-                print(f"[404] Site ainda nao publicado... Tentativa {i+1}/5")
-            else:
-                print(f"[AGUARDANDO] Status {e.code} - Tentativa {i+1}/5")
+            print(f"[FALHA] {label} ({path}): HTTP {e.code}")
+            ok_all = False
+            continue
         except Exception as e:
-            print(f"[ERRO] Erro de conexao - Tentativa {i+1}/5")
-            print(f"   {str(e)[:50]}...")
-        
-        if i < 4:
-            print("   Aguardando 15 segundos...")
+            print(f"[FALHA] {label} ({path}): {e}")
+            ok_all = False
+            continue
+
+        if code != 200:
+            print(f"[FALHA] {label}: status {code}")
+            ok_all = False
+            continue
+
+        text = ""
+        try:
+            text = body.decode("utf-8")
+        except UnicodeDecodeError:
+            if label == "favicon":
+                text = body.decode("utf-8", errors="ignore")
+            else:
+                print(f"[AVISO] {label}: não é UTF-8 (binário OK)")
+                text = ""
+
+        low = text.lower()
+        missing = [n for n in needles if n.lower() not in low]
+        if missing:
+            print(f"[FALHA] {label}: faltam trechos {missing!r}")
+            ok_all = False
+        else:
+            print(f"[OK] {label} ({len(body)} bytes)")
+
+    return ok_all
+
+
+def test_site() -> bool:
+    print(f"Base: {BASE}\n")
+    ctx = ssl.create_default_context()
+
+    for attempt in range(5):
+        print(f"--- Rodada {attempt + 1}/5 ---")
+        if run_once(ctx):
+            print("\n[SUCESSO] Todos os checks passaram.")
+            return True
+        if attempt < 4:
+            print("   Aguardando 15s antes de repetir...\n")
             time.sleep(15)
-    
-    print(f"\n[ERRO] Site ainda nao esta acessivel apos 5 tentativas.")
-    print(f"[INFO] Verifique se o GitHub Pages esta ativado em:")
-    print(f"   https://github.com/LenilsonPinheiro/portfolio2026/settings/pages")
-    print(f"\nPara ativar:")
-    print(f"   1. Acesse o link acima")
-    print(f"   2. Selecione branch 'main' e folder '/'")
-    print(f"   3. Clique em Save")
-    print(f"   4. Aguarde 1-5 minutos")
+
+    print("\n[ERRO] Checks falharam após 5 tentativas.")
+    print("   Pages: https://github.com/LenilsonPinheiro/portfolio2026/settings/pages")
     return False
 
+
 if __name__ == "__main__":
-    test_site()
+    sys.exit(0 if test_site() else 1)
