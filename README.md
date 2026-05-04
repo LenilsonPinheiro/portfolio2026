@@ -1,6 +1,8 @@
-# Portfolio — Lenilson Pinheiro
+# Portfolio — Lenilson Pinheiro Valério
 
 Landing page estática (HTML + CSS + JS) com **inglês (EUA) como idioma padrão**, opção de **português (BR)** e **espanhol (Espanha)**, SEO técnico (sitemap, robots, JSON-LD, Open Graph, Twitter Cards), `llms.txt` para crawlers de IA, **favicon SVG**, manifest PWA leve e **formulário de contato** que encaminha e-mail para **lenilsonpinheiro@gmail.com** via [FormSubmit](https://formsubmit.co/).
+
+O conteúdo profissional (cargos, datas, métricas e empresas) está **alinhado ao LinkedIn e aos CVs PDF 2026.1 (EN / PT)** do autor — atualize `js/i18n.js` e esta página quando o currículo mudar.
 
 **Produção:** https://lenilsonpinheiro.github.io/portfolio2026/
 

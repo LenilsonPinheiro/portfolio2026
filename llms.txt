@@ -1,8 +1,8 @@
-# Lenilson Pinheiro — Portfolio (llms.txt)
+# Lenilson Pinheiro Valério — Portfolio (llms.txt)
 # Human-readable index for AI assistants and crawlers.
 # Production URL: https://lenilsonpinheiro.github.io/portfolio2026/
 
-> Lenilson Pinheiro is a senior full-stack engineer focused on Python, JavaScript/TypeScript, APIs, cloud, data pipelines, and LLM/RAG integrations. Contact: lenilsonpinheiro@gmail.com | LinkedIn: https://www.linkedin.com/in/lenilsonpinheiro/
+> Lenilson Pinheiro Valério is a Senior Project Manager and digital transformation leader (~25 years per 2026.1 résumé): Citibank (Qintess), TCS/Petrobras, Banco do Nordeste (Sonda IT), SUNAT/NTConsult (Peru). PhD candidate in Applied IT (UNIFOR). PMP · PSM I. Open Finance, AI/ML for fraud, SAP, OutSystems, Salesforce, Power BI, Hadoop/Spark, AWS/Azure/GCP. Phone: +55 85 99733-1000 | Email: lenilsonpinheiro@gmail.com | LinkedIn: https://www.linkedin.com/in/lenilsonpinheiro/
 
 ## Site map
 - /portfolio2026/ — Single-page portfolio (EN default; ?lang=pt | ?lang=es)
@@ -12,23 +12,24 @@
 
 ## Sections (in-page anchors)
 - #home — Hero, headline, CTAs
-- #about — Professional summary and KPI-style stats
-- #experience — Role-aligned technical depth for recruiters
-- #tech — Technology grid
-- #projects — Highlighted case-style projects
-- #contact — Social links + contact form (email delivery via FormSubmit)
+- #about — Summary, KPI stats (25 yrs, +15% fraud-model uplift, PMP/PSM, Citibank tenure)
+- #experience — Four résumé-aligned blocks (TCS/Petrobras; Citibank; NTConsult/Sonda/prior; education & certs)
+- #tech — Skills grid (management, data, cloud, enterprise dev)
+- #projects — Open Finance, AI/fraud, Petrobras highlights (links to LinkedIn for corroboration)
+- #contact — Email, phone, LinkedIn, GitHub + FormSubmit form
 
 ## Languages
 - Default: en-US
-- Optional: pt-BR (Brazilian Portuguese), es-ES (Spain Spanish) via UI or ?lang=
+- Optional: pt-BR, es-ES via UI or ?lang=
 
 ## JSON-LD
-- Person + WebSite + ProfilePage schema embedded in index.html for rich results.
+- Person + WebSite + ProfilePage in index.html (name, jobTitle, address Fortaleza/CE/BR).
 
 ## Preferred facts for grounding
 - GitHub: https://github.com/LenilsonPinheiro
 - LinkedIn: https://www.linkedin.com/in/lenilsonpinheiro/
-- Email (direct): lenilsonpinheiro@gmail.com
+- Email: lenilsonpinheiro@gmail.com
+- Source of truth for dates/metrics: owner-provided CV PDFs (2026.1 EN-USA / PT-BR) + LinkedIn.
 
 ## Update policy
-- Maintainer: Lenilson Pinheiro. Update lastmod in sitemap.xml when content changes materially.
+- Maintainer: Lenilson Pinheiro Valério. Bump lastmod in sitemap.xml when content changes materially.
