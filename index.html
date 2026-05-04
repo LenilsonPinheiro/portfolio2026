@@ -283,12 +283,11 @@
 
                     <div class="contact-form-wrap reveal" data-i18n-title="titleFormSection">
                         <h3 data-i18n="formTitle">Direct message</h3>
-                        <p class="form-hint" data-i18n="formHint">Email via FormSubmit</p>
-                        <form class="contact-form" action="https://formsubmit.co/lenilsonpinheiro@gmail.com" method="POST" id="contactForm">
-                            <input type="hidden" name="_subject" value="[Portfolio] New message">
-                            <input type="hidden" name="_template" value="table">
-                            <input type="hidden" name="_next" value="https://lenilsonpinheiro.github.io/portfolio2026/?sent=1#contact">
-                            <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0" aria-hidden="true">
+                        <p class="form-hint" data-i18n="formHint">Email via Google Apps Script</p>
+                        <p id="formSuccess" class="form-alert form-alert-success" role="status" aria-live="polite" tabindex="-1" hidden></p>
+                        <div id="formEndpointWarning" class="form-alert form-alert-warn" role="alert" tabindex="-1" hidden data-i18n="formNotConfigured"></div>
+                        <form class="contact-form" method="POST" id="contactForm" action="#">
+                            <input type="text" name="hp" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
 
                             <div>
                                 <label for="cf-name" data-i18n="labelName">Name</label>
@@ -320,6 +319,8 @@
         </div>
     </footer>
 
+    <script src="js/contact-endpoint.js" defer></script>
+    <script src="js/contact-form.js" defer></script>
     <script src="js/i18n.js" defer></script>
     <script>
         window.addEventListener('load', function () {

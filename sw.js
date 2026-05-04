@@ -1,7 +1,7 @@
 /* Portfolio offline/cache — bump VERSION after deploy when assets change meaningfully. */
 'use strict';
 
-var VERSION = '2026-05-05-v4';
+var VERSION = '2026-05-05-v5';
 var CACHE_NAME = 'lp-portfolio-' + VERSION;
 var ORIGIN = self.location.origin;
 
@@ -26,6 +26,8 @@ var PRECACHE_URLS = [
   abs('index.html'),
   abs('css/site.css'),
   abs('js/i18n.js'),
+  abs('js/contact-endpoint.js'),
+  abs('js/contact-form.js'),
   abs('favicon.svg'),
   abs('site.webmanifest'),
   abs('llms.txt'),

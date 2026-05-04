@@ -1,6 +1,6 @@
 # Portfolio — Lenilson Pinheiro Valério
 
-Landing page estática (HTML + CSS + JS) com **inglês (EUA) como idioma padrão**, opção de **português (BR)** e **espanhol (Espanha)**, SEO técnico (sitemap, robots, JSON-LD, Open Graph, Twitter Cards), `llms.txt` para crawlers de IA, **favicon SVG**, manifest PWA leve e **formulário de contato** que encaminha e-mail para **lenilsonpinheiro@gmail.com** via [FormSubmit](https://formsubmit.co/).
+Landing page estática (HTML + CSS + JS) com **inglês (EUA) como idioma padrão**, opção de **português (BR)** e **espanhol (Espanha)**, SEO técnico (sitemap, robots, JSON-LD, Open Graph, Twitter Cards), `llms.txt` para crawlers de IA, **favicon SVG**, manifest PWA leve e **formulário de contato** que envia e-mail para **lenilsonpinheiro@gmail.com** via **Google Apps Script** (`MailApp`, na infraestrutura Google — ver `google-apps-script/README.md`).
 
 O conteúdo profissional (cargos, datas, métricas e empresas) está **alinhado ao LinkedIn e aos CVs PDF 2026.1 (EN / PT)** do autor — atualize `js/i18n.js` e esta página quando o currículo mudar.
 
@@ -13,6 +13,9 @@ O conteúdo profissional (cargos, datas, métricas e empresas) está **alinhado 
 | `index.html` | Página única: `<header>`, `<main>`, `<footer>`, formulário, alternates `hreflang` |
 | `css/site.css` | Estilos (mobile-first, reduced motion, foco visível) |
 | `js/i18n.js` | Traduções `en` / `pt` / `es`, meta dinâmicos, JSON-LD `Person` |
+| `js/contact-endpoint.js` | URL do Web App do Apps Script (`/exec`); editar após implantar o script |
+| `js/contact-form.js` | Liga o `<form>` ao endpoint, aviso se URL em falta, `?sent=1` |
+| `google-apps-script/` | Código e instruções para criar o endpoint de e-mail na Google |
 | `favicon.svg` | Ícone vetorial |
 | `site.webmanifest` | Nome, cores, `start_url` para GitHub Pages |
 | `robots.txt` | `Allow` + `Sitemap` + agentes de IA comuns |
@@ -34,11 +37,12 @@ O conteúdo profissional (cargos, datas, métricas e empresas) está **alinhado 
 - **Cookies não são usados para guardar o site inteiro** (seria lento e inviável); o cookie `lp_lang` é só o idioma.
 - **`preload`** em `index.html` para `css/site.css` e `js/i18n.js`.
 
-## Formulário de contato (FormSubmit)
+## Formulário de contato (Google Apps Script)
 
-1. O formulário faz `POST` para `https://formsubmit.co/lenilsonpinheiro@gmail.com`.
-2. **Na primeira utilização**, o FormSubmit costuma enviar um e-mail de **ativação** — confirme na caixa **lenilsonpinheiro@gmail.com** para começar a receber mensagens.
-3. Após envio, o utilizador é redirecionado para `?sent=1#contact`.
+1. Crie o projeto em [script.google.com](https://script.google.com), cole `google-apps-script/Code.gs` e **implante** como **aplicativo da Web** (executar como você, acesso **Qualquer pessoa**). Detalhes: `google-apps-script/README.md`.
+2. Copie a URL que termina em `/exec` para `js/contact-endpoint.js` (`PORTFOLIO_APPS_SCRIPT_WEBAPP_URL`).
+3. O browser faz `POST` em `application/x-www-form-urlencoded` para o Google; após sucesso o script redireciona para `?sent=1#contact` (definido em `CFG.returnUrl` no Apps Script).
+4. **Quotas** de envio: limites oficiais do Gmail / `MailApp` aplicam-se (contas gratuitas têm teto diário).
 
 ## SEO e descoberta
 
@@ -55,7 +59,7 @@ python -m http.server 8080
 
 Abra `http://localhost:8080/` (ou a raiz que o servidor mostrar).
 
-Teste de produção: o script faz GET na homepage e em assets críticos (`sw.js`, CSS, i18n, manifest, robots, sitemap, `llms.txt`, favicon) e verifica trechos mínimos em cada resposta.
+Teste de produção: o script faz GET na homepage e em assets críticos (`sw.js`, CSS, i18n, scripts de contacto, manifest, robots, sitemap, `llms.txt`, favicon) e verifica trechos mínimos em cada resposta.
 
 ```bash
 python testar_site.py
@@ -63,7 +67,7 @@ python testar_site.py
 
 ## Personalização rápida
 
-- **URL do site** (canonical, sitemap, `_next` do formulário): alinhe com o nome do repositório em `index.html`, `js/i18n.js` (`CANONICAL_BASE`), `sitemap.xml`, `robots.txt`, `llms.txt`, `site.webmanifest` e campo `_next` do `<form>`.
+- **URL do site** (canonical, redirecionamento pós-formulário): alinhe com o nome do repositório em `index.html`, `js/i18n.js` (`CANONICAL_BASE`), `google-apps-script/Code.gs` (`CFG.returnUrl`), `sitemap.xml`, `robots.txt`, `llms.txt` e `site.webmanifest`.
 
 ## Licença
 

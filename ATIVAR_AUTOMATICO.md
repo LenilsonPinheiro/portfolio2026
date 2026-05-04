@@ -5,7 +5,7 @@
 1. **Workflow** (`.github/workflows/deploy.yml`): deploy a cada push na branch `main` (GitHub Pages com artefacto do diretório raiz).
 2. **Script de teste** (`testar_site.py`): verifica se `https://lenilsonpinheiro.github.io/portfolio2026/` responde com HTML válido.
 3. **Site estático completo**
-   - `index.html` — página única (EN padrão; PT/ES via selector ou `?lang=`), SEO, formulário FormSubmit, JSON-LD.
+   - `index.html` — página única (EN padrão; PT/ES via selector ou `?lang=`), SEO, formulário (Google Apps Script), JSON-LD.
    - `css/site.css` — estilos.
    - `js/i18n.js` — traduções e meta dinâmicos.
    - `favicon.svg`, `site.webmanifest` — ícone e manifest.
@@ -45,7 +45,7 @@ https://lenilsonpinheiro.github.io/portfolio2026/
 ## Depois de ativo
 
 - Cada `git push` na `main` atualiza o site em cerca de 1–2 minutos (workflow + Pages).
-- **Formulário de contacto:** usa FormSubmit; na **primeira utilização** pode ser necessário confirmar o e-mail na caixa **lenilsonpinheiro@gmail.com** (mensagem do FormSubmit).
+- **Formulário de contacto:** usa **Google Apps Script** (`MailApp`). Configure a URL `/exec` em `js/contact-endpoint.js` após implantar o script (ver `google-apps-script/README.md`). Sem ativação de terceiros tipo FormSubmit.
 
 ## Nota
 

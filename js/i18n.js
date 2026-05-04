@@ -130,7 +130,10 @@
         'Open to <span class="highlight">senior PM / program director</span> roles, <span class="highlight">data & AI transformation</span> mandates, and advisory engagements across banking, energy, and public sector. Share your objectives, constraints, and geography—I respond with a clear plan.',
       formTitle: 'Direct message',
       formHint:
-        'Sends an email to lenilsonpinheiro@gmail.com via FormSubmit (first use may require a one-time inbox confirmation from FormSubmit).',
+        'Sends email to lenilsonpinheiro@gmail.com via Google Apps Script (your Gmail / Google account). No third-party inbox activation.',
+      formNotConfigured:
+        'Contact form is disabled until you set your Web App URL: edit js/contact-endpoint.js and paste the URL ending in /exec (see google-apps-script/README.md).',
+      formSentSuccess: 'Thank you — your message was sent. I will reply as soon as I can.',
       labelName: 'Name',
       labelEmail: 'Email',
       labelMessage: 'Message',
@@ -155,7 +158,7 @@
       titlePhone: 'Phone / WhatsApp: +55 85 99733-1000',
       titleLinkedIn: 'Open LinkedIn profile (corroborate experience)',
       titleGitHub: 'Open GitHub (code samples)',
-      titleSubmit: 'Send message via FormSubmit (HTTPS); first send may require inbox confirmation',
+      titleSubmit: 'Send message via Google Apps Script (HTTPS POST to script.google.com)',
       titleTechCard: 'Skill from CV; grid is a visual index',
       titleProjectCard: 'Program narrative; verify on LinkedIn and PDF CV',
       titleFormSection: 'Contact form — each field has a hint below the label',
@@ -269,7 +272,10 @@
         'Aberto a <span class="highlight">papéis de gerente / diretor de programa</span>, <span class="highlight">mandatos de transformação com dados e IA</span> e assessoria em bancos, energia e setor público. Envie objetivos, restrições e geografia — respondo com plano claro.',
       formTitle: 'Mensagem direta',
       formHint:
-        'Envia e-mail para lenilsonpinheiro@gmail.com via FormSubmit (no primeiro envio pode ser necessário confirmar o inbox uma vez no FormSubmit).',
+        'Envia e-mail para lenilsonpinheiro@gmail.com via Google Apps Script (MailApp na sua conta Google). Sem ativação de serviço de terceiros.',
+      formNotConfigured:
+        'Formulário desativado: defina a URL do aplicativo da Web em js/contact-endpoint.js (URL que termina em /exec; veja google-apps-script/README.md).',
+      formSentSuccess: 'Obrigado — a mensagem foi enviada. Responderei o quanto antes.',
       labelName: 'Nome',
       labelEmail: 'E-mail',
       labelMessage: 'Mensagem',
@@ -294,7 +300,7 @@
       titlePhone: 'Telefone / WhatsApp: +55 85 99733-1000',
       titleLinkedIn: 'Abrir LinkedIn (conferir experiência)',
       titleGitHub: 'Abrir GitHub (amostras de código)',
-      titleSubmit: 'Enviar mensagem via FormSubmit (HTTPS); primeiro envio pode exigir confirmação no e-mail',
+      titleSubmit: 'Enviar mensagem via Google Apps Script (POST HTTPS para script.google.com)',
       titleTechCard: 'Competência do CV; grade é índice visual',
       titleProjectCard: 'Narrativa de programa; datas no LinkedIn e CV PDF',
       titleFormSection: 'Formulário — cada campo tem dica abaixo do rótulo',
@@ -408,7 +414,10 @@
         'Abierto a <span class="highlight">roles senior PM / director de programa</span>, <span class="highlight">mandatos de datos e IA</span> y asesoría en banca, energía y sector público. Comparta objetivos y restricciones — respondo con un plan claro.',
       formTitle: 'Mensaje directo',
       formHint:
-        'Envía correo a lenilsonpinheiro@gmail.com vía FormSubmit (la primera vez puede requerir confirmación en el inbox de FormSubmit).',
+        'Envía correo a lenilsonpinheiro@gmail.com mediante Google Apps Script (MailApp en tu cuenta Google). Sin activación de terceros.',
+      formNotConfigured:
+        'Formulario desactivado: configura la URL del aplicativo web en js/contact-endpoint.js (URL que termina en /exec; ver google-apps-script/README.md).',
+      formSentSuccess: 'Gracias — tu mensaje fue enviado. Responderé lo antes posible.',
       labelName: 'Nombre',
       labelEmail: 'Correo',
       labelMessage: 'Mensaje',
@@ -433,7 +442,7 @@
       titlePhone: 'Teléfono / WhatsApp: +55 85 99733-1000',
       titleLinkedIn: 'Abrir LinkedIn (verificar experiencia)',
       titleGitHub: 'Abrir GitHub (código)',
-      titleSubmit: 'Enviar vía FormSubmit (HTTPS); el primer envío puede requerir confirmación en el correo',
+      titleSubmit: 'Enviar mediante Google Apps Script (POST HTTPS a script.google.com)',
       titleTechCard: 'Habilidad del CV; cuadrícula visual',
       titleProjectCard: 'Relato de programa; fechas en LinkedIn y CV PDF',
       titleFormSection: 'Formulario — cada campo tiene una pista bajo la etiqueta',
@@ -618,6 +627,7 @@
     }
 
     window.dispatchEvent(new CustomEvent('portfolio:lang', { detail: { lang: lang, typing: pack.typing } }));
+    window.dispatchEvent(new CustomEvent('portfolio:i18n-applied', { detail: { lang: lang, pack: pack } }));
   }
 
   function init() {

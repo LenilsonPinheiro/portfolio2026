@@ -16,7 +16,7 @@
 - #experience — Four résumé-aligned blocks (TCS/Petrobras; Citibank; NTConsult/Sonda/prior; education & certs)
 - #tech — Skills grid (management, data, cloud, enterprise dev)
 - #projects — Open Finance, AI/fraud, Petrobras highlights (links to LinkedIn for corroboration)
-- #contact — Email, phone, LinkedIn, GitHub + FormSubmit form
+- #contact — Email, phone, LinkedIn, GitHub + contact form (POST → Google Apps Script Web App / MailApp)
 
 ## Languages
 - Default: en-US
