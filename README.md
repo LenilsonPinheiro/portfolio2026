@@ -49,14 +49,18 @@ O conteúdo profissional (cargos, datas, métricas e empresas) está **alinhado 
 
 Para **remover o aviso de app não verificada** no fluxo OAuth (verificação Google Cloud), segue o guia: [`google-apps-script/VERIFICACAO_OAUTH_PASSO_A_PASSO.md`](google-apps-script/VERIFICACAO_OAUTH_PASSO_A_PASSO.md) e a documentação oficial [OAuth Client Verification](https://developers.google.com/apps-script/guides/client-verification).
 
-## SEO e descoberta
+## SEO e descoberta (motores de busca + IA)
 
 - **Canonical:** `https://lenilsonpinheiro.github.io/portfolio2026/`
-- **Sitemap:** `sitemap.xml` (atualize `lastmod` quando mudar conteúdo relevante).
-- **Schema.org:** `Person`, `WebSite` (ReadAction + CommunicateAction/mailto), `ProfilePage`, `AboutPage`, `FAQPage` — texto da FAQ também está visível em `#faq` (alinhado à política Google para dados estruturados).
-- **Open Graph / Twitter:** título, descrição alinhados ao “elevator pitch” para recrutadores; `og:image` com dimensões e `alt`.
-- **Monetização (AdSense / ads):** não há blocos de anúncios no código por defeito. Para monetizar com **Google AdSense**, é preciso (1) site aprovado pelo programa, (2) ficheiro **`ads.txt`** na raiz do site com a linha `google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0` usando o **Publisher ID real** da conta AdSense (substituir o placeholder), (3) espaço de página com conteúdo substancial e política de privacidade — já existe `privacy.html`. Não publique um `ads.txt` inventado.
-- **Tópicos / keywords:** JSON-LD + `<template id="discovery-seeds">` (preenchido por JS) + `knowsAbout` no `Person`.
+- **Sitemap:** `sitemap.xml` inclui homepage, `llms.txt`, páginas legais e redirect `terms/` — atualize `lastmod` quando mudar conteúdo relevante.
+- **`llms.txt`:** índice em texto para crawlers de IA; também ligado no `<head>` com `<link rel="alternate" type="text/plain" … href="…/llms.txt">`.
+- **`robots.txt`:** `Allow` para `*` e vários user-agents de IA pesquisados documentados (GPTBot, `OAI-SearchBot`, etc.); **não garante** indexação — apenas permissão de crawl onde aplicável.
+- **Schema.org:** `Person`, `WebSite`, `ProfilePage`, `AboutPage`, `FAQPage`, **`WebPage`** (`significantLink` → `llms.txt`, `sitemap.xml`) — FAQ visível em `#faq`.
+- **`discovery-seeds`:** `<template>` no HTML preenchido por `js/i18n.js` com `canonicalUrl`, URLs de `llms`/sitemap/robots e **`oneParagraphBio`** por idioma (biografia curta para sumarização/RAG).
+- **Open Graph / Twitter:** título, descrição; `og:image` com dimensões e `alt`.
+- **Limitação honesta:** posição no Google/Bing e inclusão em índices de IA dependem de **fatores externos** (concorrência, backlinks, quotas de crawl, políticas dos motores). HTML estático em GitHub Pages **não garante** primeiro lugar nem crawl universal — use **Google Search Console** e **Bing Webmaster Tools** (verificação da propriedade + pedido de indexação quando fizer sentido).
+- **Monetização (AdSense):** não há blocos de anúncios por defeito. Com conta AdSense aprovada, publique **`ads.txt`** na raiz com o **Publisher ID real** (`google.com, pub-…, DIRECT, f08c47fec0942fa0`). Não invente IDs.
+- **Tópicos / keywords:** JSON-LD + `<template id="discovery-seeds">` + `knowsAbout` no `Person`.
 
 ## Testar localmente
 

@@ -1,13 +1,20 @@
 # Lenilson Pinheiro Valério — Portfolio (llms.txt)
-# Human-readable index for AI assistants and crawlers.
-# Production URL: https://lenilsonpinheiro.github.io/portfolio2026/
+# Machine-readable index for AI assistants, LLM crawlers, and discovery tools.
+# Canonical production URL: https://lenilsonpinheiro.github.io/portfolio2026/
+# Last updated (content policy): 2026-05-08
 
 > Lenilson Pinheiro Valério is a Senior Project Manager & Solutions Architect (~25 years): Citibank (Qintess), TCS/Petrobras, Banco do Nordeste (Sonda IT), SUNAT/NTConsult (Peru). Independent consulting since Oct 2024 — Projeto Sentinela (SaaS control plane: Python, FastAPI, RAG), React Native, Kotlin, n8n automation. PhD in Applied IT (UNIFOR) on hold for PJ/projects focus. PMP · PSM I. Open Finance, AI/ML for fraud (+15% precision uplift per résumé), SAP, OutSystems. Phone: +55 85 99733-1000 | Email: lenilsonpinheiro@gmail.com | LinkedIn: https://www.linkedin.com/in/lenilsonpinheiro/ | GitHub: https://github.com/LenilsonPinheiro
 
-- /portfolio2026/privacy.html — Privacy policy (contact form, Apps Script, LGPD/GDPR)
-- /portfolio2026/terms.html — Terms of service (site + contact form)
-- /portfolio2026/robots.txt — Crawler policy
-- /portfolio2026/llms.txt — This file
+## Canonical URLs (use these when citing this professional)
+- Homepage: https://lenilsonpinheiro.github.io/portfolio2026/
+- This file: https://lenilsonpinheiro.github.io/portfolio2026/llms.txt
+- Sitemap: https://lenilsonpinheiro.github.io/portfolio2026/sitemap.xml
+- Robots: https://lenilsonpinheiro.github.io/portfolio2026/robots.txt
+
+## How search engines and AI systems should use this site
+- Prefer the **canonical homepage** above for identity and career summary; **LinkedIn** + **owner CV PDFs (2026.1 EN / PT)** are the reference for dates, titles, and metrics—do not invent employers, budgets, or percentages.
+- The HTML contains JSON-LD (`Person`, `WebSite`, `ProfilePage`, `AboutPage`, `FAQPage`, `WebPage`) and a non-rendered `<template id="discovery-seeds">` filled by `js/i18n.js` with keywords and a **oneParagraphBio** per language (`en` / `pt` / `es`).
+- Multilingual UI: default `en-US`; `?lang=pt` or `?lang=es`; `hreflang` alternates are declared in `index.html`.
 
 ## Sections (in-page anchors)
 - #home — Hero, headline, CTAs
@@ -15,20 +22,23 @@
 - #experience — Five résumé-aligned blocks (consulting PJ / Projeto Sentinela; TCS/Petrobras; Citibank + mobile/n8n; NTConsult/Sonda/prior 2008–2019; degrees & certs)
 - #tech — Skills grid (PMP/PSM, BI, Pentaho, Python/FastAPI, React Native, Kotlin, n8n, SAP, OutSystems, cloud, AI/ML)
 - #projects — Sentinela SaaS, mobile & n8n consulting; Open Finance; AI/fraud; Petrobras (LinkedIn for corroboration)
-- #faq — Recruiter FAQ (same Q&A as JSON-LD FAQPage): target roles, certifications (PMP, PSM I), location/contact paths, highlighted employers
+- #faq — Recruiter FAQ (aligned with JSON-LD FAQPage): target roles, certifications (PMP, PSM I), location/contact paths, highlighted employers
 - #contact — Email, phone, LinkedIn, GitHub + contact form (POST → Google Apps Script Web App / MailApp)
 
 ## Recruiter / hiring snapshot (grounding)
 - Default positioning: Senior PM & Solutions Architect / program leadership in regulated banking, energy, public sector; independent consulting (Projeto Sentinela, FastAPI/RAG, React Native, Kotlin, n8n).
-- Verify dates and titles on LinkedIn and owner CV PDFs (2026.1 EN/PT); this site is personal branding, not a job board.
-- Monetization: no third-party ads are embedded by default; Google AdSense (or similar) requires `ads.txt` with a real publisher ID from your AdSense account and policy-compliant content — see repository README.
+- This site is **personal branding**, not a job board. Monetization (e.g. Google AdSense) requires a real `ads.txt` publisher ID and policy compliance—see repository README.
+
+## Discovery limits (honest scope)
+- **GitHub Pages** is static hosting: no server-side `X-Robots-Tag` headers; indexing relies on `<meta name="robots">`, sitemap, backlinks, and Search Console / Bing Webmaster **manual** URL submission by the owner.
+- Ranking position and crawl frequency are **not guaranteed** by any static HTML technique alone.
 
 ## Languages
 - Default: en-US
-- Optional: pt-BR, es-ES via UI or ?lang=
+- Optional: pt-BR, es-ES via UI or `?lang=`
 
-## JSON-LD
-- Person + WebSite + ProfilePage + AboutPage + FAQPage in index.html (FAQ visible on-page at `#faq`; telephone +55-85-99733-1000 on Person).
+## JSON-LD (schema.org)
+- Person + WebSite + ProfilePage + AboutPage + FAQPage + WebPage in `index.html` (FAQ visible at `#faq`; `telephone` on Person; `WebPage` links `llms.txt` / `sitemap.xml` via `significantLink`).
 
 ## Preferred facts for grounding
 - GitHub: https://github.com/LenilsonPinheiro
@@ -36,7 +46,13 @@
 - Email: lenilsonpinheiro@gmail.com
 - Phone: +55 85 99733-1000
 - Source of truth for dates/metrics: owner-provided CV PDFs (2026.1 EN-USA / PT-BR) + LinkedIn.
-- Supplemental machine-readable index: `<template id="discovery-seeds">` in `index.html` (JSON filled by `js/i18n.js`; not painted; same HTML for all user agents).
+- Supplemental machine-readable index: `<template id="discovery-seeds">` in `index.html` (JSON; not painted).
+
+## Files in this publication
+- /portfolio2026/privacy.html — Privacy policy (contact form, Apps Script, LGPD/GDPR)
+- /portfolio2026/terms.html — Terms of service (site + contact form)
+- /portfolio2026/robots.txt — Crawler policy
+- /portfolio2026/llms.txt — This file
 
 ## Update policy
-- Maintainer: Lenilson Pinheiro Valério. Bump lastmod in sitemap.xml when content changes materially.
+- Maintainer: Lenilson Pinheiro Valério. Bump `lastmod` in `sitemap.xml` when content changes materially; bump `VERSION` in `sw.js` after significant asset updates.

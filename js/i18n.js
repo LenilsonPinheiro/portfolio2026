@@ -49,6 +49,8 @@
         'Senior PM & Solutions Architect (~25 yrs): Citibank (Qintess), TCS/Petrobras, Banco do Nordeste, SUNAT (Peru). Consulting: Projeto Sentinela (SaaS, FastAPI, RAG), React Native, Kotlin, n8n. PMP · PSM I · Fortaleza — open to senior roles & advisory.',
       metaKeywords:
         'Lenilson Pinheiro Valério,Senior Project Manager,Solutions Architect,program director,technical program management,PMP,PSM I,n8n,React Native,Kotlin,FastAPI,RAG,Open Finance,Pentaho,IBM Watson,Google Cloud AI,digital transformation,data governance,AI,Machine Learning,executive hiring,talent acquisition,Citibank,Qintess,TCS,Petrobras,Sentinela,SaaS,Banco do Nordeste,SUNAT,NTConsult,SAP,OutSystems,Salesforce,Power BI,Tableau,Hadoop,Spark,AWS,Azure,GCP,Python,Java,Kubernetes,Kafka,MongoDB,Scrum,agile,ITIL,COBIT,UNIFOR',
+      discoveryBio:
+        'Lenilson Pinheiro Valério — Senior Project Manager & Solutions Architect, Fortaleza, CE, Brazil (~25 yrs). Employers and programs include Citibank (Qintess), TCS/Petrobras, Banco do Nordeste (Sonda IT), SUNAT (NTConsult, Peru). Since Oct 2024: independent consulting — Projeto Sentinela (SaaS, FastAPI, RAG), React Native, Kotlin, n8n automation. Certifications: PMP, PSM I. For dates and metrics, corroborate on LinkedIn and owner CV PDFs (2026.1 EN/PT). Canonical profile site: https://lenilsonpinheiro.github.io/portfolio2026/ — Machine-readable index: /llms.txt',
       ogLocale: 'en_US',
       langLabel: 'Language',
       navSkip: 'Skip to main content',
@@ -281,6 +283,8 @@
         'Gerente de Projetos Sênior e Arquiteto (~25 anos): Citibank (Qintess), TCS/Petrobras, Banco do Nordeste, SUNAT (Peru). Consultoria PJ: Projeto Sentinela (SaaS, FastAPI, RAG), React Native, Kotlin, n8n. PMP · PSM I · Fortaleza — contratação e assessoria.',
       metaKeywords:
         'Lenilson Pinheiro Valério,Gerente de Projetos Sênior,Arquiteto de Soluções,diretor de programa,PMP,PSM I,n8n,React Native,Kotlin,FastAPI,RAG,Projeto Sentinela,SaaS,Open Finance,Pentaho,transformação digital,governança de dados,IA,Machine Learning,contratação executiva,Citibank,Qintess,TCS,Petrobras,Banco do Nordeste,SUNAT,NTConsult,SAP,OutSystems,Salesforce,Power BI,Tableau,Hadoop,Spark,AWS,Azure,GCP,Python,Java,Kubernetes,Kafka,MongoDB,Scrum,ágil,ITIL,COBIT,UNIFOR',
+      discoveryBio:
+        'Lenilson Pinheiro Valério — Gerente de Projetos Sênior e Arquiteto de Soluções, Fortaleza, CE, Brasil (~25 anos). Trajetória inclui Citibank (Qintess), TCS/Petrobras, Banco do Nordeste (Sonda IT), SUNAT (NTConsult, Peru). Desde out/2024: consultoria PJ — Projeto Sentinela (SaaS, FastAPI, RAG), React Native, Kotlin, n8n. Certificações: PMP, PSM I. Confirme datas e métricas no LinkedIn e CV PDF (2026.1). Site canónico: https://lenilsonpinheiro.github.io/portfolio2026/ — Índice para sistemas: /llms.txt',
       ogLocale: 'pt_BR',
       langLabel: 'Idioma',
       navSkip: 'Pular para o conteúdo principal',
@@ -513,6 +517,8 @@
         'Director senior PM y Arquitecto (~25 años): Citibank (Qintess), TCS/Petrobras, Banco do Nordeste, SUNAT (Perú). Consultoría: Proyecto Sentinela (SaaS, FastAPI, RAG), React Native, Kotlin, n8n. PMP · PSM I · Fortaleza — roles y asesoría.',
       metaKeywords:
         'Lenilson Pinheiro Valério,Senior Project Manager,Solutions Architect,director de programa,PMP,PSM I,n8n,React Native,Kotlin,FastAPI,RAG,Sentinela,SaaS,Open Finance,Pentaho,transformación digital,gobierno del dato,IA,Machine Learning,contratación ejecutiva,Citibank,Qintess,TCS,Petrobras,SUNAT,NTConsult,SAP,OutSystems,Salesforce,Power BI,Tableau,Hadoop,Spark,AWS,Azure,GCP,Kubernetes,Kafka,MongoDB,Python,Java,Scrum,ágil,ITIL,COBIT,UNIFOR',
+      discoveryBio:
+        'Lenilson Pinheiro Valério — Senior PM y Arquitecto de Soluciones, Fortaleza, CE, Brasil (~25 años). Incluye Citibank (Qintess), TCS/Petrobras, Banco do Nordeste (Sonda IT), SUNAT (NTConsult, Perú). Desde oct 2024: consultoría independiente — Proyecto Sentinela (SaaS, FastAPI, RAG), React Native, Kotlin, n8n. Certificaciones: PMP, PSM I. Verifique fechas y métricas en LinkedIn y CV PDF (2026.1). Sitio canónico: https://lenilsonpinheiro.github.io/portfolio2026/ — Índice /llms.txt',
       ogLocale: 'es_ES',
       langLabel: 'Idioma',
       navSkip: 'Saltar al contenido principal',
@@ -942,6 +948,40 @@
         ],
       });
     }
+
+    var ldWp = document.getElementById('jsonld-webpage');
+    if (ldWp) {
+      ldWp.textContent = JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        '@id': CANONICAL_BASE + '#webpage',
+        url: CANONICAL_BASE,
+        name: t.metaTitle,
+        description: t.metaDescription,
+        inLanguage: t.htmlLang,
+        isPartOf: {
+          '@type': 'WebSite',
+          url: CANONICAL_BASE,
+          name: t.schemaName + ' — Portfolio',
+        },
+        about: {
+          '@type': 'Person',
+          name: t.schemaName,
+          url: CANONICAL_BASE,
+          sameAs: [
+            'https://www.linkedin.com/in/lenilsonpinheiro/',
+            'https://github.com/LenilsonPinheiro',
+          ],
+        },
+        significantLink: [CANONICAL_BASE + 'llms.txt', CANONICAL_BASE + 'sitemap.xml'],
+        primaryImageOfPage: {
+          '@type': 'ImageObject',
+          url: 'https://avatars.githubusercontent.com/LenilsonPinheiro?v=4',
+          width: 460,
+          height: 460,
+        },
+      });
+    }
   }
 
   function applyLanguage(lang) {
@@ -988,11 +1028,16 @@
     if (tmpl) {
       tmpl.textContent = JSON.stringify(
         {
-          purpose: 'Professional discovery index (HTML template; not painted; same document for all user agents)',
+          purpose: 'Professional discovery index for search engines and AI crawlers (HTML template; not painted; same HTML for all user agents)',
           lang: lang,
+          canonicalUrl: CANONICAL_BASE,
+          llmsTxtUrl: CANONICAL_BASE + 'llms.txt',
+          sitemapUrl: CANONICAL_BASE + 'sitemap.xml',
+          robotsUrl: CANONICAL_BASE + 'robots.txt',
           name: pack.schemaName,
           headline: pack.metaTitle,
           summary: pack.metaDescription,
+          oneParagraphBio: pack.discoveryBio || pack.metaDescription,
           keywordList: pack.metaKeywords.split(',').map(function (s) {
             return s.trim();
           }),
