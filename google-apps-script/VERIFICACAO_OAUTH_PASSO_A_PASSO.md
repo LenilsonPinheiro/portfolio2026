@@ -29,13 +29,13 @@
    Se o script ainda usa o projeto Cloud **predefinido** do Apps Script, tens de [mudar para um projeto standard](https://developers.google.com/apps-script/guides/cloud-platform-projects#use_a_different_standard_project) que tu controles (criar projeto em Cloud Console e associar no editor Apps Script: **Projeto** → **Configurações do projeto** → **Projeto Google Cloud**).
 
 4. **Assets para o ecrã de consentimento OAuth** (Cloud Console → **APIs e serviços** → **Ecrã de consentimento OAuth**):  
-   - **Nome da aplicação (crítico na verificação de branding):** tem de corresponder ao nome que aparece na **página inicial** que indicaste. Neste site, o `<h1>` visível é **Lenilson Pinheiro Valério** e o JSON-LD `WebSite` em `index.html` usa **Lenilson Pinheiro Valério — Portfolio**. Usa esse texto (recomendado: **Lenilson Pinheiro Valério — Portfolio**) no campo **Nome do app**. Evita nomes só internos (ex.: “Portfolio Contact Form”) — a Google compara com a homepage e pode recusar.  
-   - Logótipo (imagem ≤ 1 MB)  
+   - **Nome da aplicação (crítico na verificação de branding):** o verificador da Google cruza o **Nome do app** com o que está no **`<title>`**, nas **metas** (`application-name`, `og:site_name`) e no **texto visível** da homepage. Neste repositório, o texto canónico (copiar **tal qual**, incluindo o travessão `—`) está em **`oauth-branding-app-name.txt`**. O `<title>` e as metas OG em `index.html` começam por esse mesmo texto. Usa **esse** nome no campo **Nome do app**.  
+   - **Logótipo:** evita só iniciais genéricas (“LP”); usa o ficheiro **`img/logo-app-120.png`** gerado pelo script (três linhas com o **nome próprio**), ou uma **foto profissional** tua — menos risco de “não identifica a marca de forma exclusiva”.  
    - Email de suporte  
    - **Domínios autorizados** (ex.: `lenilsonpinheiro.github.io`)  
    - **URL da página inicial** (portfolio)  
    - **URL da política de privacidade** (`…/privacy.html`)  
-   - **URL dos termos de serviço** (`…/terms.html` ou `…/terms/` — existe redirecionamento em `terms/index.html`)  
+   - **URL dos termos de serviço:** usa **`…/terms.html`** no formulário da Google (URL canónico). `…/terms/` redireciona mas o `.html` evita ambiguidade.  
 
 5. **Scopes**  
    No editor Apps Script: **Projeto** → **Definições do projeto** → copia **OAuth Scopes** que o projeto usa (com o código que chama `MailApp`). No Cloud Console, em **Adicionar ou remover scopes**, inclui esses scopes; se não aparecerem na lista automática, usa **Adicionar manualmente** conforme a [lista de scopes](https://developers.google.com/apps-script/concepts/scopes) (ex.: scope de envio de e-mail associado ao MailApp — confirma sempre no teu projeto).

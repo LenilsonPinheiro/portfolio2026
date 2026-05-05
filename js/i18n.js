@@ -44,7 +44,7 @@
       htmlLang: 'en-US',
       schemaName: 'Lenilson Pinheiro Valério',
       schemaJobTitle: 'Senior Project Manager',
-      metaTitle: 'Lenilson Pinheiro Valério | Senior PM · Digital Transformation, Data & AI',
+      metaTitle: 'Lenilson Pinheiro Valério — Portfolio · Senior PM · Digital Transformation, Data & AI',
       metaDescription:
         '~25 years leading programs for Citibank (Qintess), TCS/Petrobras, Banco do Nordeste, and SUNAT (Peru). PhD candidate (Applied IT, UNIFOR). PMP · PSM I. Open Finance, AI/ML for fraud, SAP & OutSystems. Fortaleza, Brazil.',
       metaKeywords:
@@ -246,7 +246,7 @@
       htmlLang: 'pt-BR',
       schemaName: 'Lenilson Pinheiro Valério',
       schemaJobTitle: 'Senior Project Manager',
-      metaTitle: 'Lenilson Pinheiro Valério | Gerente de Projetos Sênior · Transformação Digital, Dados e IA',
+      metaTitle: 'Lenilson Pinheiro Valério — Portfolio · Gerente de Projetos Sênior · Transformação Digital, Dados e IA',
       metaDescription:
         '~25 anos liderando programas no Citibank (Qintess), TCS/Petrobras, Banco do Nordeste e SUNAT (Peru). Doutorando em TI Aplicada (UNIFOR). PMP · PSM I. Open Finance, IA/ML para fraude, SAP e OutSystems. Fortaleza, CE.',
       metaKeywords:
@@ -448,7 +448,7 @@
       htmlLang: 'es-ES',
       schemaName: 'Lenilson Pinheiro Valério',
       schemaJobTitle: 'Senior Project Manager',
-      metaTitle: 'Lenilson Pinheiro Valério | Director de proyecto senior · Transformación digital, datos e IA',
+      metaTitle: 'Lenilson Pinheiro Valério — Portfolio · Director de proyecto senior · Transformación digital, datos e IA',
       metaDescription:
         '~25 años liderando programas en Citibank (Qintess), TCS/Petrobras, Banco do Nordeste y SUNAT (Perú). Doctorando en TI aplicada (UNIFOR). PMP · PSM I. Open Finance, IA/ML antifraude, SAP y OutSystems. Fortaleza, Brasil.',
       metaKeywords:

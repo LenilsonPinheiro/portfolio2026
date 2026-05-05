@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Gera PNGs alinhados ao favicon.svg (LP, fundo #0a0a0f) para OAuth 120px, Apple 180px e PWA."""
+"""Gera PNGs com wordmark do nome (OAuth 120px, Apple, PWA). Desenha em 512px e reduz (LANCZOS)."""
 from __future__ import annotations
 
 import os
@@ -13,6 +13,8 @@ OUT_DIR = os.path.join(ROOT, "img")
 BG = (10, 10, 15)
 CYAN = (0, 240, 255)
 VIOLET = (176, 38, 255)
+WHITE = (226, 232, 240)
+CANVAS = 512
 
 
 def _font(size: int) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
@@ -31,31 +33,45 @@ def _font(size: int) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
     return ImageFont.load_default()
 
 
-def draw_lp_icon(side: int) -> Image.Image:
-    img = Image.new("RGB", (side, side), BG)
+def draw_wordmark_highres() -> Image.Image:
+    img = Image.new("RGB", (CANVAS, CANVAS), BG)
     draw = ImageDraw.Draw(img)
-    pad = max(2, side // 32)
-    rad = max(8, side // 5)
+    pad = 20
     draw.rounded_rectangle(
-        [pad, pad, side - pad, side - pad],
-        radius=rad,
-        outline=(26, 26, 36),
-        width=max(1, side // 64),
+        [pad, pad, CANVAS - pad, CANVAS - pad],
+        radius=44,
+        outline=(40, 44, 58),
+        width=4,
     )
-    font_size = max(14, int(side * 0.34))
-    font = _font(font_size)
-    l_box = draw.textbbox((0, 0), "L", font=font)
-    p_box = draw.textbbox((0, 0), "P", font=font)
-    lw = l_box[2] - l_box[0]
-    pw = p_box[2] - p_box[0]
-    gap = max(1, side // 48)
-    tw = lw + gap + pw
-    l_h = l_box[3] - l_box[1]
-    x = (side - tw) // 2
-    y = (side - l_h) // 2 - max(1, side // 64)
-    draw.text((x, y), "L", font=font, fill=CYAN)
-    draw.text((x + lw + gap, y), "P", font=font, fill=VIOLET)
+    font_top = _font(56)
+    font_mid = _font(38)
+    font_bot = _font(56)
+    lines: list[tuple[str, tuple[int, int, int], ImageFont.FreeTypeFont | ImageFont.ImageFont]] = [
+        ("Lenilson", CYAN, font_top),
+        ("Pinheiro", WHITE, font_mid),
+        ("Valério", VIOLET, font_bot),
+    ]
+    heights = []
+    for text, _c, font in lines:
+        bbox = draw.textbbox((0, 0), text, font=font)
+        heights.append(bbox[3] - bbox[1])
+    gap = 10
+    total_h = sum(heights) + gap * (len(lines) - 1)
+    y = (CANVAS - total_h) // 2 - 8
+    for (text, color, font), h in zip(lines, heights):
+        bbox = draw.textbbox((0, 0), text, font=font)
+        tw = bbox[2] - bbox[0]
+        x = (CANVAS - tw) // 2
+        draw.text((x, y), text, font=font, fill=color)
+        y += h + gap
     return img
+
+
+def render_size(side: int) -> Image.Image:
+    src = draw_wordmark_highres()
+    if side == CANVAS:
+        return src
+    return src.resize((side, side), Image.Resampling.LANCZOS)
 
 
 def main() -> int:
@@ -68,7 +84,7 @@ def main() -> int:
     ]
     for name, side in specs:
         path = os.path.join(OUT_DIR, name)
-        draw_lp_icon(side).save(path, "PNG", optimize=True)
+        render_size(side).save(path, "PNG", optimize=True)
         print("Wrote", path)
     return 0
 
