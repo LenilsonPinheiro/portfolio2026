@@ -240,7 +240,7 @@
       privacyNavLabel: 'Primary navigation — Privacy policy',
       privacyBackPortfolio: '← Portfolio',
       privacyPageTitle: 'Privacy policy',
-      privacyUpdatedLine: 'Last updated: <time datetime="2026-05-06">6 May 2026</time>',
+      privacyUpdatedLine: 'Last updated: <time datetime="2026-05-08">8 May 2026</time>',
       privacyH2Who: 'Who operates this site',
       privacyPWho:
         'This static portfolio is published by <strong>Lenilson Pinheiro Valério</strong>. Contact: <a href="mailto:lenilsonpinheiro@gmail.com">lenilsonpinheiro@gmail.com</a>.',
@@ -271,7 +271,7 @@
       termsNavLabel: 'Primary navigation — Terms of service',
       termsBackPortfolio: '← Portfolio',
       termsPageTitle: 'Terms of service',
-      termsUpdatedLine: 'Last updated: <time datetime="2026-05-06">6 May 2026</time>',
+      termsUpdatedLine: 'Last updated: <time datetime="2026-05-08">8 May 2026</time>',
       termsH2Acceptance: 'Acceptance',
       termsPAcceptance:
         'By using this website you agree to these terms. If you do not agree, do not use the site or the contact form.',
@@ -484,7 +484,7 @@
       privacyNavLabel: 'Navegação principal — Política de privacidade',
       privacyBackPortfolio: '← Portfólio',
       privacyPageTitle: 'Política de privacidade',
-      privacyUpdatedLine: 'Última atualização: <time datetime="2026-05-06">6 de maio de 2026</time>',
+      privacyUpdatedLine: 'Última atualização: <time datetime="2026-05-08">8 de maio de 2026</time>',
       privacyH2Who: 'Quem opera este site',
       privacyPWho:
         'Este portfólio estático é publicado por <strong>Lenilson Pinheiro Valério</strong>. Contacto: <a href="mailto:lenilsonpinheiro@gmail.com">lenilsonpinheiro@gmail.com</a>.',
@@ -515,7 +515,7 @@
       termsNavLabel: 'Navegação principal — Termos de serviço',
       termsBackPortfolio: '← Portfólio',
       termsPageTitle: 'Termos de serviço',
-      termsUpdatedLine: 'Última atualização: <time datetime="2026-05-06">6 de maio de 2026</time>',
+      termsUpdatedLine: 'Última atualização: <time datetime="2026-05-08">8 de maio de 2026</time>',
       termsH2Acceptance: 'Aceitação',
       termsPAcceptance:
         'Ao utilizar este site aceita estes termos. Se não concordar, não utilize o site nem o formulário de contacto.',
@@ -728,7 +728,7 @@
       privacyNavLabel: 'Navegación principal — Política de privacidad',
       privacyBackPortfolio: '← Portafolio',
       privacyPageTitle: 'Política de privacidad',
-      privacyUpdatedLine: 'Última actualización: <time datetime="2026-05-06">6 de mayo de 2026</time>',
+      privacyUpdatedLine: 'Última actualización: <time datetime="2026-05-08">8 de mayo de 2026</time>',
       privacyH2Who: 'Quién opera este sitio',
       privacyPWho:
         'Este portafolio estático lo publica <strong>Lenilson Pinheiro Valério</strong>. Contacto: <a href="mailto:lenilsonpinheiro@gmail.com">lenilsonpinheiro@gmail.com</a>.',
@@ -759,7 +759,7 @@
       termsNavLabel: 'Navegación principal — Términos del servicio',
       termsBackPortfolio: '← Portafolio',
       termsPageTitle: 'Términos del servicio',
-      termsUpdatedLine: 'Última actualización: <time datetime="2026-05-06">6 de mayo de 2026</time>',
+      termsUpdatedLine: 'Última actualización: <time datetime="2026-05-08">8 de mayo de 2026</time>',
       termsH2Acceptance: 'Aceptación',
       termsPAcceptance:
         'Al usar este sitio acepta estos términos. Si no está de acuerdo, no utilice el sitio ni el formulario.',
