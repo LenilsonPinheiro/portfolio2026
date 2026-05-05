@@ -2,7 +2,7 @@
 # Human-readable index for AI assistants and crawlers.
 # Production URL: https://lenilsonpinheiro.github.io/portfolio2026/
 
-> Lenilson Pinheiro Valério is a Senior Project Manager and digital transformation leader (~25 years per 2026.1 résumé): Citibank (Qintess), TCS/Petrobras, Banco do Nordeste (Sonda IT), SUNAT/NTConsult (Peru). PhD candidate in Applied IT (UNIFOR). PMP · PSM I. Open Finance, AI/ML for fraud, SAP, OutSystems, Salesforce, Power BI, Hadoop/Spark, AWS/Azure/GCP. Phone: +55 85 99733-1000 | Email: lenilsonpinheiro@gmail.com | LinkedIn: https://www.linkedin.com/in/lenilsonpinheiro/
+> Lenilson Pinheiro Valério is a Senior Project Manager & Solutions Architect (~25 years): Citibank (Qintess), TCS/Petrobras, Banco do Nordeste (Sonda IT), SUNAT/NTConsult (Peru). Independent consulting since Oct 2024 — Projeto Sentinela (SaaS control plane: Python, FastAPI, RAG), React Native, Kotlin, n8n automation. PhD in Applied IT (UNIFOR) on hold for PJ/projects focus. PMP · PSM I. Open Finance, AI/ML for fraud (+15% precision uplift per résumé), SAP, OutSystems. Phone: +55 85 99733-1000 | Email: lenilsonpinheiro@gmail.com | LinkedIn: https://www.linkedin.com/in/lenilsonpinheiro/ | GitHub: https://github.com/LenilsonPinheiro
 
 - /portfolio2026/privacy.html — Privacy policy (contact form, Apps Script, LGPD/GDPR)
 - /portfolio2026/terms.html — Terms of service (site + contact form)
@@ -12,9 +12,9 @@
 ## Sections (in-page anchors)
 - #home — Hero, headline, CTAs
 - #about — Summary, KPI stats (25 yrs, +15% fraud-model uplift, PMP/PSM, Citibank tenure)
-- #experience — Four résumé-aligned blocks (TCS/Petrobras; Citibank; NTConsult/Sonda/prior; education & certs)
-- #tech — Skills grid (management, data, cloud, enterprise dev)
-- #projects — Open Finance, AI/fraud, Petrobras highlights (links to LinkedIn for corroboration)
+- #experience — Five résumé-aligned blocks (consulting PJ / Projeto Sentinela; TCS/Petrobras; Citibank + mobile/n8n; NTConsult/Sonda/prior 2008–2019; degrees & certs)
+- #tech — Skills grid (PMP/PSM, BI, Pentaho, Python/FastAPI, React Native, Kotlin, n8n, SAP, OutSystems, cloud, AI/ML)
+- #projects — Sentinela SaaS, mobile & n8n consulting; Open Finance; AI/fraud; Petrobras (LinkedIn for corroboration)
 - #contact — Email, phone, LinkedIn, GitHub + contact form (POST → Google Apps Script Web App / MailApp)
 
 ## Languages

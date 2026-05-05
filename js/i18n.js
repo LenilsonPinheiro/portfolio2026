@@ -43,12 +43,12 @@
     en: {
       htmlLang: 'en-US',
       schemaName: 'Lenilson Pinheiro Valério',
-      schemaJobTitle: 'Senior Project Manager',
-      metaTitle: 'Lenilson Pinheiro Valério — Portfolio · Senior PM · Digital Transformation, Data & AI',
+      schemaJobTitle: 'Senior Project Manager & Solutions Architect',
+      metaTitle: 'Lenilson Pinheiro Valério — Portfolio · Senior PM & Solutions Architect · Digital Transformation, Data & AI',
       metaDescription:
-        '~25 years leading programs for Citibank (Qintess), TCS/Petrobras, Banco do Nordeste, and SUNAT (Peru). PhD candidate (Applied IT, UNIFOR). PMP · PSM I. Open Finance, AI/ML for fraud, SAP & OutSystems. Fortaleza, Brazil.',
+        '~25 years leading programs for Citibank (Qintess), TCS/Petrobras, Banco do Nordeste, and SUNAT (Peru). Independent consulting since Oct 2024: Projeto Sentinela (SaaS, FastAPI, RAG), React Native, Kotlin, n8n. PhD on hold (Applied IT, UNIFOR). PMP · PSM I. Fortaleza, Brazil.',
       metaKeywords:
-        'Lenilson Pinheiro Valério,Senior Project Manager,PMP,PSM I,Open Finance,digital transformation,data governance,AI,Machine Learning,Citibank,Qintess,TCS,Petrobras,Banco do Nordeste,SUNAT,NTConsult,SAP,OutSystems,Salesforce,Power BI,Tableau,Hadoop,Spark,AWS,Azure,GCP,Python,Java,Kubernetes,Kafka,MongoDB,Scrum,agile,ITIL,COBIT,UNIFOR,MBA professor',
+        'Lenilson Pinheiro Valério,Senior Project Manager,Solutions Architect,PMP,PSM I,n8n,React Native,Kotlin,FastAPI,RAG,Open Finance,Pentaho,IBM Watson,Google Cloud AI,digital transformation,data governance,AI,Machine Learning,Citibank,Qintess,TCS,Petrobras,Sentinela,SaaS,Banco do Nordeste,SUNAT,NTConsult,SAP,OutSystems,Salesforce,Power BI,Tableau,Hadoop,Spark,AWS,Azure,GCP,Python,Java,Kubernetes,Kafka,MongoDB,Scrum,agile,ITIL,COBIT,UNIFOR',
       ogLocale: 'en_US',
       langLabel: 'Language',
       navSkip: 'Skip to main content',
@@ -63,71 +63,85 @@
       heroCtaSecondary: 'Contact me',
       aboutTitle: 'Profile',
       aboutSubtitle:
-        'Executive-grade program delivery across banking, energy, and government—with deep command of data platforms, AI, and enterprise architecture.',
+        'Executive-grade program delivery across banking, energy, and government—with deep command of data platforms, AI, enterprise architecture, n8n automation, and mobile delivery.',
       aboutP1:
-        'I am a <span class="highlight">Senior Project Manager</span> and <span class="highlight">digital transformation specialist</span> with <span class="highlight">~25 years</span> leading strategic initiatives for global and regulated organizations—including <span class="highlight">Citibank (Qintess)</span>, <span class="highlight">TCS on Petrobras</span>, <span class="highlight">Banco do Nordeste (Sonda IT)</span>, and <span class="highlight">SUNAT (NTConsult, Peru)</span>. I combine <span class="highlight">PMP and Scrum (PSM I)</span> discipline with strong technical fluency across data, cloud, and integration stacks.',
+        'I am a <span class="highlight">Senior Project Manager</span> and <span class="highlight">Solutions Architect</span> with <span class="highlight">~25 years</span> leading strategic initiatives for global and regulated organizations—including <span class="highlight">Citibank (Qintess)</span>, <span class="highlight">TCS on Petrobras</span>, <span class="highlight">Banco do Nordeste (Sonda IT)</span>, and <span class="highlight">SUNAT (NTConsult, Peru)</span>. Since <span class="highlight">Oct 2024</span> I deliver independent consulting focused on <span class="highlight">SaaS, intelligent automation (n8n), React Native, Kotlin, Python/FastAPI and RAG</span>. I combine <span class="highlight">PMP and Scrum (PSM I)</span> discipline with deep technical fluency.',
       aboutP2:
-        'Recent impact: <span class="highlight">Open Finance</span> and global payments (SWIFT, ISO 20022); <span class="highlight">+15% uplift in fraud-detection model precision</span> on an AI/ML program at Citibank; <span class="highlight">Petrobras modernization</span> migrating legacy systems toward <span class="highlight">OutSystems and SAP</span> with agile outsourcing governance, executive reporting, and risk mitigation.',
+        'Recent impact: leadership of <span class="highlight">Projeto Sentinela</span> (control-plane SaaS architecture); <span class="highlight">Open Finance</span> with SWIFT / ISO 20022 and mobile stacks (<span class="highlight">React Native & Kotlin</span>); <span class="highlight">+15% uplift in fraud-model precision</span> at Citibank; <span class="highlight">Petrobras modernization</span> toward <span class="highlight">OutSystems and SAP</span> with agile outsourcing governance.',
       aboutP3:
-        'Education: <span class="highlight">PhD candidate in Applied IT — UNIFOR (expected 2027)</span>; MBA in IT Project Management (Farias Brito, 2016); M.Sc. Applied Informatics (UNIFOR, 2014); B.Sc. Computer Science (UNIFOR, 2010). I also taught MBA courses in <span class="highlight">Data Science, BI, and Big Data</span> at FBUNI and UNIFOR (through 2025). Certifications: <span class="highlight">PMP (PMI)</span> and <span class="highlight">PSM I (Scrum.org)</span>; training in ITIL, COBIT, and TOGAF; recent upskilling in SAP CPS, OutSystems, Salesforce, and Data Science.',
+        'Education: <span class="highlight">PhD in Applied IT — UNIFOR (on hold)</span> to focus on projects and contracting; MBA in IT Project Management (Farias Brito, 2016); M.Sc. Applied Informatics (UNIFOR, 2014); B.Sc. Computer Science (UNIFOR, 2010). Certifications: <span class="highlight">PMP (PMI)</span> and <span class="highlight">PSM I (Scrum.org)</span>; training in ITIL, COBIT, and TOGAF; recent technical depth in <span class="highlight">n8n, React Native, Kotlin, SAP CPS, OutSystems, Salesforce, and Data Science (2023–2025)</span>.',
       statProjects: 'Years in IT, data & delivery leadership',
       statYears: '% uplift in fraud-model precision (Citibank AI program)',
       statClients: 'Flagship certifications (PMP · PSM I)',
       statTech: 'Years leading Citibank programs (Qintess)',
       expTitle: 'Experience (résumé-aligned)',
       expSubtitle:
-        'Scope synthesized from your 2026.1 EN résumé and LinkedIn profile—optimized for recruiters and hiring managers.',
-      exp1Role: 'TCS — allocated to Petrobras · Senior Project Manager',
-      exp1Meta: 'Mar 2025 – Nov 2025 · Digital transformation & legacy modernization',
+        'Independent consulting (Projeto Sentinela, mobile, n8n), flagship employers, and credentials—aligned with your latest résumé.',
+      exp1Role: 'Independent consulting (PJ) · Solutions Architect',
+      exp1Meta: 'Oct 2024 – Present · SaaS, mobile & intelligent automation',
       exp1b1:
-        'Led high-impact programs migrating legacy landscapes to OutSystems and SAP within an agile outsourcing model.',
+        'Leadership and development of <span class="highlight">Projeto Sentinela</span>, a SaaS control plane using advanced architecture (<span class="highlight">Python, FastAPI, RAG</span>).',
       exp1b2:
-        'Owned resource planning, risk mitigation, scheduling, and executive reporting across distributed teams.',
+        'Cross-platform mobile delivery with <span class="highlight">React Native</span> and native modules in <span class="highlight">Kotlin</span> for high performance.',
       exp1b3:
-        'Aligned delivery cadence with enterprise governance while keeping stakeholders informed on scope, cost, and quality.',
-      exp2Role: 'Citibank — via Qintess · Senior Project Manager',
-      exp2Meta: 'May 2020 – Oct 2024 · Regulated financial services & AI',
+        'Complex <span class="highlight">n8n</span> business-process automation and API integration—optimizing operations and reducing cost.',
+      exp2Role: 'TCS — allocated to Petrobras · Senior Project Manager',
+      exp2Meta: 'Mar 2025 – Nov 2025 · Digital transformation & legacy modernization',
       exp2b1:
-        'Open Finance: led a strategic program (~$1M budget per EN résumé), delivering ahead of the regulatory baseline (10% per résumé).',
+        'Led high-impact digital transformation programs migrating legacy landscapes to <span class="highlight">OutSystems and SAP</span> within an agile outsourcing model.',
       exp2b2:
-        'AI & risk: directed ML models for fraud detection, achieving +15% predictive accuracy improvement (as stated on résumé).',
+        'Owned resource planning, risk mitigation, scheduling, and executive reporting across distributed teams.',
       exp2b3:
-        'Data strategy: governed BI pipelines and integrations involving global payment rails (SWIFT, ISO 20022), including multi-bank coordination as described on the 2026.1 résumé (Citibank / Goldman Sachs context).',
-      exp3Role: 'NTConsult, Sonda IT & prior delivery leadership',
-      exp3Meta: '2010 – 2019 · Architecture, banking PM, BI & telecom',
+        'Aligned delivery cadence with enterprise governance—transparent scope, cost, and quality for executives and partners.',
+      exp3Role: 'Citibank — via Qintess · Senior Project Manager / Technical Expert',
+      exp3Meta: 'May 2020 – Oct 2024 · Regulated financial services, mobile & AI',
       exp3b1:
-        'Senior Software Architect for Peru SUNAT National Single Account: data/application architecture with Kubernetes, Kafka, MongoDB, and DevOps practices.',
+        'Open Finance & mobile: led the strategic program (<span class="highlight">~USD 1M</span> EN résumé; <span class="highlight">~R$ 5M</span> PT CV), delivering <span class="highlight">~10%</span> ahead of the regulatory deadline; architected mobile interfaces and integrations with <span class="highlight">React Native and Kotlin</span> (3+ years in the program cycle per résumé).',
       exp3b2:
-        'Senior PM at Sonda IT (Banco do Nordeste): full project lifecycle—planning, cost estimation, scheduling, risk analysis, and strategic alignment.',
+        'Process automation: orchestrated bank integration flows with <span class="highlight">n8n</span>, connecting global systems (<span class="highlight">SWIFT, ISO 20022</span>) with CI-style automation.',
       exp3b3:
-        'Earlier: BI and ETL programs for Claro and TIM; web and synchronization services for Vivo and Oi; Salesforce CRM + SAP/RM integrations at DeVry; requirements & BPM with SAP MM/FI at LSBD; real-time dashboards at Montreal; function-point analysis and PMO control at Unigex.',
-      exp4Role: 'Higher education & credentials',
-      exp4Meta: 'Teaching · Certifications · Continuous learning',
+        'AI & fraud: directed ML models for fraud detection—<span class="highlight">+15%</span> predictive accuracy uplift—supported by <span class="highlight">n8n</span> automations for real-time alerting.',
+      exp4Role: 'NTConsult, Sonda IT & prior delivery leadership',
+      exp4Meta: '2008 – 2019 · Architecture, banking PM, BI & telecom',
       exp4b1:
-        'MBA professor — Data Science, BI & Big Data (FBUNI; Jan 2022–Jun 2025) and analytical management / BI / Big Data (UNIFOR; Jan 2021–Jun 2025) per LinkedIn.',
+        'Senior Software Architect for Peru SUNAT National Single Account: data/application architecture with Kubernetes, Kafka, MongoDB, and DevOps.',
       exp4b2:
-        'Certified PMP (PMI) and Professional Scrum Master I (Scrum.org); complementary training in ITIL, COBIT, and TOGAF.',
+        'Senior PM at Sonda IT (Banco do Nordeste): full banking project lifecycle—planning, costs, schedule, risk analysis, and strategic alignment.',
       exp4b3:
-        'Recent technical refreshers: SAP CPS, OutSystems, Salesforce, and Data Science (2023–2025) per résumé.',
+        'Earlier: BI (ETL, dashboards) for Claro and TIM; web and data-sync systems for telecom operators; Salesforce CRM + SAP/RM and Marketing Cloud at DeVry; requirements & BPM (Bizagi) with SAP MM/FI at LSBD; real-time dashboards at Montreal; function-point analysis and PM scope at Unigex.',
+      exp5Role: 'Higher education & credentials',
+      exp5Meta: 'Degrees · Certifications · Continuous learning',
+      exp5b1:
+        'PhD in Applied IT (UNIFOR) <span class="highlight">on hold</span> to prioritize projects and PJ contracts; MBA IT Project Management (Farias Brito, 2016); M.Sc. Applied Informatics & B.Sc. CS (UNIFOR).',
+      exp5b2:
+        'Certified <span class="highlight">PMP (PMI)</span> and <span class="highlight">PSM I (Scrum.org)</span>; complementary training in ITIL, COBIT, and TOGAF.',
+      exp5b3:
+        'Recent depth: advanced <span class="highlight">n8n</span> workflows, <span class="highlight">React Native</span>, <span class="highlight">Kotlin</span>, SAP CPS, OutSystems, Salesforce, Data Science (2023–2025).',
       techTitle: 'Skills & tools',
       techSubtitle:
         'Management, data platforms, cloud/AI services, and enterprise development stack—verbatim themes from your 2026.1 CV.',
       projTitle: 'Program highlights',
       projSubtitle:
-        'Representative outcomes from regulated and large-scale environments. Full chronology on LinkedIn and PDF résumés.',
+        'Consulting flagship (Sentinela), regulated banking programs, energy transformation, and automation stacks. Verify dates on LinkedIn / PDF résumés.',
       proj1Title: 'Open Finance & global payments (Citibank / Qintess)',
       proj1Desc:
-        'Directed a strategic Open Finance initiative with significant budget ownership (EN résumé: ~USD 1M), <span class="highlight">beating the regulatory deadline by ~10%</span>, while orchestrating SWIFT / ISO 20022 integrations and executive governance.',
+        'Directed Open Finance with major budget ownership (EN ~USD 1M; PT ~R$ 5M), <span class="highlight">~10% ahead</span> of the regulatory milestone; mobile delivery with <span class="highlight">React Native / Kotlin</span> and SWIFT / ISO 20022 orchestration.',
       proj2Title: 'AI / ML for fraud & risk (Citibank)',
       proj2Desc:
-        'Led implementation of machine-learning models for fraud detection, delivering a <span class="highlight">+15% gain in predictive accuracy</span> versus the prior baseline—documented on the 2026.1 résumé.',
+        'Machine-learning models for fraud detection with a <span class="highlight">+15% gain in predictive accuracy</span>; <span class="highlight">n8n</span> automations for real-time operational alerts.',
       proj3Title: 'Petrobras digital transformation (TCS)',
       proj3Desc:
-        'Senior PM for Petrobras-facing programs: <span class="highlight">legacy-to-OutSystems/SAP</span> modernization, agile outsourcing controls, risk mitigation, and transparent reporting to executives and partners.',
+        'Senior PM for Petrobras programs: <span class="highlight">legacy → OutSystems / SAP</span>, agile outsourcing governance, risk mitigation, and executive reporting.',
+      proj4Title: 'Projeto Sentinela — SaaS control plane (consulting)',
+      proj4Desc:
+        'Architecture and build of a <span class="highlight">SaaS control plane</span> with <span class="highlight">Python, FastAPI, and RAG</span>—anchor consulting product since Oct 2024.',
+      proj5Title: 'Mobile apps & n8n automation (consulting)',
+      proj5Desc:
+        'Production <span class="highlight">React Native</span> apps with <span class="highlight">Kotlin</span> native modules; enterprise <span class="highlight">n8n</span> workflows integrating APIs and reducing operational overhead.',
       projCta: 'Corroborate on LinkedIn <i class="fab fa-linkedin-in" aria-hidden="true"></i>',
       contactTitle: 'Let’s talk',
       contactLead:
-        'Open to <span class="highlight">senior PM / program director</span> roles, <span class="highlight">data & AI transformation</span> mandates, and advisory engagements across banking, energy, and public sector. Share your objectives, constraints, and geography—I respond with a clear plan.',
+        'Open to <span class="highlight">senior PM / program director</span> and <span class="highlight">Solutions Architect / SaaS</span> roles, <span class="highlight">data & AI transformation</span>, and advisory engagements across banking, energy, and public sector. Share your objectives, constraints, and geography—I respond with a clear plan.',
       formTitle: 'Direct message',
       formHint:
         'Sends email to lenilsonpinheiro@gmail.com via Google Apps Script (your Gmail / Google account). No third-party inbox activation.',
@@ -148,7 +162,7 @@
       titleNavTech: 'Go to skills and tools grid',
       titleNavProjects: 'Go to program highlights',
       titleNavContact: 'Go to contact and message form',
-      titleHeroPrimary: 'Scroll to highlights: Open Finance, AI/fraud, Petrobras',
+      titleHeroPrimary: 'Scroll to highlights: Sentinela, Open Finance, AI/fraud, Petrobras',
       titleHeroSecondary: 'Scroll to contact: email, phone, LinkedIn, form',
       titleStat1: 'KPI: years in IT and delivery leadership (~25 per 2026.1 résumé).',
       titleStat2: 'KPI: fraud-model precision uplift on Citibank program (+15% per résumé).',
@@ -171,7 +185,7 @@
       loadingTitle: 'Loading portfolio…',
       topicsSummary: 'Recruiting & search keywords',
       topicsBody:
-        '#LenilsonPinheiroValerio #LenilsonPinheiro #SeniorProjectManager #PMP #PSM #Scrum #OpenFinance #DigitalTransformation #DataGovernance #MachineLearning #AI #Citibank #Qintess #TCS #Petrobras #BancoDoNordeste #SondaIT #SUNAT #NTConsult #SAP #OutSystems #Salesforce #PowerBI #Tableau #Hadoop #Spark #AWS #Azure #GCP #Kubernetes #Kafka #MongoDB #Python #Java #CSharp #ITIL #COBIT #TOGAF #PhD #UNIFOR #Fortaleza #Hiring #ProgramManagement',
+        '#LenilsonPinheiroValerio #LenilsonPinheiro #SeniorProjectManager #SolutionsArchitect #PMP #PSM #Scrum #n8n #ReactNative #Kotlin #FastAPI #RAG #Sentinela #SaaS #OpenFinance #DigitalTransformation #DataGovernance #MachineLearning #AI #Citibank #Qintess #TCS #Petrobras #BancoDoNordeste #SondaIT #SUNAT #NTConsult #SAP #OutSystems #Salesforce #PowerBI #Tableau #Hadoop #Spark #AWS #Azure #GCP #Kubernetes #Kafka #MongoDB #Python #Java #CSharp #ITIL #COBIT #TOGAF #PhD #UNIFOR #Fortaleza #Hiring #ProgramManagement',
       footerCopy: 'Lenilson Pinheiro Valério · Fortaleza, CE, Brazil',
       footerPrivacyLink: 'Privacy policy',
       footerTermsLink: 'Terms of service',
@@ -230,10 +244,10 @@
         'These terms may be updated; the date above will be revised. Continued use after changes means you accept the updated terms.',
       termsFooterBack: 'Back to portfolio',
       typing: [
-        'Senior Project Manager',
-        'Digital transformation & data executive',
-        'AI / ML & Open Finance delivery',
-        'PhD candidate · PMP · PSM I',
+        'Senior PM & Solutions Architect',
+        'Projeto Sentinela · SaaS · FastAPI · RAG',
+        'React Native · Kotlin · n8n automation',
+        'PMP · PSM I · Open Finance · Petrobras',
       ],
       ariaMenu: 'Open menu',
       ariaMenuClose: 'Close menu',
@@ -245,12 +259,12 @@
     pt: {
       htmlLang: 'pt-BR',
       schemaName: 'Lenilson Pinheiro Valério',
-      schemaJobTitle: 'Senior Project Manager',
-      metaTitle: 'Lenilson Pinheiro Valério — Portfolio · Gerente de Projetos Sênior · Transformação Digital, Dados e IA',
+      schemaJobTitle: 'Gerente de Projetos Sênior e Arquiteto de Soluções',
+      metaTitle: 'Lenilson Pinheiro Valério — Portfolio · Gerente de Projetos Sênior & Arquiteto de Soluções · Transformação Digital, Dados e IA',
       metaDescription:
-        '~25 anos liderando programas no Citibank (Qintess), TCS/Petrobras, Banco do Nordeste e SUNAT (Peru). Doutorando em TI Aplicada (UNIFOR). PMP · PSM I. Open Finance, IA/ML para fraude, SAP e OutSystems. Fortaleza, CE.',
+        '~25 anos em Citibank (Qintess), TCS/Petrobras, Banco do Nordeste e SUNAT (Peru). Consultoria PJ desde out/2024: Projeto Sentinela (SaaS, FastAPI, RAG), React Native, Kotlin, n8n. Doutorado pausado (TI Aplicada, UNIFOR). PMP · PSM I. Fortaleza, CE.',
       metaKeywords:
-        'Lenilson Pinheiro Valério,Gerente de Projetos Sênior,PMP,PSM I,Open Finance,transformação digital,governança de dados,IA,Machine Learning,Citibank,Qintess,TCS,Petrobras,Banco do Nordeste,SUNAT,NTConsult,SAP,OutSystems,Salesforce,Power BI,Tableau,Hadoop,Spark,AWS,Azure,GCP,Python,Java,Kubernetes,Kafka,MongoDB,Scrum,ágil,ITIL,COBIT,UNIFOR,professor MBA',
+        'Lenilson Pinheiro Valério,Gerente de Projetos Sênior,Arquiteto de Soluções,PMP,PSM I,n8n,React Native,Kotlin,FastAPI,RAG,Projeto Sentinela,SaaS,Open Finance,Pentaho,transformação digital,governança de dados,IA,Machine Learning,Citibank,Qintess,TCS,Petrobras,Banco do Nordeste,SUNAT,NTConsult,SAP,OutSystems,Salesforce,Power BI,Tableau,Hadoop,Spark,AWS,Azure,GCP,Python,Java,Kubernetes,Kafka,MongoDB,Scrum,ágil,ITIL,COBIT,UNIFOR',
       ogLocale: 'pt_BR',
       langLabel: 'Idioma',
       navSkip: 'Pular para o conteúdo principal',
@@ -265,71 +279,85 @@
       heroCtaSecondary: 'Falar comigo',
       aboutTitle: 'Perfil',
       aboutSubtitle:
-        'Entrega de programas em nível executivo em bancos, energia e governo — com domínio profundo de dados, IA e arquitetura corporativa.',
+        'Entrega de programas em nível executivo em bancos, energia e governo — dados, IA, arquitetura corporativa, automação n8n e mobile (React Native / Kotlin).',
       aboutP1:
-        'Sou <span class="highlight">Gerente de Projetos Sênior</span> e <span class="highlight">especialista em transformação digital</span>, com <span class="highlight">cerca de 25 anos</span> liderando iniciativas estratégicas em organizações globais e reguladas — incluindo <span class="highlight">Citibank (Qintess)</span>, <span class="highlight">TCS na Petrobras</span>, <span class="highlight">Banco do Nordeste (Sonda IT)</span> e <span class="highlight">SUNAT (NTConsult, Peru)</span>. Uno rigor <span class="highlight">PMP e Scrum (PSM I)</span> a fluência técnica em dados, nuvem e integrações.',
+        'Sou <span class="highlight">Gerente de Projetos Sênior</span> e <span class="highlight">Arquiteto de Soluções</span>, com <span class="highlight">cerca de 25 anos</span> em transformação digital em grandes corporações — <span class="highlight">Citibank (Qintess)</span>, <span class="highlight">TCS na Petrobras</span>, <span class="highlight">Banco do Nordeste (Sonda IT)</span> e <span class="highlight">SUNAT (NTConsult, Peru)</span>. Desde <span class="highlight">out/2024</span> atuo em <span class="highlight">consultoria PJ</span> focada em <span class="highlight">SaaS, automação com n8n, React Native, Kotlin, Python/FastAPI e RAG</span>. Metodologia <span class="highlight">PMP e Scrum (PSM I)</span> com profundidade técnica comprovada.',
       aboutP2:
-        'Impacto recente: <span class="highlight">Open Finance</span> e pagamentos globais (SWIFT, ISO 20022); <span class="highlight">+15% na precisão preditiva</span> de modelos de fraude (programa de IA/ML no Citibank, conforme CV); <span class="highlight">modernização na Petrobras</span> migrando legado para <span class="highlight">OutSystems e SAP</span>, com governança ágil de terceirização, riscos e reporting executivo.',
+        'Impacto recente: liderança do <span class="highlight">Projeto Sentinela</span> (control plane SaaS); <span class="highlight">Open Finance</span> com SWIFT / ISO 20022 e mobile (<span class="highlight">React Native e Kotlin</span>); <span class="highlight">+15% na precisão preditiva</span> em modelos antifraude no Citibank; <span class="highlight">modernização na Petrobras</span> com <span class="highlight">OutSystems e SAP</span> e governança ágil de terceirização.',
       aboutP3:
-        'Formação: <span class="highlight">Doutorando em TI Aplicada — UNIFOR (previsão 2027)</span>; MBA em Gestão de Projetos de TI (Farias Brito, 2016); Mestrado em Informática Aplicada (UNIFOR, 2014); Bacharelado em Ciência da Computação (UNIFOR, 2010). Professor de MBA em <span class="highlight">Ciência de Dados, BI e Big Data</span> na FBUNI e UNIFOR (até 2025). Certificações: <span class="highlight">PMP (PMI)</span> e <span class="highlight">PSM I (Scrum.org)</span>; treinamentos em ITIL, COBIT e TOGAF; aperfeiçoamento em SAP CPS, OutSystems, Salesforce e Ciência de Dados (2023–2025).',
+        'Formação: <span class="highlight">Doutorado em TI Aplicada — UNIFOR (pausado)</span> para dedicação a projetos e contratos PJ; MBA em Gestão de Projetos de TI (Farias Brito, 2016); Mestrado em Informática Aplicada e Bacharelado em Ciência da Computação (UNIFOR). Certificações: <span class="highlight">PMP (PMI)</span> e <span class="highlight">PSM I (Scrum.org)</span>; ITIL, COBIT e TOGAF; aprofundamento em <span class="highlight">n8n, React Native, Kotlin, SAP CPS, OutSystems, Salesforce e Ciência de Dados (2023–2025)</span>.',
       statProjects: 'Anos em TI, dados e liderança de entregas',
       statYears: '% de ganho na precisão de modelos antifraude (Citibank)',
       statClients: 'Certificações carro-chefe (PMP · PSM I)',
       statTech: 'Anos liderando programas no Citibank (Qintess)',
-      expTitle: 'Experiência (alinhada ao CV 2026.1)',
+      expTitle: 'Experiência (alinhada ao CV)',
       expSubtitle:
-        'Escopo sintetizado a partir do seu currículo EN/PT e do LinkedIn — linguagem orientada a recrutadores.',
-      exp1Role: 'TCS — alocado na Petrobras · Gerente de Projetos Sênior',
-      exp1Meta: 'Mar 2025 – nov 2025 · Transformação digital e modernização de legado',
+        'Consultoria PJ (Projeto Sentinela, mobile, n8n), empregadores-chave e formação — conforme seu currículo atual.',
+      exp1Role: 'Consultoria PJ · Arquiteto de Soluções Independente',
+      exp1Meta: 'Out 2024 – presente · SaaS, mobile e automação inteligente',
       exp1b1:
-        'Liderei projetos de alto impacto migrando sistemas legados para OutSystems e SAP em modelo de terceirização ágil.',
+        'Liderança e desenvolvimento do <span class="highlight">Projeto Sentinela</span>, SaaS control plane com arquitetura avançada (<span class="highlight">Python, FastAPI, RAG</span>).',
       exp1b2:
-        'Planejamento de recursos, mitigação de riscos, cronograma e report executivo com times distribuídos.',
+        'Aplicativos multiplataforma com <span class="highlight">React Native</span> e módulos nativos em <span class="highlight">Kotlin</span>, garantindo alta performance.',
       exp1b3:
-        'Governança de entrega alinhada a controles corporativos, com transparência de escopo, custo e qualidade.',
-      exp2Role: 'Citibank — via Qintess · Gerente de Projetos Sênior',
-      exp2Meta: 'Mai 2020 – out 2024 · Serviços financeiros regulados e IA',
+        'Fluxos complexos de automação de processos e integração de APIs com <span class="highlight">n8n</span>, otimizando operação e reduzindo custos.',
+      exp2Role: 'TCS — alocado na Petrobras · Gerente de Projetos Sênior',
+      exp2Meta: 'Mar 2025 – nov 2025 · Transformação digital e modernização de legado',
       exp2b1:
-        'Open Finance: projeto estratégico (orçamento da ordem de <span class="highlight">R$ 5 milhões</span> no CV PT), com entrega <span class="highlight">~10% antes</span> do marco regulatório (conforme currículo).',
+        'Projetos de alto impacto migrando sistemas legados para <span class="highlight">OutSystems e SAP</span> em modelo de terceirização ágil.',
       exp2b2:
-        'IA & fraude: direção da implementação de modelos de ML para detecção de fraudes, com <span class="highlight">+15% na precisão preditiva</span> (currículo).',
+        'Planejamento de recursos, mitigação de riscos, cronograma e report executivo com times distribuídos.',
       exp2b3:
-        'Dados: governança e pipelines de BI com trilhos de pagamento globais (SWIFT, ISO 20022), incluindo coordenação multi-banco conforme CV 2026.1 (Citibank / Goldman Sachs).',
-      exp3Role: 'NTConsult, Sonda IT e lideranças anteriores',
-      exp3Meta: '2010 – 2019 · Arquitetura, PM bancário, BI e telecom',
+        'Governança de entrega com transparência de escopo, custo e qualidade para executivos e parceiros.',
+      exp3Role: 'Citibank — via Qintess · Gerente de Projetos Sênior / Especialista Técnico',
+      exp3Meta: 'Mai 2020 – out 2024 · Serviços financeiros regulados, mobile e IA',
       exp3b1:
-        'Arquiteto de Software Sênior na SUNAT (Conta Única Nacional): arquitetura de dados e aplicações com Kubernetes, Kafka, MongoDB e práticas DevOps.',
+        'Open Finance & mobile: projeto estratégico (<span class="highlight">orçamento R$ 5 milhões</span>), entrega <span class="highlight">~10% antes</span> do prazo regulatório; arquitetura e gestão de interfaces e integrações mobile com <span class="highlight">React Native e Kotlin</span> (3+ anos no ciclo do projeto).',
       exp3b2:
-        'Gerente de Projetos Sênior na Sonda IT (Banco do Nordeste): ciclo completo — planejamento, custos, cronograma, análise de risco e alinhamento estratégico.',
+        'Automação de processos: orquestração com <span class="highlight">n8n</span>, conectando sistemas globais (<span class="highlight">SWIFT, ISO 20022</span>) de forma automatizada.',
       exp3b3:
-        'Anteriormente: BI/ETL para Claro e TIM; sistemas web e sincronização para Vivo e Oi; Salesforce + SAP/RM na DeVry; requisitos e BPM com SAP MM/FI no LSBD; dashboards em tempo real na Montreal; análise de pontos de função e PMO na Unigex.',
-      exp4Role: 'Ensino superior e credenciais',
-      exp4Meta: 'Docência · Certificações · Aperfeiçoamento',
+        'IA & fraude: implementação de modelos de ML para detecção de fraudes (<span class="highlight">+15% na precisão preditiva</span>), com automações em <span class="highlight">n8n</span> para alertas em tempo real.',
+      exp4Role: 'NTConsult, Sonda IT e lideranças anteriores',
+      exp4Meta: '2008 – 2019 · Arquitetura, PM bancário, BI e telecom',
       exp4b1:
-        'Professor de MBA — Ciência de Dados, BI e Big Data (FBUNI; jan 2022–jun 2025) e gestão analítica / BI / Big Data (UNIFOR; jan 2021–jun 2025), conforme LinkedIn.',
+        'Arquiteto de Software Sênior na SUNAT (Conta Única Nacional): arquitetura com Kubernetes, Kafka, MongoDB e DevOps.',
       exp4b2:
-        'PMP (PMI) e Professional Scrum Master I (Scrum.org); treinamentos em ITIL, COBIT e TOGAF.',
+        'Gerente de Projetos Sênior na Sonda IT (Banco do Nordeste): ciclo completo — planejamento, custos, cronograma, riscos e alinhamento estratégico.',
       exp4b3:
-        'Cursos recentes: SAP CPS, OutSystems, Salesforce e Ciência de Dados (2023–2025), conforme currículo.',
+        'Anteriormente: BI (ETL, dashboards) para Claro e TIM; sistemas web e sincronização para operadoras; Salesforce CRM + SAP/RM e Marketing Cloud na DeVry; requisitos e BPM (Bizagi) com SAP MM/FI no LSBD; dashboards em tempo real na Montreal; análise de pontos de função na Unigex.',
+      exp5Role: 'Formação acadêmica e credenciais',
+      exp5Meta: 'Títulos · Certificações · Aperfeiçoamento',
+      exp5b1:
+        'Doutorado em TI Aplicada (UNIFOR) <span class="highlight">pausado</span> para projetos e contratos PJ; MBA Gestão de Projetos de TI (Farias Brito, 2016); Mestrado e Bacharelado (UNIFOR).',
+      exp5b2:
+        '<span class="highlight">PMP (PMI)</span> e <span class="highlight">PSM I (Scrum.org)</span>; treinamentos em ITIL, COBIT e TOGAF.',
+      exp5b3:
+        'Cursos recentes: <span class="highlight">n8n</span> (fluxos avançados), <span class="highlight">React Native</span>, <span class="highlight">Kotlin</span>, SAP CPS, OutSystems, Salesforce, Ciência de Dados (2023–2025).',
       techTitle: 'Competências e ferramentas',
       techSubtitle:
         'Gestão, plataformas de dados, nuvem/IA e stack corporativo — eixos do seu CV 2026.1.',
       projTitle: 'Destaques de programa',
       projSubtitle:
-        'Resultados representativos em ambientes regulados e de grande escala. Linha do tempo completa no LinkedIn e nos PDFs.',
+        'Consultoria (Sentinela), programas regulados em banco, transformação na energia e stack de automação. Confira datas no LinkedIn / PDF.',
       proj1Title: 'Open Finance e pagamentos globais (Citibank / Qintess)',
       proj1Desc:
-        'Liderança de iniciativa Open Finance com orçamento relevante (CV PT: <span class="highlight">~R$ 5 milhões</span>), <span class="highlight">antecipação ~10%</span> ao marco regulatório e integrações SWIFT / ISO 20022 com governança executiva.',
+        'Iniciativa Open Finance com orçamento relevante (<span class="highlight">~R$ 5 milhões</span>), <span class="highlight">antecipação ~10%</span> ao marco regulatório; mobile <span class="highlight">React Native / Kotlin</span> e trilhos SWIFT / ISO 20022.',
       proj2Title: 'IA / ML para fraude e risco (Citibank)',
       proj2Desc:
-        'Coordenação de modelos de machine learning para detecção de fraudes, com <span class="highlight">+15% de ganho na precisão preditiva</span> em relação ao baseline — conforme currículo 2026.1.',
+        'Modelos de machine learning para fraude com <span class="highlight">+15% na precisão preditiva</span>; automações em <span class="highlight">n8n</span> para alertas operacionais em tempo real.',
       proj3Title: 'Transformação digital na Petrobras (TCS)',
       proj3Desc:
-        'Gerente de projetos em frente à Petrobras: <span class="highlight">modernização legado → OutSystems/SAP</span>, controles de terceirização ágil, mitigação de risco e reporting transparente.',
+        'Gerente de projetos na frente Petrobras: <span class="highlight">modernização legado → OutSystems/SAP</span>, terceirização ágil, mitigação de risco e reporting executivo.',
+      proj4Title: 'Projeto Sentinela — SaaS control plane (consultoria)',
+      proj4Desc:
+        'Arquitetura e construção de um <span class="highlight">SaaS control plane</span> com <span class="highlight">Python, FastAPI e RAG</span> — produto âncora da consultoria desde out/2024.',
+      proj5Title: 'Apps mobile e automação n8n (consultoria)',
+      proj5Desc:
+        'Apps <span class="highlight">React Native</span> com módulos <span class="highlight">Kotlin</span>; fluxos corporativos em <span class="highlight">n8n</span> integrando APIs e reduzindo custo operacional.',
       projCta: 'Conferir no LinkedIn <i class="fab fa-linkedin-in" aria-hidden="true"></i>',
       contactTitle: 'Vamos conversar',
       contactLead:
-        'Aberto a <span class="highlight">papéis de gerente / diretor de programa</span>, <span class="highlight">mandatos de transformação com dados e IA</span> e assessoria em bancos, energia e setor público. Envie objetivos, restrições e geografia — respondo com plano claro.',
+        'Aberto a <span class="highlight">papéis de gerente / diretor de programa</span> e <span class="highlight">Arquiteto de Soluções / SaaS</span>, <span class="highlight">mandatos de transformação com dados e IA</span> e assessoria em bancos, energia e setor público. Envie objetivos e geografia — respondo com plano claro.',
       formTitle: 'Mensagem direta',
       formHint:
         'Envia e-mail para lenilsonpinheiro@gmail.com via Google Apps Script (MailApp na sua conta Google). Sem ativação de serviço de terceiros.',
@@ -350,7 +378,7 @@
       titleNavTech: 'Ir para competências e ferramentas',
       titleNavProjects: 'Ir para destaques de programa',
       titleNavContact: 'Ir para contato e formulário',
-      titleHeroPrimary: 'Ir para destaques: Open Finance, IA/fraude, Petrobras',
+      titleHeroPrimary: 'Ir para destaques: Sentinela, Open Finance, IA/fraude, Petrobras',
       titleHeroSecondary: 'Ir para contato: e-mail, telefone, LinkedIn, formulário',
       titleStat1: 'Indicador: anos em TI e liderança de entregas (~25 no CV 2026.1).',
       titleStat2: 'Indicador: ganho de precisão em modelo antifraude no Citibank (+15% no CV).',
@@ -373,7 +401,7 @@
       loadingTitle: 'A carregar o portfólio…',
       topicsSummary: 'Palavras-chave para recrutamento e busca',
       topicsBody:
-        '#LenilsonPinheiroValerio #LenilsonPinheiro #GerenteDeProjetos #PMP #PSM #Scrum #OpenFinance #TransformacaoDigital #GovernancaDeDados #MachineLearning #IA #Citibank #Qintess #TCS #Petrobras #BancoDoNordeste #SondaIT #SUNAT #NTConsult #SAP #OutSystems #Salesforce #PowerBI #Tableau #Hadoop #Spark #AWS #Azure #GCP #Kubernetes #Kafka #MongoDB #Python #Java #CSharp #ITIL #COBIT #TOGAF #Doutorado #UNIFOR #Fortaleza #Contratacao #GestaoDeProjetos',
+        '#LenilsonPinheiroValerio #LenilsonPinheiro #GerenteDeProjetos #ArquitetoDeSolucoes #PMP #PSM #Scrum #n8n #ReactNative #Kotlin #FastAPI #RAG #ProjetoSentinela #SaaS #OpenFinance #TransformacaoDigital #GovernancaDeDados #MachineLearning #IA #Citibank #Qintess #TCS #Petrobras #BancoDoNordeste #SondaIT #SUNAT #NTConsult #SAP #OutSystems #Salesforce #PowerBI #Tableau #Hadoop #Spark #AWS #Azure #GCP #Kubernetes #Kafka #MongoDB #Python #Java #CSharp #ITIL #COBIT #TOGAF #Doutorado #UNIFOR #Fortaleza #Contratacao',
       footerCopy: 'Lenilson Pinheiro Valério · Fortaleza, CE, Brasil',
       footerPrivacyLink: 'Política de privacidade',
       footerTermsLink: 'Termos de serviço',
@@ -432,10 +460,10 @@
         'Estes termos podem ser atualizados; a data acima será revista. O uso continuado após alterações implica aceitação.',
       termsFooterBack: 'Voltar ao portfólio',
       typing: [
-        'Gerente de Projetos Sênior',
-        'Transformação digital e dados',
-        'Open Finance e IA/ML em produção',
-        'Doutorando · PMP · PSM I',
+        'Gerente de Projetos & Arquiteto de Soluções',
+        'Projeto Sentinela · SaaS · FastAPI · RAG',
+        'React Native · Kotlin · n8n',
+        'PMP · PSM I · Open Finance · Petrobras',
       ],
       ariaMenu: 'Abrir menu',
       ariaMenuClose: 'Fechar menu',
@@ -447,12 +475,12 @@
     es: {
       htmlLang: 'es-ES',
       schemaName: 'Lenilson Pinheiro Valério',
-      schemaJobTitle: 'Senior Project Manager',
-      metaTitle: 'Lenilson Pinheiro Valério — Portfolio · Director de proyecto senior · Transformación digital, datos e IA',
+      schemaJobTitle: 'Director de proyecto senior y Arquitecto de Soluciones',
+      metaTitle: 'Lenilson Pinheiro Valério — Portfolio · Director senior & Arquitecto · Transformación digital, datos e IA',
       metaDescription:
-        '~25 años liderando programas en Citibank (Qintess), TCS/Petrobras, Banco do Nordeste y SUNAT (Perú). Doctorando en TI aplicada (UNIFOR). PMP · PSM I. Open Finance, IA/ML antifraude, SAP y OutSystems. Fortaleza, Brasil.',
+        '~25 años en Citibank (Qintess), TCS/Petrobras, Banco do Nordeste y SUNAT (Perú). Consultoría independiente desde oct 2024: Proyecto Sentinela (SaaS, FastAPI, RAG), React Native, Kotlin, n8n. Doctorado en pausa (TI aplicada, UNIFOR). PMP · PSM I. Fortaleza, Brasil.',
       metaKeywords:
-        'Lenilson Pinheiro Valério,Senior Project Manager,PMP,PSM I,Open Finance,transformación digital,gobierno del dato,IA,Machine Learning,Citibank,Qintess,TCS,Petrobras,SUNAT,NTConsult,SAP,OutSystems,Salesforce,Power BI,Tableau,Hadoop,Spark,AWS,Azure,GCP,Kubernetes,Kafka,MongoDB,Python,Java,Scrum,ágil,ITIL,COBIT,UNIFOR',
+        'Lenilson Pinheiro Valério,Senior Project Manager,Solutions Architect,PMP,PSM I,n8n,React Native,Kotlin,FastAPI,RAG,Sentinela,SaaS,Open Finance,Pentaho,transformación digital,gobierno del dato,IA,Machine Learning,Citibank,Qintess,TCS,Petrobras,SUNAT,NTConsult,SAP,OutSystems,Salesforce,Power BI,Tableau,Hadoop,Spark,AWS,Azure,GCP,Kubernetes,Kafka,MongoDB,Python,Java,Scrum,ágil,ITIL,COBIT,UNIFOR',
       ogLocale: 'es_ES',
       langLabel: 'Idioma',
       navSkip: 'Saltar al contenido principal',
@@ -467,71 +495,85 @@
       heroCtaSecondary: 'Contactar',
       aboutTitle: 'Perfil',
       aboutSubtitle:
-        'Dirección de programas de nivel ejecutivo en banca, energía y sector público — con dominio profundo de datos, IA y arquitectura empresarial.',
+        'Dirección de programas ejecutivos en banca, energía y sector público — datos, IA, arquitectura empresarial, automatización n8n y mobile (React Native / Kotlin).',
       aboutP1:
-        'Soy <span class="highlight">Senior Project Manager</span> y <span class="highlight">especialista en transformación digital</span>, con <span class="highlight">~25 años</span> liderando iniciativas para organizaciones globales y reguladas — <span class="highlight">Citibank (Qintess)</span>, <span class="highlight">TCS en Petrobras</span>, <span class="highlight">Banco do Nordeste (Sonda IT)</span> y <span class="highlight">SUNAT (NTConsult, Perú)</span>. Combino disciplina <span class="highlight">PMP y Scrum (PSM I)</span> con fluidez técnica en datos, nube e integración.',
+        'Soy <span class="highlight">Senior Project Manager</span> y <span class="highlight">Arquitecto de Soluciones</span>, con <span class="highlight">~25 años</span> en transformación digital — <span class="highlight">Citibank (Qintess)</span>, <span class="highlight">TCS en Petrobras</span>, <span class="highlight">Banco do Nordeste (Sonda IT)</span> y <span class="highlight">SUNAT (NTConsult, Perú)</span>. Desde <span class="highlight">oct 2024</span> brindo <span class="highlight">consultoría independiente</span> en <span class="highlight">SaaS, n8n, React Native, Kotlin, Python/FastAPI y RAG</span>. Marco mi trabajo con <span class="highlight">PMP y Scrum (PSM I)</span> y solidez técnica.',
       aboutP2:
-        'Impacto reciente: <span class="highlight">Open Finance</span> y pagos globales (SWIFT, ISO 20022); <span class="highlight">+15% en precisión predictiva</span> de modelos antifraude (programa IA/ML en Citibank, según CV); <span class="highlight">modernización Petrobras</span> hacia <span class="highlight">OutSystems y SAP</span> con gobernanza ágil, riesgos y reporting ejecutivo.',
+        'Impacto reciente: <span class="highlight">Proyecto Sentinela</span> (SaaS control plane); <span class="highlight">Open Finance</span> con SWIFT / ISO 20022 y mobile (<span class="highlight">React Native y Kotlin</span>); <span class="highlight">+15% en precisión predictiva</span> antifraude en Citibank; <span class="highlight">modernización Petrobras</span> con <span class="highlight">OutSystems y SAP</span> y gobierno ágil de outsourcing.',
       aboutP3:
-        'Formación: <span class="highlight">Doctorando en TI aplicada — UNIFOR (previsto 2027)</span>; MBA en gestión de proyectos de TI (Farias Brito, 2016); Máster en informática aplicada (UNIFOR, 2014); grado en informática (UNIFOR, 2010). Profesor de MBA en <span class="highlight">ciencia de datos, BI y Big Data</span> (FBUNI y UNIFOR, hasta 2025). Certificaciones: <span class="highlight">PMP (PMI)</span> y <span class="highlight">PSM I (Scrum.org)</span>; formación en ITIL, COBIT y TOGAF; actualización en SAP CPS, OutSystems, Salesforce y ciencia de datos (2023–2025).',
+        'Formación: <span class="highlight">Doctorado en TI aplicada — UNIFOR (en pausa)</span> por foco en proyectos y contratos; MBA gestión de proyectos TI (Farias Brito, 2016); máster y grado (UNIFOR). Certificaciones: <span class="highlight">PMP (PMI)</span> y <span class="highlight">PSM I (Scrum.org)</span>; ITIL, COBIT y TOGAF; profundización en <span class="highlight">n8n, React Native, Kotlin, SAP CPS, OutSystems, Salesforce y ciencia de datos (2023–2025)</span>.',
       statProjects: 'Años en TI, datos y liderazgo de entregas',
       statYears: '% de mejora en precisión antifraude (Citibank)',
       statClients: 'Certificaciones clave (PMP · PSM I)',
       statTech: 'Años liderando programas en Citibank (Qintess)',
-      expTitle: 'Experiencia (alineada al CV 2026.1)',
+      expTitle: 'Experiencia (alineada al CV)',
       expSubtitle:
-        'Alcance sintetizado desde su CV EN/PT y LinkedIn — redacción orientada a reclutadores.',
-      exp1Role: 'TCS — asignado a Petrobras · Senior Project Manager',
-      exp1Meta: 'Mar 2025 – nov 2025 · Transformación digital y legado',
+        'Consultoría independiente (Sentinela, mobile, n8n), empleadores destacados y credenciales según su currículo.',
+      exp1Role: 'Consultoría independiente (PJ) · Arquitecto de Soluciones',
+      exp1Meta: 'Oct 2024 – actual · SaaS, mobile y automatización inteligente',
       exp1b1:
-        'Programas de alto impacto migrando sistemas legados a OutSystems y SAP en modelo de outsourcing ágil.',
+        'Liderazgo y desarrollo del <span class="highlight">Proyecto Sentinela</span>, SaaS control plane con arquitectura avanzada (<span class="highlight">Python, FastAPI, RAG</span>).',
       exp1b2:
-        'Planificación de recursos, riesgos, cronograma y reporting ejecutivo con equipos distribuidos.',
+        'Apps multiplataforma con <span class="highlight">React Native</span> y módulos nativos en <span class="highlight">Kotlin</span> para alto rendimiento.',
       exp1b3:
-        'Gobernanza de entrega alineada a controles corporativos y transparencia de alcance, coste y calidad.',
-      exp2Role: 'Citibank — vía Qintess · Senior Project Manager',
-      exp2Meta: 'May 2020 – oct 2024 · Servicios financieros regulados e IA',
+        'Automatización compleja de procesos e integración de APIs con <span class="highlight">n8n</span>, optimizando operación y costo.',
+      exp2Role: 'TCS — asignado a Petrobras · Senior Project Manager',
+      exp2Meta: 'Mar 2025 – nov 2025 · Transformación digital y legado',
       exp2b1:
-        'Open Finance: programa estratégico con presupuesto significativo (CV EN: ~USD 1M; CV PT: ~R$ 5M), con entrega <span class="highlight">~10% antes</span> del plazo regulatorio (según CV).',
+        'Programas de alto impacto migrando legado a <span class="highlight">OutSystems y SAP</span> en outsourcing ágil.',
       exp2b2:
-        'IA y riesgo: modelos ML para detección de fraude con <span class="highlight">+15% de mejora en precisión predictiva</span> (CV).',
+        'Planificación de recursos, riesgos, cronograma y reporting ejecutivo con equipos distribuidos.',
       exp2b3:
-        'Datos: gobierno y pipelines de BI con raíles de pago globales (SWIFT, ISO 20022), incluyendo coordinación multi-banco según CV 2026.1 (Citibank / Goldman Sachs).',
-      exp3Role: 'NTConsult, Sonda IT y roles anteriores',
-      exp3Meta: '2010 – 2019 · Arquitectura, PM bancario, BI y telecom',
+        'Gobernanza de entrega con alcance, coste y calidad transparentes para ejecutivos y socios.',
+      exp3Role: 'Citibank — vía Qintess · Senior PM / Experto técnico',
+      exp3Meta: 'May 2020 – oct 2024 · Servicios financieros regulados, mobile e IA',
       exp3b1:
-        'Arquitecto de software senior en SUNAT (Cuenta Única Nacional): arquitectura de datos y apps con Kubernetes, Kafka, MongoDB y DevOps.',
+        'Open Finance y mobile: programa estratégico (<span class="highlight">~USD 1M</span> CV EN; <span class="highlight">~R$ 5M</span> CV PT), entrega <span class="highlight">~10% antes</span> del plazo regulatorio; interfaces e integraciones mobile con <span class="highlight">React Native y Kotlin</span> (3+ años en el ciclo).',
       exp3b2:
-        'Senior PM en Sonda IT (Banco do Nordeste): ciclo completo — planificación, costes, cronograma, riesgos y alineación estratégica.',
+        'Automatización: orquestación con <span class="highlight">n8n</span> conectando sistemas globales (<span class="highlight">SWIFT, ISO 20022</span>).',
       exp3b3:
-        'Anteriormente: BI/ETL para Claro y TIM; web y sincronización para Vivo y Oi; Salesforce + SAP/RM en DeVry; requisitos y BPM con SAP MM/FI en LSBD; dashboards en Montreal; análisis de puntos de función y PMO en Unigex.',
-      exp4Role: 'Educación superior y credenciales',
-      exp4Meta: 'Docencia · Certificaciones · Formación continua',
+        'IA y fraude: modelos ML antifraude con <span class="highlight">+15% en precisión predictiva</span>; automatizaciones <span class="highlight">n8n</span> para alertas en tiempo real.',
+      exp4Role: 'NTConsult, Sonda IT y roles anteriores',
+      exp4Meta: '2008 – 2019 · Arquitectura, PM bancario, BI y telecom',
       exp4b1:
-        'Profesor MBA — ciencia de datos, BI y Big Data (FBUNI; ene 2022–jun 2025) y gestión analítica / BI / Big Data (UNIFOR; ene 2021–jun 2025), según LinkedIn.',
+        'Arquitecto senior SUNAT (Cuenta Única Nacional): datos y apps con Kubernetes, Kafka, MongoDB y DevOps.',
       exp4b2:
-        'PMP (PMI) y Professional Scrum Master I (Scrum.org); formación en ITIL, COBIT y TOGAF.',
+        'Senior PM Sonda IT (Banco do Nordeste): ciclo completo — planificación, costes, cronograma, riesgos y alineación.',
       exp4b3:
-        'Cursos recientes: SAP CPS, OutSystems, Salesforce y ciencia de datos (2023–2025), según CV.',
+        'Anteriormente: BI/ETL para Claro y TIM; web y sincronización para operadores; Salesforce + SAP/RM y Marketing Cloud en DeVry; requisitos y BPM (Bizagi) con SAP MM/FI en LSBD; dashboards en Montreal; puntos de función en Unigex.',
+      exp5Role: 'Educación superior y credenciales',
+      exp5Meta: 'Títulos · Certificaciones · Formación continua',
+      exp5b1:
+        'Doctorado TI aplicada (UNIFOR) <span class="highlight">en pausa</span> por proyectos y contratos; MBA proyectos TI (Farias Brito, 2016); máster y grado (UNIFOR).',
+      exp5b2:
+        '<span class="highlight">PMP (PMI)</span> y <span class="highlight">PSM I (Scrum.org)</span>; formación ITIL, COBIT y TOGAF.',
+      exp5b3:
+        'Profundización reciente: <span class="highlight">n8n</span>, <span class="highlight">React Native</span>, <span class="highlight">Kotlin</span>, SAP CPS, OutSystems, Salesforce, ciencia de datos (2023–2025).',
       techTitle: 'Competencias y herramientas',
       techSubtitle:
         'Gestión, plataformas de datos, nube/IA y stack empresarial — ejes del CV 2026.1.',
       projTitle: 'Hitos de programa',
       projSubtitle:
-        'Resultados en entornos regulados y de gran escala. Cronología completa en LinkedIn y PDFs.',
+        'Consultoría (Sentinela), banca regulada, energía y automatización. Cronología completa en LinkedIn / PDF.',
       proj1Title: 'Open Finance y pagos globales (Citibank / Qintess)',
       proj1Desc:
-        'Dirección de Open Finance con presupuesto relevante (CV EN ~USD 1M), <span class="highlight">~10% antes</span> del hito regulatorio e integraciones SWIFT / ISO 20022 con gobierno ejecutivo.',
+        'Open Finance con presupuesto relevante (CV EN ~USD 1M; PT ~R$ 5M), <span class="highlight">~10% antes</span> del hito regulatorio; mobile <span class="highlight">React Native / Kotlin</span> e integraciones SWIFT / ISO 20022.',
       proj2Title: 'IA / ML para fraude y riesgo (Citibank)',
       proj2Desc:
-        'Implementación de modelos ML antifraude con <span class="highlight">+15% de mejora en precisión predictiva</span> frente al baseline — CV 2026.1.',
+        'Modelos ML antifraude con <span class="highlight">+15% de mejora en precisión predictiva</span>; flujos <span class="highlight">n8n</span> para alertas en tiempo real.',
       proj3Title: 'Transformación digital Petrobras (TCS)',
       proj3Desc:
-        'Senior PM frente a Petrobras: <span class="highlight">modernización legado → OutSystems/SAP</span>, controles de outsourcing ágil, mitigación de riesgos y reporting transparente.',
+        'Senior PM frente a Petrobras: <span class="highlight">legado → OutSystems/SAP</span>, outsourcing ágil, mitigación de riesgos y reporting ejecutivo.',
+      proj4Title: 'Proyecto Sentinela — SaaS control plane (consultoría)',
+      proj4Desc:
+        'Arquitectura de un <span class="highlight">SaaS control plane</span> con <span class="highlight">Python, FastAPI y RAG</span> — línea insignia desde oct 2024.',
+      proj5Title: 'Mobile y automatización n8n (consultoría)',
+      proj5Desc:
+        'Apps <span class="highlight">React Native</span> con <span class="highlight">Kotlin</span>; workflows <span class="highlight">n8n</span> integrando APIs y reduciendo coste operativo.',
       projCta: 'Verificar en LinkedIn <i class="fab fa-linkedin-in" aria-hidden="true"></i>',
       contactTitle: 'Hablemos',
       contactLead:
-        'Abierto a <span class="highlight">roles senior PM / director de programa</span>, <span class="highlight">mandatos de datos e IA</span> y asesoría en banca, energía y sector público. Comparta objetivos y restricciones — respondo con un plan claro.',
+        'Abierto a <span class="highlight">roles senior PM / director de programa</span> y <span class="highlight">Arquitecto de Soluciones / SaaS</span>, <span class="highlight">mandatos de datos e IA</span> y asesoría en banca, energía y sector público. Comparta objetivos — respondo con un plan claro.',
       formTitle: 'Mensaje directo',
       formHint:
         'Envía correo a lenilsonpinheiro@gmail.com mediante Google Apps Script (MailApp en tu cuenta Google). Sin activación de terceros.',
@@ -552,7 +594,7 @@
       titleNavTech: 'Ir a competencias y herramientas',
       titleNavProjects: 'Ir a hitos de programa',
       titleNavContact: 'Ir a contacto y formulario',
-      titleHeroPrimary: 'Ir a hitos: Open Finance, IA/fraude, Petrobras',
+      titleHeroPrimary: 'Ir a hitos: Sentinela, Open Finance, IA/fraude, Petrobras',
       titleHeroSecondary: 'Ir a contacto: correo, teléfono, LinkedIn, formulario',
       titleStat1: 'KPI: años en TI y liderazgo de entregas (~25 en CV 2026.1).',
       titleStat2: 'KPI: mejora de precisión antifraude en Citibank (+15% en CV).',
@@ -575,7 +617,7 @@
       loadingTitle: 'Cargando portafolio…',
       topicsSummary: 'Palabras clave para reclutamiento',
       topicsBody:
-        '#LenilsonPinheiroValerio #LenilsonPinheiro #SeniorProjectManager #PMP #PSM #Scrum #OpenFinance #TransformacionDigital #GobiernoDelDato #MachineLearning #IA #Citibank #Qintess #TCS #Petrobras #SUNAT #NTConsult #SAP #OutSystems #Salesforce #PowerBI #Tableau #Hadoop #Spark #AWS #Azure #GCP #Kubernetes #Kafka #MongoDB #Python #Java #ITIL #COBIT #TOGAF #Doctorado #UNIFOR #Fortaleza #Contratacion',
+        '#LenilsonPinheiroValerio #LenilsonPinheiro #SeniorProjectManager #SolutionsArchitect #PMP #PSM #Scrum #n8n #ReactNative #Kotlin #FastAPI #RAG #Sentinela #SaaS #OpenFinance #TransformacionDigital #GobiernoDelDato #MachineLearning #IA #Citibank #Qintess #TCS #Petrobras #SUNAT #NTConsult #SAP #OutSystems #Salesforce #PowerBI #Tableau #Hadoop #Spark #AWS #Azure #GCP #Kubernetes #Kafka #MongoDB #Python #Java #ITIL #COBIT #TOGAF #Doctorado #UNIFOR #Fortaleza #Contratacion',
       footerCopy: 'Lenilson Pinheiro Valério · Fortaleza, CE, Brasil',
       footerPrivacyLink: 'Política de privacidad',
       footerTermsLink: 'Términos del servicio',
@@ -634,10 +676,10 @@
         'Estos términos pueden actualizarse; la fecha superior se revisará. El uso continuado implica aceptación.',
       termsFooterBack: 'Volver al portafolio',
       typing: [
-        'Senior Project Manager',
-        'Transformación digital y datos',
-        'Open Finance e IA/ML',
-        'Doctorando · PMP · PSM I',
+        'Senior PM y Arquitecto de Soluciones',
+        'Proyecto Sentinela · SaaS · FastAPI · RAG',
+        'React Native · Kotlin · n8n',
+        'PMP · PSM I · Open Finance · Petrobras',
       ],
       ariaMenu: 'Abrir menú',
       ariaMenuClose: 'Cerrar menú',

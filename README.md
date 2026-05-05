@@ -35,6 +35,8 @@ O conteúdo profissional (cargos, datas, métricas e empresas) está **alinhado 
 
 - **`sw.js` (Service Worker):** na segunda e seguintes visitas, **CSS, JS, manifest, favicon, llms/robots/sitemap** tendem a servir a partir do **Cache Storage** (rápido); o **HTML** usa *network-first* com recurso ao cache se estiver offline.
 - Após alterações grandes em ficheiros, **incremente `VERSION` em `sw.js`** para forçar renovação do cache.
+- **`index.html`** contém textos padrão (EN) no corpo alinhados a `js/i18n.js` para SEO, `Ctrl+F` e carregamento sem depender só do JS; o i18n continua a substituir por `pt`/`es` consoante o idioma.
+- **Query `?v=…` em `css/site.css` e `js/*.js`** no `index.html` (e páginas legais) reduz risco de browser a manter ficheiros antigos; alinhe o valor ao deploy quando fizer sentido.
 - **Cookies não são usados para guardar o site inteiro** (seria lento e inviável); o cookie `lp_lang` é só o idioma.
 - **`preload`** em `index.html` para `css/site.css` e `js/i18n.js`.
 
