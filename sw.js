@@ -1,7 +1,7 @@
 /* Portfolio offline/cache — bump VERSION after deploy when assets change meaningfully. */
 'use strict';
 
-var VERSION = '2026-05-06-v17-privacy-terms-css';
+var VERSION = '2026-05-07-v18-marketing-faq-seo';
 var CACHE_NAME = 'lp-portfolio-' + VERSION;
 var ORIGIN = self.location.origin;
 

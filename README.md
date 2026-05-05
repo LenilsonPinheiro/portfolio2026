@@ -53,7 +53,9 @@ Para **remover o aviso de app não verificada** no fluxo OAuth (verificação Go
 
 - **Canonical:** `https://lenilsonpinheiro.github.io/portfolio2026/`
 - **Sitemap:** `sitemap.xml` (atualize `lastmod` quando mudar conteúdo relevante).
-- **Schema.org:** `Person`, `WebSite`, `ProfilePage` em JSON-LD.
+- **Schema.org:** `Person`, `WebSite` (ReadAction + CommunicateAction/mailto), `ProfilePage`, `AboutPage`, `FAQPage` — texto da FAQ também está visível em `#faq` (alinhado à política Google para dados estruturados).
+- **Open Graph / Twitter:** título, descrição alinhados ao “elevator pitch” para recrutadores; `og:image` com dimensões e `alt`.
+- **Monetização (AdSense / ads):** não há blocos de anúncios no código por defeito. Para monetizar com **Google AdSense**, é preciso (1) site aprovado pelo programa, (2) ficheiro **`ads.txt`** na raiz do site com a linha `google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0` usando o **Publisher ID real** da conta AdSense (substituir o placeholder), (3) espaço de página com conteúdo substancial e política de privacidade — já existe `privacy.html`. Não publique um `ads.txt` inventado.
 - **Tópicos / keywords:** JSON-LD + `<template id="discovery-seeds">` (preenchido por JS) + `knowsAbout` no `Person`.
 
 ## Testar localmente

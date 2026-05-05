@@ -46,9 +46,9 @@
       schemaJobTitle: 'Senior Project Manager & Solutions Architect',
       metaTitle: 'Lenilson Pinheiro Valério — Portfolio · Senior PM & Solutions Architect · Digital Transformation, Data & AI',
       metaDescription:
-        '~25 years leading programs for Citibank (Qintess), TCS/Petrobras, Banco do Nordeste, and SUNAT (Peru). Independent consulting since Oct 2024: Projeto Sentinela (SaaS, FastAPI, RAG), React Native, Kotlin, n8n. PhD on hold (Applied IT, UNIFOR). PMP · PSM I. Fortaleza, Brazil.',
+        'Senior PM & Solutions Architect (~25 yrs): Citibank (Qintess), TCS/Petrobras, Banco do Nordeste, SUNAT (Peru). Consulting: Projeto Sentinela (SaaS, FastAPI, RAG), React Native, Kotlin, n8n. PMP · PSM I · Fortaleza — open to senior roles & advisory.',
       metaKeywords:
-        'Lenilson Pinheiro Valério,Senior Project Manager,Solutions Architect,PMP,PSM I,n8n,React Native,Kotlin,FastAPI,RAG,Open Finance,Pentaho,IBM Watson,Google Cloud AI,digital transformation,data governance,AI,Machine Learning,Citibank,Qintess,TCS,Petrobras,Sentinela,SaaS,Banco do Nordeste,SUNAT,NTConsult,SAP,OutSystems,Salesforce,Power BI,Tableau,Hadoop,Spark,AWS,Azure,GCP,Python,Java,Kubernetes,Kafka,MongoDB,Scrum,agile,ITIL,COBIT,UNIFOR',
+        'Lenilson Pinheiro Valério,Senior Project Manager,Solutions Architect,program director,technical program management,PMP,PSM I,n8n,React Native,Kotlin,FastAPI,RAG,Open Finance,Pentaho,IBM Watson,Google Cloud AI,digital transformation,data governance,AI,Machine Learning,executive hiring,talent acquisition,Citibank,Qintess,TCS,Petrobras,Sentinela,SaaS,Banco do Nordeste,SUNAT,NTConsult,SAP,OutSystems,Salesforce,Power BI,Tableau,Hadoop,Spark,AWS,Azure,GCP,Python,Java,Kubernetes,Kafka,MongoDB,Scrum,agile,ITIL,COBIT,UNIFOR',
       ogLocale: 'en_US',
       langLabel: 'Language',
       navSkip: 'Skip to main content',
@@ -57,6 +57,7 @@
       navExperience: 'Experience',
       navTech: 'Skills & tools',
       navProjects: 'Highlights',
+      navFaq: 'FAQ',
       navContact: 'Contact',
       heroGreeting: "Hi, I'm",
       heroCtaPrimary: 'View highlights',
@@ -161,6 +162,7 @@
       titleNavExperience: 'Go to résumé-aligned experience',
       titleNavTech: 'Go to skills and tools grid',
       titleNavProjects: 'Go to program highlights',
+      titleNavFaq: 'Go to recruiter FAQ (roles, certifications, how to reach)',
       titleNavContact: 'Go to contact and message form',
       titleHeroPrimary: 'Scroll to highlights: Sentinela, Open Finance, AI/fraud, Petrobras',
       titleHeroSecondary: 'Scroll to contact: email, phone, LinkedIn, form',
@@ -185,7 +187,7 @@
       loadingTitle: 'Loading portfolio…',
       topicsSummary: 'Recruiting & search keywords',
       topicsBody:
-        '#LenilsonPinheiroValerio #LenilsonPinheiro #SeniorProjectManager #SolutionsArchitect #PMP #PSM #Scrum #n8n #ReactNative #Kotlin #FastAPI #RAG #Sentinela #SaaS #OpenFinance #DigitalTransformation #DataGovernance #MachineLearning #AI #Citibank #Qintess #TCS #Petrobras #BancoDoNordeste #SondaIT #SUNAT #NTConsult #SAP #OutSystems #Salesforce #PowerBI #Tableau #Hadoop #Spark #AWS #Azure #GCP #Kubernetes #Kafka #MongoDB #Python #Java #CSharp #ITIL #COBIT #TOGAF #PhD #UNIFOR #Fortaleza #Hiring #ProgramManagement',
+        '#LenilsonPinheiroValerio #LenilsonPinheiro #SeniorProjectManager #SolutionsArchitect #ProgramDirector #PMP #PSM #Scrum #n8n #ReactNative #Kotlin #FastAPI #RAG #Sentinela #SaaS #OpenFinance #DigitalTransformation #DataGovernance #MachineLearning #AI #Citibank #Qintess #TCS #Petrobras #BancoDoNordeste #SondaIT #SUNAT #NTConsult #SAP #OutSystems #Salesforce #PowerBI #Tableau #Hadoop #Spark #AWS #Azure #GCP #Kubernetes #Kafka #MongoDB #Python #Java #CSharp #ITIL #COBIT #TOGAF #UNIFOR #Fortaleza #Hiring #ExecutiveSearch #TalentAcquisition #ProgramManagement #RecruiterFAQ',
       footerCopy: 'Lenilson Pinheiro Valério · Fortaleza, CE, Brazil',
       footerPrivacyLink: 'Privacy policy',
       footerTermsLink: 'Terms of service',
@@ -243,11 +245,25 @@
       termsPChanges:
         'These terms may be updated; the date above will be revised. Continued use after changes means you accept the updated terms.',
       termsFooterBack: 'Back to portfolio',
+      faqTitle: 'Recruiter FAQ',
+      faq1Q: 'What roles and engagements are you open to?',
+      faq1A:
+        'Senior PM / program director and Solutions Architect / SaaS roles, data and AI transformation mandates, and advisory work across banking, energy, and the public sector—as summarized in the Profile and Contact sections.',
+      faq2Q: 'Which certifications do you hold?',
+      faq2A: 'PMP (PMI) and PSM I (Scrum.org), with complementary training in ITIL, COBIT, and TOGAF.',
+      faq3Q: 'Where are you based, and how should recruiters reach you?',
+      faq3A:
+        'Fortaleza, CE, Brazil. Use email lenilsonpinheiro@gmail.com, phone +55 85 99733-1000, LinkedIn and GitHub via this page, or the contact form.',
+      faq4Q: 'Which employers and programs are highlighted on your résumé?',
+      faq4A:
+        'Examples include Citibank via Qintess, TCS on Petrobras, Banco do Nordeste via Sonda IT, SUNAT via NTConsult, and independent consulting since October 2024 including Projeto Sentinela.',
+      faqEmailActionName: 'Email regarding opportunities',
       typing: [
         'Senior PM & Solutions Architect',
         'Projeto Sentinela · SaaS · FastAPI · RAG',
         'React Native · Kotlin · n8n automation',
         'PMP · PSM I · Open Finance · Petrobras',
+        'Open to senior roles · advisory · consulting',
       ],
       ariaMenu: 'Open menu',
       ariaMenuClose: 'Close menu',
@@ -262,9 +278,9 @@
       schemaJobTitle: 'Gerente de Projetos Sênior e Arquiteto de Soluções',
       metaTitle: 'Lenilson Pinheiro Valério — Portfolio · Gerente de Projetos Sênior & Arquiteto de Soluções · Transformação Digital, Dados e IA',
       metaDescription:
-        '~25 anos em Citibank (Qintess), TCS/Petrobras, Banco do Nordeste e SUNAT (Peru). Consultoria PJ desde out/2024: Projeto Sentinela (SaaS, FastAPI, RAG), React Native, Kotlin, n8n. Doutorado pausado (TI Aplicada, UNIFOR). PMP · PSM I. Fortaleza, CE.',
+        'Gerente de Projetos Sênior e Arquiteto (~25 anos): Citibank (Qintess), TCS/Petrobras, Banco do Nordeste, SUNAT (Peru). Consultoria PJ: Projeto Sentinela (SaaS, FastAPI, RAG), React Native, Kotlin, n8n. PMP · PSM I · Fortaleza — contratação e assessoria.',
       metaKeywords:
-        'Lenilson Pinheiro Valério,Gerente de Projetos Sênior,Arquiteto de Soluções,PMP,PSM I,n8n,React Native,Kotlin,FastAPI,RAG,Projeto Sentinela,SaaS,Open Finance,Pentaho,transformação digital,governança de dados,IA,Machine Learning,Citibank,Qintess,TCS,Petrobras,Banco do Nordeste,SUNAT,NTConsult,SAP,OutSystems,Salesforce,Power BI,Tableau,Hadoop,Spark,AWS,Azure,GCP,Python,Java,Kubernetes,Kafka,MongoDB,Scrum,ágil,ITIL,COBIT,UNIFOR',
+        'Lenilson Pinheiro Valério,Gerente de Projetos Sênior,Arquiteto de Soluções,diretor de programa,PMP,PSM I,n8n,React Native,Kotlin,FastAPI,RAG,Projeto Sentinela,SaaS,Open Finance,Pentaho,transformação digital,governança de dados,IA,Machine Learning,contratação executiva,Citibank,Qintess,TCS,Petrobras,Banco do Nordeste,SUNAT,NTConsult,SAP,OutSystems,Salesforce,Power BI,Tableau,Hadoop,Spark,AWS,Azure,GCP,Python,Java,Kubernetes,Kafka,MongoDB,Scrum,ágil,ITIL,COBIT,UNIFOR',
       ogLocale: 'pt_BR',
       langLabel: 'Idioma',
       navSkip: 'Pular para o conteúdo principal',
@@ -273,6 +289,7 @@
       navExperience: 'Experiência',
       navTech: 'Competências',
       navProjects: 'Destaques',
+      navFaq: 'FAQ',
       navContact: 'Contato',
       heroGreeting: 'Olá, eu sou',
       heroCtaPrimary: 'Ver destaques',
@@ -377,6 +394,7 @@
       titleNavExperience: 'Ir para experiência alinhada ao CV',
       titleNavTech: 'Ir para competências e ferramentas',
       titleNavProjects: 'Ir para destaques de programa',
+      titleNavFaq: 'Ir para FAQ para recrutadores (papéis, certificações, contacto)',
       titleNavContact: 'Ir para contato e formulário',
       titleHeroPrimary: 'Ir para destaques: Sentinela, Open Finance, IA/fraude, Petrobras',
       titleHeroSecondary: 'Ir para contato: e-mail, telefone, LinkedIn, formulário',
@@ -401,7 +419,7 @@
       loadingTitle: 'A carregar o portfólio…',
       topicsSummary: 'Palavras-chave para recrutamento e busca',
       topicsBody:
-        '#LenilsonPinheiroValerio #LenilsonPinheiro #GerenteDeProjetos #ArquitetoDeSolucoes #PMP #PSM #Scrum #n8n #ReactNative #Kotlin #FastAPI #RAG #ProjetoSentinela #SaaS #OpenFinance #TransformacaoDigital #GovernancaDeDados #MachineLearning #IA #Citibank #Qintess #TCS #Petrobras #BancoDoNordeste #SondaIT #SUNAT #NTConsult #SAP #OutSystems #Salesforce #PowerBI #Tableau #Hadoop #Spark #AWS #Azure #GCP #Kubernetes #Kafka #MongoDB #Python #Java #CSharp #ITIL #COBIT #TOGAF #Doutorado #UNIFOR #Fortaleza #Contratacao',
+        '#LenilsonPinheiroValerio #GerenteDeProjetos #ArquitetoDeSolucoes #DiretorDePrograma #PMP #PSM #Scrum #n8n #ReactNative #Kotlin #FastAPI #RAG #ProjetoSentinela #SaaS #OpenFinance #TransformacaoDigital #GovernancaDeDados #MachineLearning #IA #Citibank #Qintess #TCS #Petrobras #BancoDoNordeste #SondaIT #SUNAT #NTConsult #SAP #OutSystems #Salesforce #PowerBI #Tableau #Hadoop #Spark #AWS #Azure #GCP #Kubernetes #Kafka #MongoDB #Python #Java #CSharp #ITIL #COBIT #TOGAF #UNIFOR #Fortaleza #Contratacao #Recrutamento #FAQRecrutadores',
       footerCopy: 'Lenilson Pinheiro Valério · Fortaleza, CE, Brasil',
       footerPrivacyLink: 'Política de privacidade',
       footerTermsLink: 'Termos de serviço',
@@ -459,11 +477,25 @@
       termsPChanges:
         'Estes termos podem ser atualizados; a data acima será revista. O uso continuado após alterações implica aceitação.',
       termsFooterBack: 'Voltar ao portfólio',
+      faqTitle: 'FAQ para recrutadores',
+      faq1Q: 'A que papéis e mandatos você está aberto?',
+      faq1A:
+        'Papéis de gerente / diretor de programa e Arquiteto de Soluções / SaaS, mandatos de transformação com dados e IA e assessoria em bancos, energia e setor público — conforme o Perfil e Contato.',
+      faq2Q: 'Quais certificações você possui?',
+      faq2A: 'PMP (PMI) e PSM I (Scrum.org), com formação complementar em ITIL, COBIT e TOGAF.',
+      faq3Q: 'Onde você está e como recrutadores devem contatá-lo?',
+      faq3A:
+        'Fortaleza, CE, Brasil. E-mail lenilsonpinheiro@gmail.com, telefone +55 85 99733-1000, LinkedIn e GitHub nesta página, ou o formulário de contato.',
+      faq4Q: 'Quais empregadores e programas aparecem no currículo?',
+      faq4A:
+        'Entre outros: Citibank via Qintess, TCS na Petrobras, Banco do Nordeste via Sonda IT, SUNAT via NTConsult; consultoria PJ desde outubro de 2024, incluindo o Projeto Sentinela.',
+      faqEmailActionName: 'E-mail sobre oportunidades',
       typing: [
         'Gerente de Projetos & Arquiteto de Soluções',
         'Projeto Sentinela · SaaS · FastAPI · RAG',
         'React Native · Kotlin · n8n',
         'PMP · PSM I · Open Finance · Petrobras',
+        'Aberto a papéis sênior · assessoria · consultoria PJ',
       ],
       ariaMenu: 'Abrir menu',
       ariaMenuClose: 'Fechar menu',
@@ -478,9 +510,9 @@
       schemaJobTitle: 'Director de proyecto senior y Arquitecto de Soluciones',
       metaTitle: 'Lenilson Pinheiro Valério — Portfolio · Director senior & Arquitecto · Transformación digital, datos e IA',
       metaDescription:
-        '~25 años en Citibank (Qintess), TCS/Petrobras, Banco do Nordeste y SUNAT (Perú). Consultoría independiente desde oct 2024: Proyecto Sentinela (SaaS, FastAPI, RAG), React Native, Kotlin, n8n. Doctorado en pausa (TI aplicada, UNIFOR). PMP · PSM I. Fortaleza, Brasil.',
+        'Director senior PM y Arquitecto (~25 años): Citibank (Qintess), TCS/Petrobras, Banco do Nordeste, SUNAT (Perú). Consultoría: Proyecto Sentinela (SaaS, FastAPI, RAG), React Native, Kotlin, n8n. PMP · PSM I · Fortaleza — roles y asesoría.',
       metaKeywords:
-        'Lenilson Pinheiro Valério,Senior Project Manager,Solutions Architect,PMP,PSM I,n8n,React Native,Kotlin,FastAPI,RAG,Sentinela,SaaS,Open Finance,Pentaho,transformación digital,gobierno del dato,IA,Machine Learning,Citibank,Qintess,TCS,Petrobras,SUNAT,NTConsult,SAP,OutSystems,Salesforce,Power BI,Tableau,Hadoop,Spark,AWS,Azure,GCP,Kubernetes,Kafka,MongoDB,Python,Java,Scrum,ágil,ITIL,COBIT,UNIFOR',
+        'Lenilson Pinheiro Valério,Senior Project Manager,Solutions Architect,director de programa,PMP,PSM I,n8n,React Native,Kotlin,FastAPI,RAG,Sentinela,SaaS,Open Finance,Pentaho,transformación digital,gobierno del dato,IA,Machine Learning,contratación ejecutiva,Citibank,Qintess,TCS,Petrobras,SUNAT,NTConsult,SAP,OutSystems,Salesforce,Power BI,Tableau,Hadoop,Spark,AWS,Azure,GCP,Kubernetes,Kafka,MongoDB,Python,Java,Scrum,ágil,ITIL,COBIT,UNIFOR',
       ogLocale: 'es_ES',
       langLabel: 'Idioma',
       navSkip: 'Saltar al contenido principal',
@@ -489,6 +521,7 @@
       navExperience: 'Experiencia',
       navTech: 'Competencias',
       navProjects: 'Destacados',
+      navFaq: 'FAQ',
       navContact: 'Contacto',
       heroGreeting: 'Hola, soy',
       heroCtaPrimary: 'Ver destacados',
@@ -593,6 +626,7 @@
       titleNavExperience: 'Ir a experiencia alineada al CV',
       titleNavTech: 'Ir a competencias y herramientas',
       titleNavProjects: 'Ir a hitos de programa',
+      titleNavFaq: 'Ir al FAQ para reclutadores (roles, certificaciones, contacto)',
       titleNavContact: 'Ir a contacto y formulario',
       titleHeroPrimary: 'Ir a hitos: Sentinela, Open Finance, IA/fraude, Petrobras',
       titleHeroSecondary: 'Ir a contacto: correo, teléfono, LinkedIn, formulario',
@@ -617,7 +651,7 @@
       loadingTitle: 'Cargando portafolio…',
       topicsSummary: 'Palabras clave para reclutamiento',
       topicsBody:
-        '#LenilsonPinheiroValerio #LenilsonPinheiro #SeniorProjectManager #SolutionsArchitect #PMP #PSM #Scrum #n8n #ReactNative #Kotlin #FastAPI #RAG #Sentinela #SaaS #OpenFinance #TransformacionDigital #GobiernoDelDato #MachineLearning #IA #Citibank #Qintess #TCS #Petrobras #SUNAT #NTConsult #SAP #OutSystems #Salesforce #PowerBI #Tableau #Hadoop #Spark #AWS #Azure #GCP #Kubernetes #Kafka #MongoDB #Python #Java #ITIL #COBIT #TOGAF #Doctorado #UNIFOR #Fortaleza #Contratacion',
+        '#LenilsonPinheiroValerio #SeniorProjectManager #SolutionsArchitect #DirectorDePrograma #PMP #PSM #Scrum #n8n #ReactNative #Kotlin #FastAPI #RAG #Sentinela #SaaS #OpenFinance #TransformacionDigital #GobiernoDelDato #MachineLearning #IA #Citibank #Qintess #TCS #Petrobras #SUNAT #NTConsult #SAP #OutSystems #Salesforce #PowerBI #Tableau #Hadoop #Spark #AWS #Azure #GCP #Kubernetes #Kafka #MongoDB #Python #Java #ITIL #COBIT #TOGAF #UNIFOR #Fortaleza #Contratacion #Reclutamiento #FAQReclutadores',
       footerCopy: 'Lenilson Pinheiro Valério · Fortaleza, CE, Brasil',
       footerPrivacyLink: 'Política de privacidad',
       footerTermsLink: 'Términos del servicio',
@@ -675,11 +709,25 @@
       termsPChanges:
         'Estos términos pueden actualizarse; la fecha superior se revisará. El uso continuado implica aceptación.',
       termsFooterBack: 'Volver al portafolio',
+      faqTitle: 'FAQ para reclutadores',
+      faq1Q: '¿A qué roles y mandatos está abierto?',
+      faq1A:
+        'Roles senior PM / director de programa y Arquitecto de Soluciones / SaaS, mandatos de datos e IA y asesoría en banca, energía y sector público — según el Perfil y Contacto.',
+      faq2Q: '¿Qué certificaciones tiene?',
+      faq2A: 'PMP (PMI) y PSM I (Scrum.org), con formación complementaria en ITIL, COBIT y TOGAF.',
+      faq3Q: '¿Dónde está y cómo pueden contactarlo los reclutadores?',
+      faq3A:
+        'Fortaleza, CE, Brasil. Correo lenilsonpinheiro@gmail.com, teléfono +55 85 99733-1000, LinkedIn y GitHub en esta página, o el formulario.',
+      faq4Q: '¿Qué empleadores y programas aparecen en el CV?',
+      faq4A:
+        'Entre otros: Citibank vía Qintess, TCS en Petrobras, Banco do Nordeste vía Sonda IT, SUNAT vía NTConsult; consultoría independiente desde octubre de 2024, incluido el Proyecto Sentinela.',
+      faqEmailActionName: 'Correo sobre oportunidades',
       typing: [
         'Senior PM y Arquitecto de Soluciones',
         'Proyecto Sentinela · SaaS · FastAPI · RAG',
         'React Native · Kotlin · n8n',
         'PMP · PSM I · Open Finance · Petrobras',
+        'Roles senior · asesoría · consultoría independiente',
       ],
       ariaMenu: 'Abrir menú',
       ariaMenuClose: 'Cerrar menú',
@@ -799,6 +847,7 @@
         name: t.schemaName,
         url: CANONICAL_BASE,
         email: 'mailto:lenilsonpinheiro@gmail.com',
+        telephone: '+55-85-99733-1000',
         sameAs: [
           'https://www.linkedin.com/in/lenilsonpinheiro/',
           'https://github.com/LenilsonPinheiro',
@@ -827,6 +876,70 @@
         keywords: t.metaKeywords,
         inLanguage: t.htmlLang,
         isPartOf: { '@type': 'WebSite', url: CANONICAL_BASE },
+      });
+    }
+
+    var ldWeb = document.getElementById('jsonld-website');
+    if (ldWeb) {
+      ldWeb.textContent = JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: t.schemaName + ' — Portfolio',
+        url: CANONICAL_BASE,
+        inLanguage: ['en-US', 'pt-BR', 'es-ES'],
+        author: {
+          '@type': 'Person',
+          name: t.schemaName,
+          sameAs: [
+            'https://www.linkedin.com/in/lenilsonpinheiro/',
+            'https://github.com/LenilsonPinheiro',
+          ],
+        },
+        potentialAction: [
+          { '@type': 'ReadAction', target: CANONICAL_BASE },
+          {
+            '@type': 'CommunicateAction',
+            name: t.faqEmailActionName || 'Email regarding opportunities',
+            target: {
+              '@type': 'EntryPoint',
+              urlTemplate: 'mailto:lenilsonpinheiro@gmail.com',
+              actionPlatform: [
+                'http://schema.org/DesktopWebPosting',
+                'http://schema.org/MobileWebPosting',
+              ],
+            },
+          },
+        ],
+      });
+    }
+
+    var ldFaq = document.getElementById('jsonld-faq');
+    if (ldFaq && t.faq1Q) {
+      ldFaq.textContent = JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: [
+          {
+            '@type': 'Question',
+            name: t.faq1Q,
+            acceptedAnswer: { '@type': 'Answer', text: t.faq1A },
+          },
+          {
+            '@type': 'Question',
+            name: t.faq2Q,
+            acceptedAnswer: { '@type': 'Answer', text: t.faq2A },
+          },
+          {
+            '@type': 'Question',
+            name: t.faq3Q,
+            acceptedAnswer: { '@type': 'Answer', text: t.faq3A },
+          },
+          {
+            '@type': 'Question',
+            name: t.faq4Q,
+            acceptedAnswer: { '@type': 'Answer', text: t.faq4A },
+          },
+        ],
       });
     }
   }

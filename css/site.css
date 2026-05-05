@@ -123,6 +123,12 @@ section{padding:var(--section-padding);position:relative}
 .form-submit:disabled,.form-submit[aria-busy='true']{cursor:wait;opacity:.72}
 .field-hint{font-size:.78rem;color:var(--text-muted);margin:2px 0 10px;line-height:1.45;max-width:100%}
 .form-privacy{font-size:.8rem;color:var(--text-muted);margin-top:8px}
+.faq{padding:80px 0;background:var(--bg-primary);border-top:1px solid var(--border-soft)}
+.faq .section-title{margin-bottom:28px}
+.faq-list{max-width:720px;margin:0 auto;text-align:left}
+.faq-list dt{font-weight:700;font-size:1.05rem;margin-top:1.5rem;color:var(--text-primary);line-height:1.4}
+.faq-list dt:first-child{margin-top:0}
+.faq-list dd{margin:.4rem 0 0;padding:0;color:var(--text-secondary);line-height:1.75;font-size:1.02rem}
 footer{background:var(--bg-secondary);padding:40px 0;text-align:center;border-top:1px solid var(--border-soft);padding-bottom:max(28px,env(safe-area-inset-bottom))}
 .footer-text{color:var(--text-muted);font-size:.9rem}
 .footer-legal{margin-top:12px;font-size:.85rem}

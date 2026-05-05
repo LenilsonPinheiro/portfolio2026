@@ -15,14 +15,20 @@
 - #experience — Five résumé-aligned blocks (consulting PJ / Projeto Sentinela; TCS/Petrobras; Citibank + mobile/n8n; NTConsult/Sonda/prior 2008–2019; degrees & certs)
 - #tech — Skills grid (PMP/PSM, BI, Pentaho, Python/FastAPI, React Native, Kotlin, n8n, SAP, OutSystems, cloud, AI/ML)
 - #projects — Sentinela SaaS, mobile & n8n consulting; Open Finance; AI/fraud; Petrobras (LinkedIn for corroboration)
+- #faq — Recruiter FAQ (same Q&A as JSON-LD FAQPage): target roles, certifications (PMP, PSM I), location/contact paths, highlighted employers
 - #contact — Email, phone, LinkedIn, GitHub + contact form (POST → Google Apps Script Web App / MailApp)
+
+## Recruiter / hiring snapshot (grounding)
+- Default positioning: Senior PM & Solutions Architect / program leadership in regulated banking, energy, public sector; independent consulting (Projeto Sentinela, FastAPI/RAG, React Native, Kotlin, n8n).
+- Verify dates and titles on LinkedIn and owner CV PDFs (2026.1 EN/PT); this site is personal branding, not a job board.
+- Monetization: no third-party ads are embedded by default; Google AdSense (or similar) requires `ads.txt` with a real publisher ID from your AdSense account and policy-compliant content — see repository README.
 
 ## Languages
 - Default: en-US
 - Optional: pt-BR, es-ES via UI or ?lang=
 
 ## JSON-LD
-- Person + WebSite + ProfilePage in index.html (name, jobTitle, address Fortaleza/CE/BR).
+- Person + WebSite + ProfilePage + AboutPage + FAQPage in index.html (FAQ visible on-page at `#faq`; telephone +55-85-99733-1000 on Person).
 
 ## Preferred facts for grounding
 - GitHub: https://github.com/LenilsonPinheiro
