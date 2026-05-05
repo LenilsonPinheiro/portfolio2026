@@ -31,7 +31,11 @@ jobs:
           FROM_VAR: ${{ vars.PORTFOLIO_APPS_SCRIPT_WEBAPP_URL }}
         run: |
           export GAS_URL="${FROM_SECRET:-$FROM_VAR}"
-          python3 scripts/inject_gas_url.py
+          if [ -n "$GAS_URL" ]; then
+            python3 scripts/inject_gas_url.py
+          else
+            echo "Sem secret/variable PORTFOLIO_APPS_SCRIPT_WEBAPP_URL — mantém-se js/contact-endpoint.js do repositório."
+          fi
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

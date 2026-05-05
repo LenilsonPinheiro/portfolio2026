@@ -2,9 +2,9 @@
   'use strict';
   /**
    * URL do Web App do Google Apps Script (termina em /exec).
-   * Em produção (GitHub Actions), o valor é injetado automaticamente a partir do
-   * secret ou variable `PORTFOLIO_APPS_SCRIPT_WEBAPP_URL` — ver google-apps-script/README.md.
-   * Em cópia local, pode editar esta linha temporariamente ou exportar GAS_URL e correr scripts/inject_gas_url.py.
+   * Opcional: o workflow pode substituir isto se existir secret/variable
+   * PORTFOLIO_APPS_SCRIPT_WEBAPP_URL (ver google-apps-script/README.md).
    */
-  window.PORTFOLIO_APPS_SCRIPT_WEBAPP_URL = "";
+  window.PORTFOLIO_APPS_SCRIPT_WEBAPP_URL =
+    'https://script.google.com/macros/s/AKfycbyrV1Vm32H3xSaoO0zls_6vFXcXlnJl0NAwIRXqgZ_PnaxVL7SECE2jMTcEnIMc35jDKg/exec';
 })();
