@@ -24,6 +24,7 @@ ASSETS = [
     ("/sitemap.xml", "sitemap", ["<urlset", "loc"]),
     ("/llms.txt", "llms", ["Portfolio"]),
     ("/privacy.html", "privacy", ["privacy-page-main", "privacy-card", "langselect", "theme.js", "themetoggle"]),
+    ("/terms.html", "terms", ["terms-h1", "privacy-card", "href=\"terms.html\"", "theme.js"]),
 ]
 
 

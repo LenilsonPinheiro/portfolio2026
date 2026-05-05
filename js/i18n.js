@@ -174,6 +174,7 @@
         '#LenilsonPinheiroValerio #LenilsonPinheiro #SeniorProjectManager #PMP #PSM #Scrum #OpenFinance #DigitalTransformation #DataGovernance #MachineLearning #AI #Citibank #Qintess #TCS #Petrobras #BancoDoNordeste #SondaIT #SUNAT #NTConsult #SAP #OutSystems #Salesforce #PowerBI #Tableau #Hadoop #Spark #AWS #Azure #GCP #Kubernetes #Kafka #MongoDB #Python #Java #CSharp #ITIL #COBIT #TOGAF #PhD #UNIFOR #Fortaleza #Hiring #ProgramManagement',
       footerCopy: 'Lenilson Pinheiro Valério · Fortaleza, CE, Brazil',
       footerPrivacyLink: 'Privacy policy',
+      footerTermsLink: 'Terms of service',
       privacyDocTitle: 'Privacy policy · Lenilson Pinheiro Valério',
       privacyMetaDescription:
         'Privacy policy for this portfolio: contact form data, Google Apps Script, MailApp, GitHub Pages, and your rights (LGPD/GDPR).',
@@ -202,6 +203,32 @@
       privacyPChanges:
         'This page may be updated when the site or form processing changes. The date above will be revised accordingly.',
       privacyFooterBack: 'Back to portfolio',
+      termsDocTitle: 'Terms of service · Lenilson Pinheiro Valério',
+      termsMetaDescription:
+        'Terms of service for this static portfolio and contact form (GitHub Pages, Google Apps Script).',
+      termsNavLabel: 'Primary navigation — Terms of service',
+      termsBackPortfolio: '← Portfolio',
+      termsPageTitle: 'Terms of service',
+      termsUpdatedLine: 'Last updated: <time datetime="2026-05-05">5 May 2026</time>',
+      termsH2Acceptance: 'Acceptance',
+      termsPAcceptance:
+        'By using this website you agree to these terms. If you do not agree, do not use the site or the contact form.',
+      termsH2Use: 'Use of the site',
+      termsPUse:
+        'The content is provided for professional information about <strong>Lenilson Pinheiro Valério</strong>. You must not misuse the site (including attempting to disrupt, scrape unlawfully, or overload systems).',
+      termsH2Contact: 'Contact form',
+      termsPContact:
+        'Messages are sent over HTTPS to a <strong>Google Apps Script</strong> endpoint. You are responsible for the accuracy of the data you send. Use of the form is subject to the <a href="privacy.html">privacy policy</a>.',
+      termsH2Disclaimer: 'Disclaimer',
+      termsPDisclaimer:
+        'Materials are provided “as is” without warranties of any kind. Nothing on this site constitutes legal, financial, or professional advice.',
+      termsH2Law: 'Governing law',
+      termsPLaw:
+        'These terms are governed by the laws of <strong>Brazil</strong>, without prejudice to mandatory consumer or data-protection rules in your jurisdiction.',
+      termsH2Changes: 'Changes',
+      termsPChanges:
+        'These terms may be updated; the date above will be revised. Continued use after changes means you accept the updated terms.',
+      termsFooterBack: 'Back to portfolio',
       typing: [
         'Senior Project Manager',
         'Digital transformation & data executive',
@@ -349,6 +376,7 @@
         '#LenilsonPinheiroValerio #LenilsonPinheiro #GerenteDeProjetos #PMP #PSM #Scrum #OpenFinance #TransformacaoDigital #GovernancaDeDados #MachineLearning #IA #Citibank #Qintess #TCS #Petrobras #BancoDoNordeste #SondaIT #SUNAT #NTConsult #SAP #OutSystems #Salesforce #PowerBI #Tableau #Hadoop #Spark #AWS #Azure #GCP #Kubernetes #Kafka #MongoDB #Python #Java #CSharp #ITIL #COBIT #TOGAF #Doutorado #UNIFOR #Fortaleza #Contratacao #GestaoDeProjetos',
       footerCopy: 'Lenilson Pinheiro Valério · Fortaleza, CE, Brasil',
       footerPrivacyLink: 'Política de privacidade',
+      footerTermsLink: 'Termos de serviço',
       privacyDocTitle: 'Política de privacidade · Lenilson Pinheiro Valério',
       privacyMetaDescription:
         'Política de privacidade do portfólio: dados do formulário de contacto, Google Apps Script, MailApp, GitHub Pages e os seus direitos (LGPD/RGPD).',
@@ -377,6 +405,32 @@
       privacyPChanges:
         'Esta página pode ser atualizada quando o site ou o tratamento no formulário mudarem. A data acima será revista em conformidade.',
       privacyFooterBack: 'Voltar ao portfólio',
+      termsDocTitle: 'Termos de serviço · Lenilson Pinheiro Valério',
+      termsMetaDescription:
+        'Termos de serviço deste portfólio estático e formulário de contacto (GitHub Pages, Google Apps Script).',
+      termsNavLabel: 'Navegação principal — Termos de serviço',
+      termsBackPortfolio: '← Portfólio',
+      termsPageTitle: 'Termos de serviço',
+      termsUpdatedLine: 'Última atualização: <time datetime="2026-05-05">5 de maio de 2026</time>',
+      termsH2Acceptance: 'Aceitação',
+      termsPAcceptance:
+        'Ao utilizar este site aceita estes termos. Se não concordar, não utilize o site nem o formulário de contacto.',
+      termsH2Use: 'Utilização do site',
+      termsPUse:
+        'O conteúdo destina-se a informação profissional sobre <strong>Lenilson Pinheiro Valério</strong>. Não deve utilizar o site de forma abusiva (incluindo perturbação, scraping ilícito ou sobrecarga de sistemas).',
+      termsH2Contact: 'Formulário de contacto',
+      termsPContact:
+        'As mensagens são enviadas por HTTPS para um endpoint <strong>Google Apps Script</strong>. É responsável pela veracidade dos dados. O uso está sujeito à <a href="privacy.html">política de privacidade</a>.',
+      termsH2Disclaimer: 'Exclusão de garantias',
+      termsPDisclaimer:
+        'Os materiais são fornecidos “tal como estão”, sem garantias. Nada neste site constitui aconselhamento jurídico, financeiro ou profissional.',
+      termsH2Law: 'Lei aplicável',
+      termsPLaw:
+        'Estes termos regem-se pelas leis de <strong>Brasil</strong>, sem prejuízo de normas imperativas de consumo ou proteção de dados na sua jurisdição.',
+      termsH2Changes: 'Alterações',
+      termsPChanges:
+        'Estes termos podem ser atualizados; a data acima será revista. O uso continuado após alterações implica aceitação.',
+      termsFooterBack: 'Voltar ao portfólio',
       typing: [
         'Gerente de Projetos Sênior',
         'Transformação digital e dados',
@@ -524,6 +578,7 @@
         '#LenilsonPinheiroValerio #LenilsonPinheiro #SeniorProjectManager #PMP #PSM #Scrum #OpenFinance #TransformacionDigital #GobiernoDelDato #MachineLearning #IA #Citibank #Qintess #TCS #Petrobras #SUNAT #NTConsult #SAP #OutSystems #Salesforce #PowerBI #Tableau #Hadoop #Spark #AWS #Azure #GCP #Kubernetes #Kafka #MongoDB #Python #Java #ITIL #COBIT #TOGAF #Doctorado #UNIFOR #Fortaleza #Contratacion',
       footerCopy: 'Lenilson Pinheiro Valério · Fortaleza, CE, Brasil',
       footerPrivacyLink: 'Política de privacidad',
+      footerTermsLink: 'Términos del servicio',
       privacyDocTitle: 'Política de privacidad · Lenilson Pinheiro Valério',
       privacyMetaDescription:
         'Política de privacidad del portafolio: datos del formulario de contacto, Google Apps Script, MailApp, GitHub Pages y sus derechos (LGPD/RGPD).',
@@ -552,6 +607,32 @@
       privacyPChanges:
         'Esta página puede actualizarse cuando cambie el sitio o el tratamiento del formulario. La fecha superior se revisará en consecuencia.',
       privacyFooterBack: 'Volver al portafolio',
+      termsDocTitle: 'Términos del servicio · Lenilson Pinheiro Valério',
+      termsMetaDescription:
+        'Términos del servicio de este portafolio estático y formulario de contacto (GitHub Pages, Google Apps Script).',
+      termsNavLabel: 'Navegación principal — Términos del servicio',
+      termsBackPortfolio: '← Portafolio',
+      termsPageTitle: 'Términos del servicio',
+      termsUpdatedLine: 'Última actualización: <time datetime="2026-05-05">5 de mayo de 2026</time>',
+      termsH2Acceptance: 'Aceptación',
+      termsPAcceptance:
+        'Al usar este sitio acepta estos términos. Si no está de acuerdo, no utilice el sitio ni el formulario.',
+      termsH2Use: 'Uso del sitio',
+      termsPUse:
+        'El contenido se ofrece con fines informativos profesionales sobre <strong>Lenilson Pinheiro Valério</strong>. No debe hacer un uso indebido (incluida la interrupción, el scraping ilícito o la sobrecarga).',
+      termsH2Contact: 'Formulario de contacto',
+      termsPContact:
+        'Los mensajes se envían por HTTPS a un endpoint de <strong>Google Apps Script</strong>. Usted es responsable de la exactitud de los datos. El uso está sujeto a la <a href="privacy.html">política de privacidad</a>.',
+      termsH2Disclaimer: 'Descargo de responsabilidad',
+      termsPDisclaimer:
+        'Los materiales se ofrecen “tal cual” sin garantías. Nada en este sitio constituye asesoramiento legal, financiero o profesional.',
+      termsH2Law: 'Ley aplicable',
+      termsPLaw:
+        'Estos términos se rigen por las leyes de <strong>Brasil</strong>, sin perjuicio de normas imperativas de consumo o protección de datos en su jurisdicción.',
+      termsH2Changes: 'Cambios',
+      termsPChanges:
+        'Estos términos pueden actualizarse; la fecha superior se revisará. El uso continuado implica aceptación.',
+      termsFooterBack: 'Volver al portafolio',
       typing: [
         'Senior Project Manager',
         'Transformación digital y datos',
@@ -624,6 +705,31 @@
           url: CANONICAL_BASE + 'privacy.html',
           inLanguage: t.htmlLang,
           description: t.privacyMetaDescription,
+          isPartOf: { '@type': 'WebSite', url: CANONICAL_BASE, name: t.schemaName + ' — Portfolio' },
+        });
+      }
+      return;
+    }
+
+    if (document.body && document.body.getAttribute('data-page') === 'terms') {
+      document.documentElement.lang = t.htmlLang;
+      document.title = t.termsDocTitle;
+      setMeta('description', t.termsMetaDescription);
+      setMeta('og:title', t.termsDocTitle, 'property');
+      setMeta('og:description', t.termsMetaDescription, 'property');
+      setMeta('og:locale', t.ogLocale, 'property');
+      setMeta('og:url', CANONICAL_BASE + 'terms.html', 'property');
+      setMeta('twitter:title', t.termsDocTitle);
+      setMeta('twitter:description', t.termsMetaDescription);
+      var tj = document.getElementById('terms-jsonld');
+      if (tj) {
+        tj.textContent = JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'WebPage',
+          name: t.termsDocTitle,
+          url: CANONICAL_BASE + 'terms.html',
+          inLanguage: t.htmlLang,
+          description: t.termsMetaDescription,
           isPartOf: { '@type': 'WebSite', url: CANONICAL_BASE, name: t.schemaName + ' — Portfolio' },
         });
       }

@@ -4,9 +4,8 @@
 
 > Lenilson Pinheiro Valério is a Senior Project Manager and digital transformation leader (~25 years per 2026.1 résumé): Citibank (Qintess), TCS/Petrobras, Banco do Nordeste (Sonda IT), SUNAT/NTConsult (Peru). PhD candidate in Applied IT (UNIFOR). PMP · PSM I. Open Finance, AI/ML for fraud, SAP, OutSystems, Salesforce, Power BI, Hadoop/Spark, AWS/Azure/GCP. Phone: +55 85 99733-1000 | Email: lenilsonpinheiro@gmail.com | LinkedIn: https://www.linkedin.com/in/lenilsonpinheiro/
 
-## Site map
-- /portfolio2026/ — Single-page portfolio (EN default; ?lang=pt | ?lang=es)
-- /portfolio2026/sitemap.xml — XML sitemap
+- /portfolio2026/privacy.html — Privacy policy (contact form, Apps Script, LGPD/GDPR)
+- /portfolio2026/terms.html — Terms of service (site + contact form)
 - /portfolio2026/robots.txt — Crawler policy
 - /portfolio2026/llms.txt — This file
 

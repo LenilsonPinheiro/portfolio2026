@@ -35,7 +35,7 @@
    - **Domínios autorizados** (ex.: `lenilsonpinheiro.github.io`)  
    - **URL da página inicial** (portfolio)  
    - **URL da política de privacidade** (`…/privacy.html`)  
-   - Opcional: termos de serviço  
+   - **URL dos termos de serviço** (`…/terms.html`) — página pública no repositório  
 
 5. **Scopes**  
    No editor Apps Script: **Projeto** → **Definições do projeto** → copia **OAuth Scopes** que o projeto usa (com o código que chama `MailApp`). No Cloud Console, em **Adicionar ou remover scopes**, inclui esses scopes; se não aparecerem na lista automática, usa **Adicionar manualmente** conforme a [lista de scopes](https://developers.google.com/apps-script/concepts/scopes) (ex.: scope de envio de e-mail associado ao MailApp — confirma sempre no teu projeto).
