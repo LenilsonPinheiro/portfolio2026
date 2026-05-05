@@ -199,3 +199,13 @@ html.portfolio-snap main > section,html.portfolio-snap body > footer{scroll-snap
 @media (min-width:2200px){
 .container,.nav-container{max-width:min(1400px,94vw)}
 }
+.cookie-banner{position:fixed;bottom:0;left:0;right:0;z-index:10002;padding:14px 0;padding-bottom:max(14px,env(safe-area-inset-bottom));background:var(--nav-bg);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-top:1px solid var(--border-soft);box-shadow:0 -10px 36px rgba(0,0,0,.28);contain:layout style}
+.cookie-banner-inner{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px}
+.cookie-banner-text{flex:1;min-width:min(100%,260px);font-size:.9rem;color:var(--text-secondary);line-height:1.55;margin:0}
+.cookie-banner-text code{font-family:var(--font-mono);font-size:.82rem;color:var(--text-primary)}
+.cookie-banner-text a{color:var(--accent-cyan);text-underline-offset:3px}
+.cookie-banner .cookie-banner-accept{flex-shrink:0;padding:12px 22px;border-radius:12px;font-size:.94rem;min-height:44px}
+html.has-cookie-banner body{padding-bottom:max(104px,calc(88px + env(safe-area-inset-bottom)))}
+@media (max-width:480px){
+.cookie-banner-inner{padding-left:20px;padding-right:20px}
+}

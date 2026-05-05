@@ -3,6 +3,7 @@
 
   var CANONICAL_BASE = 'https://lenilsonpinheiro.github.io/portfolio2026/';
   var STORAGE_KEY = 'portfolio_lang';
+  var CONSENT_KEY = 'portfolio_cookie_consent';
 
   function cookiePath() {
     try {
@@ -37,6 +38,42 @@
         cookiePath() +
         '; SameSite=Lax';
     } catch (e) {}
+  }
+
+  function hasCookieConsent() {
+    try {
+      return localStorage.getItem(CONSENT_KEY) === 'essential';
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function initCookieBanner() {
+    var bar = document.getElementById('cookieBanner');
+    var btn = document.getElementById('cookieAccept');
+    if (!bar || !btn) return;
+    function syncVisibility() {
+      if (hasCookieConsent()) {
+        bar.setAttribute('hidden', '');
+        bar.classList.remove('cookie-banner--visible');
+        bar.setAttribute('aria-hidden', 'true');
+        document.documentElement.classList.remove('has-cookie-banner');
+        return;
+      }
+      bar.removeAttribute('hidden');
+      bar.classList.add('cookie-banner--visible');
+      bar.setAttribute('aria-hidden', 'false');
+      document.documentElement.classList.add('has-cookie-banner');
+    }
+    syncVisibility();
+    btn.addEventListener('click', function () {
+      try {
+        localStorage.setItem(CONSENT_KEY, 'essential');
+      } catch (e) {}
+      var lg = window.__i18nActive ? normalizeLang(window.__i18nActive) : normalizeLang(getInitialLang());
+      setCookie('lp_lang', lg, 31536000);
+      syncVisibility();
+    });
   }
 
   var T = {
@@ -193,6 +230,10 @@
       footerCopy: 'Lenilson Pinheiro Valério · Fortaleza, CE, Brazil',
       footerPrivacyLink: 'Privacy policy',
       footerTermsLink: 'Terms of service',
+      cookieBannerAria: 'Privacy and essential cookies notice',
+      cookieBannerText:
+        'This site uses only <strong>essential</strong> cookies: <code>lp_lang</code> (language preference, ~1 year, SameSite=Lax). Theme uses <strong>browser local storage</strong> (<code>portfolio_theme</code>). No advertising or third-party marketing cookies by default. See the <a href="privacy.html">privacy policy</a>.',
+      cookieAccept: 'Understood',
       privacyDocTitle: 'Privacy policy · Lenilson Pinheiro Valério',
       privacyMetaDescription:
         'Privacy policy for this portfolio: contact form data, Google Apps Script, MailApp, GitHub Pages, and your rights (LGPD/GDPR).',
@@ -203,6 +244,9 @@
       privacyH2Who: 'Who operates this site',
       privacyPWho:
         'This static portfolio is published by <strong>Lenilson Pinheiro Valério</strong>. Contact: <a href="mailto:lenilsonpinheiro@gmail.com">lenilsonpinheiro@gmail.com</a>.',
+      privacyH2Cookies: 'Cookies and local storage',
+      privacyPCookies:
+        'We use one <strong>essential</strong> cookie, <code>lp_lang</code>, to remember your language (about one year; <code>Path</code> scoped to this site; <code>SameSite=Lax</code>). It is stored after you acknowledge the notice. Light/dark theme is stored in <strong>local storage</strong> as <code>portfolio_theme</code>, not in cookies. <strong>No</strong> advertising, analytics, or third-party marketing cookies are set by this portfolio by default. If tags such as Google Tag Manager or AdSense are added later, this section will be updated and non-essential cookies will be handled under applicable law.',
       privacyH2Form: 'Contact form',
       privacyPForm1:
         'When you use the contact form, you voluntarily provide your <strong>name</strong>, <strong>email address</strong>, and <strong>message</strong>. The data is sent over HTTPS to a <strong>Google Apps Script</strong> web app and processed with Google’s <strong>MailApp</strong> to deliver email to the portfolio owner. Google processes the request under its own terms and policies.',
@@ -234,6 +278,9 @@
       termsH2Use: 'Use of the site',
       termsPUse:
         'The content is provided for professional information about <strong>Lenilson Pinheiro Valério</strong>. You must not misuse the site (including attempting to disrupt, scrape unlawfully, or overload systems).',
+      termsH2Cookies: 'Cookies and local storage',
+      termsPCookies:
+        'Essential cookies (<code>lp_lang</code>) and theme preference in local storage are described in the <a href="privacy.html">privacy policy</a>.',
       termsH2Contact: 'Contact form',
       termsPContact:
         'Messages are sent over HTTPS to a <strong>Google Apps Script</strong> endpoint. You are responsible for the accuracy of the data you send. Use of the form is subject to the <a href="privacy.html">privacy policy</a>.',
@@ -427,6 +474,10 @@
       footerCopy: 'Lenilson Pinheiro Valério · Fortaleza, CE, Brasil',
       footerPrivacyLink: 'Política de privacidade',
       footerTermsLink: 'Termos de serviço',
+      cookieBannerAria: 'Aviso de privacidade e cookies essenciais',
+      cookieBannerText:
+        'Este site utiliza apenas cookies <strong>essenciais</strong>: <code>lp_lang</code> (idioma, ~1 ano, SameSite=Lax). O tema usa <strong>armazenamento local</strong> (<code>portfolio_theme</code>). Sem cookies de publicidade ou de marketing de terceiros por defeito. Consulte a <a href="privacy.html">política de privacidade</a>.',
+      cookieAccept: 'Compreendi',
       privacyDocTitle: 'Política de privacidade · Lenilson Pinheiro Valério',
       privacyMetaDescription:
         'Política de privacidade do portfólio: dados do formulário de contacto, Google Apps Script, MailApp, GitHub Pages e os seus direitos (LGPD/RGPD).',
@@ -437,6 +488,9 @@
       privacyH2Who: 'Quem opera este site',
       privacyPWho:
         'Este portfólio estático é publicado por <strong>Lenilson Pinheiro Valério</strong>. Contacto: <a href="mailto:lenilsonpinheiro@gmail.com">lenilsonpinheiro@gmail.com</a>.',
+      privacyH2Cookies: 'Cookies e armazenamento local',
+      privacyPCookies:
+        'Utilizamos um cookie <strong>essencial</strong>, <code>lp_lang</code>, para memorizar o idioma (cerca de um ano; <code>Path</code> limitado a este site; <code>SameSite=Lax</code>). É gravado após aceitar o aviso. O tema claro/escuro fica em <strong>armazenamento local</strong> como <code>portfolio_theme</code>, não em cookies. <strong>Não</strong> são utilizados cookies de publicidade, análise ou marketing de terceiros neste portfólio por defeito. Se forem adicionadas etiquetas como Google Tag Manager ou AdSense, esta secção será atualizada e cookies não essenciais serão tratados segundo a lei aplicável.',
       privacyH2Form: 'Formulário de contacto',
       privacyPForm1:
         'Ao usar o formulário, fornece voluntariamente o <strong>nome</strong>, o <strong>endereço de e-mail</strong> e a <strong>mensagem</strong>. Os dados são enviados por HTTPS para uma aplicação Web <strong>Google Apps Script</strong> e processados com o <strong>MailApp</strong> da Google para entregar o e-mail ao titular do portfólio. A Google trata o pedido segundo os seus próprios termos e políticas.',
@@ -468,6 +522,9 @@
       termsH2Use: 'Utilização do site',
       termsPUse:
         'O conteúdo destina-se a informação profissional sobre <strong>Lenilson Pinheiro Valério</strong>. Não deve utilizar o site de forma abusiva (incluindo perturbação, scraping ilícito ou sobrecarga de sistemas).',
+      termsH2Cookies: 'Cookies e armazenamento local',
+      termsPCookies:
+        'Os cookies essenciais (<code>lp_lang</code>) e a preferência de tema em armazenamento local estão descritos na <a href="privacy.html">política de privacidade</a>.',
       termsH2Contact: 'Formulário de contacto',
       termsPContact:
         'As mensagens são enviadas por HTTPS para um endpoint <strong>Google Apps Script</strong>. É responsável pela veracidade dos dados. O uso está sujeito à <a href="privacy.html">política de privacidade</a>.',
@@ -661,6 +718,10 @@
       footerCopy: 'Lenilson Pinheiro Valério · Fortaleza, CE, Brasil',
       footerPrivacyLink: 'Política de privacidad',
       footerTermsLink: 'Términos del servicio',
+      cookieBannerAria: 'Aviso de privacidad y cookies esenciales',
+      cookieBannerText:
+        'Este sitio usa solo cookies <strong>esenciales</strong>: <code>lp_lang</code> (idioma, ~1 año, SameSite=Lax). El tema usa <strong>almacenamiento local</strong> (<code>portfolio_theme</code>). Sin cookies publicitarias ni de marketing de terceros por defecto. Consulte la <a href="privacy.html">política de privacidad</a>.',
+      cookieAccept: 'Entendido',
       privacyDocTitle: 'Política de privacidad · Lenilson Pinheiro Valério',
       privacyMetaDescription:
         'Política de privacidad del portafolio: datos del formulario de contacto, Google Apps Script, MailApp, GitHub Pages y sus derechos (LGPD/RGPD).',
@@ -671,6 +732,9 @@
       privacyH2Who: 'Quién opera este sitio',
       privacyPWho:
         'Este portafolio estático lo publica <strong>Lenilson Pinheiro Valério</strong>. Contacto: <a href="mailto:lenilsonpinheiro@gmail.com">lenilsonpinheiro@gmail.com</a>.',
+      privacyH2Cookies: 'Cookies y almacenamiento local',
+      privacyPCookies:
+        'Usamos una cookie <strong>esencial</strong>, <code>lp_lang</code>, para recordar el idioma (aprox. un año; <code>Path</code> acotado a este sitio; <code>SameSite=Lax</code>). Se guarda tras aceptar el aviso. El tema claro/oscuro se almacena en <strong>almacenamiento local</strong> como <code>portfolio_theme</code>, no en cookies. <strong>No</strong> se implementan por defecto cookies publicitarias, de analítica ni de marketing de terceros. Si se añaden etiquetas (p. ej. Google Tag Manager o AdSense), esta sección se actualizará y las cookies no esenciales se gestionarán según la ley aplicable.',
       privacyH2Form: 'Formulario de contacto',
       privacyPForm1:
         'Al usar el formulario, usted proporciona voluntariamente su <strong>nombre</strong>, <strong>correo electrónico</strong> y <strong>mensaje</strong>. Los datos se envían por HTTPS a una aplicación web de <strong>Google Apps Script</strong> y se procesan con <strong>MailApp</strong> de Google para entregar el correo al titular del portafolio. Google trata la solicitud según sus propios términos y políticas.',
@@ -702,6 +766,9 @@
       termsH2Use: 'Uso del sitio',
       termsPUse:
         'El contenido se ofrece con fines informativos profesionales sobre <strong>Lenilson Pinheiro Valério</strong>. No debe hacer un uso indebido (incluida la interrupción, el scraping ilícito o la sobrecarga).',
+      termsH2Cookies: 'Cookies y almacenamiento local',
+      termsPCookies:
+        'Las cookies esenciales (<code>lp_lang</code>) y la preferencia de tema en almacenamiento local se describen en la <a href="privacy.html">política de privacidad</a>.',
       termsH2Contact: 'Formulario de contacto',
       termsPContact:
         'Los mensajes se envían por HTTPS a un endpoint de <strong>Google Apps Script</strong>. Usted es responsable de la exactitud de los datos. El uso está sujeto a la <a href="privacy.html">política de privacidad</a>.',
@@ -990,7 +1057,9 @@
     try {
       localStorage.setItem(STORAGE_KEY, lang);
     } catch (e) {}
-    setCookie('lp_lang', lang, 31536000);
+    if (hasCookieConsent()) {
+      setCookie('lp_lang', lang, 31536000);
+    }
     try {
       var u = new URL(window.location.href);
       if (lang === 'en') u.searchParams.delete('lang');
@@ -1075,6 +1144,7 @@
       });
     }
     applyLanguage(initial);
+    initCookieBanner();
   }
 
   if (document.readyState === 'loading') {

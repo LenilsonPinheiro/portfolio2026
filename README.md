@@ -29,7 +29,7 @@ O conteúdo profissional (cargos, datas, métricas e empresas) está **alinhado 
 
 - **Padrão:** `en-US` (conteúdo e `<html lang>` após o script de i18n).
 - **Trocar idioma:** selector no topo ou query string `?lang=pt` / `?lang=es`.
-- Preferência guardada em `localStorage` (`portfolio_lang`) e espelhada num **cookie** pequeno `lp_lang` (1 ano, `SameSite=Lax`, path do repositório) para consistência entre visitas.
+- Preferência de idioma em `localStorage` (`portfolio_lang`). O cookie **`lp_lang`** (1 ano, `SameSite=Lax`) só é gravado **depois** do utilizador aceitar o aviso de cookies essenciais na barra fixa — alinhado a LGPD/GDPR para cookies identificáveis.
 
 ## Cache e performance (cliente)
 
@@ -37,7 +37,7 @@ O conteúdo profissional (cargos, datas, métricas e empresas) está **alinhado 
 - Após alterações grandes em ficheiros, **incremente `VERSION` em `sw.js`** para forçar renovação do cache.
 - **`index.html`** contém textos padrão (EN) no corpo alinhados a `js/i18n.js` para SEO, `Ctrl+F` e carregamento sem depender só do JS; o i18n continua a substituir por `pt`/`es` consoante o idioma.
 - **Query `?v=…` em `css/site.css` e `js/*.js`** no `index.html` (e páginas legais) reduz risco de browser a manter ficheiros antigos; alinhe o valor ao deploy quando fizer sentido.
-- **Cookies não são usados para guardar o site inteiro** (seria lento e inviável); o cookie `lp_lang` é só o idioma.
+- **Cookies:** barra de informação + aceitação (`portfolio_cookie_consent` em `localStorage`); apenas **`lp_lang`** após aceitar + tema em `localStorage` — detalhes na secção Cookies de `privacy.html`.
 - **`preload`** em `index.html` para `css/site.css` e `js/i18n.js`.
 
 ## Formulário de contato (Google Apps Script)
