@@ -173,6 +173,7 @@
       topicsBody:
         '#LenilsonPinheiroValerio #LenilsonPinheiro #SeniorProjectManager #PMP #PSM #Scrum #OpenFinance #DigitalTransformation #DataGovernance #MachineLearning #AI #Citibank #Qintess #TCS #Petrobras #BancoDoNordeste #SondaIT #SUNAT #NTConsult #SAP #OutSystems #Salesforce #PowerBI #Tableau #Hadoop #Spark #AWS #Azure #GCP #Kubernetes #Kafka #MongoDB #Python #Java #CSharp #ITIL #COBIT #TOGAF #PhD #UNIFOR #Fortaleza #Hiring #ProgramManagement',
       footerCopy: 'Lenilson Pinheiro Valério · Fortaleza, CE, Brazil',
+      footerPrivacyLink: 'Privacy policy',
       typing: [
         'Senior Project Manager',
         'Digital transformation & data executive',
@@ -315,6 +316,7 @@
       topicsBody:
         '#LenilsonPinheiroValerio #LenilsonPinheiro #GerenteDeProjetos #PMP #PSM #Scrum #OpenFinance #TransformacaoDigital #GovernancaDeDados #MachineLearning #IA #Citibank #Qintess #TCS #Petrobras #BancoDoNordeste #SondaIT #SUNAT #NTConsult #SAP #OutSystems #Salesforce #PowerBI #Tableau #Hadoop #Spark #AWS #Azure #GCP #Kubernetes #Kafka #MongoDB #Python #Java #CSharp #ITIL #COBIT #TOGAF #Doutorado #UNIFOR #Fortaleza #Contratacao #GestaoDeProjetos',
       footerCopy: 'Lenilson Pinheiro Valério · Fortaleza, CE, Brasil',
+      footerPrivacyLink: 'Política de privacidade',
       typing: [
         'Gerente de Projetos Sênior',
         'Transformação digital e dados',
@@ -457,6 +459,7 @@
       topicsBody:
         '#LenilsonPinheiroValerio #LenilsonPinheiro #SeniorProjectManager #PMP #PSM #Scrum #OpenFinance #TransformacionDigital #GobiernoDelDato #MachineLearning #IA #Citibank #Qintess #TCS #Petrobras #SUNAT #NTConsult #SAP #OutSystems #Salesforce #PowerBI #Tableau #Hadoop #Spark #AWS #Azure #GCP #Kubernetes #Kafka #MongoDB #Python #Java #ITIL #COBIT #TOGAF #Doctorado #UNIFOR #Fortaleza #Contratacion',
       footerCopy: 'Lenilson Pinheiro Valério · Fortaleza, CE, Brasil',
+      footerPrivacyLink: 'Política de privacidad',
       typing: [
         'Senior Project Manager',
         'Transformación digital y datos',

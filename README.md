@@ -45,6 +45,8 @@ O conteúdo profissional (cargos, datas, métricas e empresas) está **alinhado 
 3. O browser faz `POST` em `application/x-www-form-urlencoded` para o Google; após sucesso o script redireciona para `?sent=1#contact` (`CFG.returnUrl` no Apps Script).
 4. **Quotas** de envio: limites oficiais do Gmail / `MailApp` aplicam-se (contas gratuitas têm teto diário).
 
+Para **remover o aviso de app não verificada** no fluxo OAuth (verificação Google Cloud), segue o guia: [`google-apps-script/VERIFICACAO_OAUTH_PASSO_A_PASSO.md`](google-apps-script/VERIFICACAO_OAUTH_PASSO_A_PASSO.md) e a documentação oficial [OAuth Client Verification](https://developers.google.com/apps-script/guides/client-verification).
+
 ## SEO e descoberta
 
 - **Canonical:** `https://lenilsonpinheiro.github.io/portfolio2026/`

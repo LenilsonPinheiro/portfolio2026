@@ -107,6 +107,19 @@ section{padding:var(--section-padding);position:relative}
 .form-privacy{font-size:.8rem;color:var(--text-muted);margin-top:8px}
 footer{background:var(--bg-secondary);padding:40px 0;text-align:center;border-top:1px solid rgba(0,240,255,.1);padding-bottom:max(28px,env(safe-area-inset-bottom))}
 .footer-text{color:var(--text-muted);font-size:.9rem}
+.footer-legal{margin-top:12px;font-size:.85rem}
+.footer-legal a{color:var(--accent-cyan);text-decoration:underline;text-underline-offset:3px}
+.footer-legal a:focus-visible{outline:2px solid var(--accent-cyan);outline-offset:3px;border-radius:4px}
+.privacy-header{padding:32px 0 16px;border-bottom:1px solid rgba(0,240,255,.12)}
+.privacy-back{margin-bottom:12px;font-size:.9rem}
+.privacy-back a{color:var(--accent-cyan)}
+.privacy-header h1{font-size:1.75rem;margin:0 0 8px}
+.privacy-updated{color:var(--text-muted);font-size:.9rem;margin:0}
+.privacy-main{padding:32px 0 48px;text-align:left}
+.privacy-content{max-width:720px;margin:0 auto}
+.privacy-content h2{font-size:1.15rem;margin:28px 0 10px;color:var(--text-primary)}
+.privacy-content p,.privacy-content li{color:var(--text-secondary);line-height:1.65;margin:0 0 12px}
+.privacy-content a{color:var(--accent-cyan)}
 .reveal{opacity:0;transform:translateY(50px);transition:opacity .8s ease,transform .8s ease}
 .reveal.active{opacity:1;transform:translateY(0)}
 .loading-screen{position:fixed;inset:0;background:var(--bg-primary);display:flex;align-items:center;justify-content:center;z-index:10000;transition:opacity .5s ease,visibility .5s ease}
