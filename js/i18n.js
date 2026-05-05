@@ -174,6 +174,34 @@
         '#LenilsonPinheiroValerio #LenilsonPinheiro #SeniorProjectManager #PMP #PSM #Scrum #OpenFinance #DigitalTransformation #DataGovernance #MachineLearning #AI #Citibank #Qintess #TCS #Petrobras #BancoDoNordeste #SondaIT #SUNAT #NTConsult #SAP #OutSystems #Salesforce #PowerBI #Tableau #Hadoop #Spark #AWS #Azure #GCP #Kubernetes #Kafka #MongoDB #Python #Java #CSharp #ITIL #COBIT #TOGAF #PhD #UNIFOR #Fortaleza #Hiring #ProgramManagement',
       footerCopy: 'Lenilson Pinheiro Valério · Fortaleza, CE, Brazil',
       footerPrivacyLink: 'Privacy policy',
+      privacyDocTitle: 'Privacy policy · Lenilson Pinheiro Valério',
+      privacyMetaDescription:
+        'Privacy policy for this portfolio: contact form data, Google Apps Script, MailApp, GitHub Pages, and your rights (LGPD/GDPR).',
+      privacyNavLabel: 'Primary navigation — Privacy policy',
+      privacyBackPortfolio: '← Portfolio',
+      privacyPageTitle: 'Privacy policy',
+      privacyUpdatedLine: 'Last updated: <time datetime="2026-05-05">5 May 2026</time>',
+      privacyH2Who: 'Who operates this site',
+      privacyPWho:
+        'This static portfolio is published by <strong>Lenilson Pinheiro Valério</strong>. Contact: <a href="mailto:lenilsonpinheiro@gmail.com">lenilsonpinheiro@gmail.com</a>.',
+      privacyH2Form: 'Contact form',
+      privacyPForm1:
+        'When you use the contact form, you voluntarily provide your <strong>name</strong>, <strong>email address</strong>, and <strong>message</strong>. The data is sent over HTTPS to a <strong>Google Apps Script</strong> web app and processed with Google’s <strong>MailApp</strong> to deliver email to the portfolio owner. Google processes the request under its own terms and policies.',
+      privacyPForm2:
+        'A hidden honeypot field helps reduce automated spam; if it is filled, the submission is discarded.',
+      privacyH2Purpose: 'Purpose and retention',
+      privacyPPurpose:
+        'Data is used only to <strong>read and reply</strong> to your message. Content is handled like ordinary email in the owner’s inbox. There is <strong>no sale</strong> of personal data and <strong>no marketing lists</strong> are built from the form.',
+      privacyH2Third: 'Third parties',
+      privacyPThird:
+        'Hosting: <strong>GitHub Pages</strong>. Form backend: <strong>Google Apps Script</strong> / <strong>Google</strong>. Other page resources (e.g. fonts or CDNs) load under those providers’ policies.',
+      privacyH2Rights: 'Your rights',
+      privacyPRights:
+        'Depending on your jurisdiction (e.g. LGPD / GDPR), you may have rights to access, correct, or delete personal data. Contact <a href="mailto:lenilsonpinheiro@gmail.com">lenilsonpinheiro@gmail.com</a>.',
+      privacyH2Changes: 'Changes',
+      privacyPChanges:
+        'This page may be updated when the site or form processing changes. The date above will be revised accordingly.',
+      privacyFooterBack: 'Back to portfolio',
       typing: [
         'Senior Project Manager',
         'Digital transformation & data executive',
@@ -317,6 +345,34 @@
         '#LenilsonPinheiroValerio #LenilsonPinheiro #GerenteDeProjetos #PMP #PSM #Scrum #OpenFinance #TransformacaoDigital #GovernancaDeDados #MachineLearning #IA #Citibank #Qintess #TCS #Petrobras #BancoDoNordeste #SondaIT #SUNAT #NTConsult #SAP #OutSystems #Salesforce #PowerBI #Tableau #Hadoop #Spark #AWS #Azure #GCP #Kubernetes #Kafka #MongoDB #Python #Java #CSharp #ITIL #COBIT #TOGAF #Doutorado #UNIFOR #Fortaleza #Contratacao #GestaoDeProjetos',
       footerCopy: 'Lenilson Pinheiro Valério · Fortaleza, CE, Brasil',
       footerPrivacyLink: 'Política de privacidade',
+      privacyDocTitle: 'Política de privacidade · Lenilson Pinheiro Valério',
+      privacyMetaDescription:
+        'Política de privacidade do portfólio: dados do formulário de contacto, Google Apps Script, MailApp, GitHub Pages e os seus direitos (LGPD/RGPD).',
+      privacyNavLabel: 'Navegação principal — Política de privacidade',
+      privacyBackPortfolio: '← Portfólio',
+      privacyPageTitle: 'Política de privacidade',
+      privacyUpdatedLine: 'Última atualização: <time datetime="2026-05-05">5 de maio de 2026</time>',
+      privacyH2Who: 'Quem opera este site',
+      privacyPWho:
+        'Este portfólio estático é publicado por <strong>Lenilson Pinheiro Valério</strong>. Contacto: <a href="mailto:lenilsonpinheiro@gmail.com">lenilsonpinheiro@gmail.com</a>.',
+      privacyH2Form: 'Formulário de contacto',
+      privacyPForm1:
+        'Ao usar o formulário, fornece voluntariamente o <strong>nome</strong>, o <strong>endereço de e-mail</strong> e a <strong>mensagem</strong>. Os dados são enviados por HTTPS para uma aplicação Web <strong>Google Apps Script</strong> e processados com o <strong>MailApp</strong> da Google para entregar o e-mail ao titular do portfólio. A Google trata o pedido segundo os seus próprios termos e políticas.',
+      privacyPForm2:
+        'Um campo honeypot oculto ajuda a reduzir spam automatizado; se for preenchido, o envio é descartado.',
+      privacyH2Purpose: 'Finalidade e conservação',
+      privacyPPurpose:
+        'Os dados servem apenas para <strong>ler e responder</strong> à sua mensagem. O conteúdo é tratado como e-mail habitual na caixa do titular. <strong>Não há venda</strong> de dados pessoais nem construção de <strong>listas de marketing</strong> a partir do formulário.',
+      privacyH2Third: 'Terceiros',
+      privacyPThird:
+        'Alojamento: <strong>GitHub Pages</strong>. Backend do formulário: <strong>Google Apps Script</strong> / <strong>Google</strong>. Outros recursos da página (ex.: tipos de letra ou CDN) carregam segundo as políticas desses fornecedores.',
+      privacyH2Rights: 'Os seus direitos',
+      privacyPRights:
+        'Conforme a sua jurisdição (ex.: LGPD / RGPD), pode ter direitos de acesso, retificação ou eliminação de dados pessoais. Contacte <a href="mailto:lenilsonpinheiro@gmail.com">lenilsonpinheiro@gmail.com</a>.',
+      privacyH2Changes: 'Alterações',
+      privacyPChanges:
+        'Esta página pode ser atualizada quando o site ou o tratamento no formulário mudarem. A data acima será revista em conformidade.',
+      privacyFooterBack: 'Voltar ao portfólio',
       typing: [
         'Gerente de Projetos Sênior',
         'Transformação digital e dados',
@@ -460,6 +516,34 @@
         '#LenilsonPinheiroValerio #LenilsonPinheiro #SeniorProjectManager #PMP #PSM #Scrum #OpenFinance #TransformacionDigital #GobiernoDelDato #MachineLearning #IA #Citibank #Qintess #TCS #Petrobras #SUNAT #NTConsult #SAP #OutSystems #Salesforce #PowerBI #Tableau #Hadoop #Spark #AWS #Azure #GCP #Kubernetes #Kafka #MongoDB #Python #Java #ITIL #COBIT #TOGAF #Doctorado #UNIFOR #Fortaleza #Contratacion',
       footerCopy: 'Lenilson Pinheiro Valério · Fortaleza, CE, Brasil',
       footerPrivacyLink: 'Política de privacidad',
+      privacyDocTitle: 'Política de privacidad · Lenilson Pinheiro Valério',
+      privacyMetaDescription:
+        'Política de privacidad del portafolio: datos del formulario de contacto, Google Apps Script, MailApp, GitHub Pages y sus derechos (LGPD/RGPD).',
+      privacyNavLabel: 'Navegación principal — Política de privacidad',
+      privacyBackPortfolio: '← Portafolio',
+      privacyPageTitle: 'Política de privacidad',
+      privacyUpdatedLine: 'Última actualización: <time datetime="2026-05-05">5 de mayo de 2026</time>',
+      privacyH2Who: 'Quién opera este sitio',
+      privacyPWho:
+        'Este portafolio estático lo publica <strong>Lenilson Pinheiro Valério</strong>. Contacto: <a href="mailto:lenilsonpinheiro@gmail.com">lenilsonpinheiro@gmail.com</a>.',
+      privacyH2Form: 'Formulario de contacto',
+      privacyPForm1:
+        'Al usar el formulario, usted proporciona voluntariamente su <strong>nombre</strong>, <strong>correo electrónico</strong> y <strong>mensaje</strong>. Los datos se envían por HTTPS a una aplicación web de <strong>Google Apps Script</strong> y se procesan con <strong>MailApp</strong> de Google para entregar el correo al titular del portafolio. Google trata la solicitud según sus propios términos y políticas.',
+      privacyPForm2:
+        'Un campo honeypot oculto ayuda a reducir el spam automatizado; si se rellena, el envío se descarta.',
+      privacyH2Purpose: 'Finalidad y conservación',
+      privacyPPurpose:
+        'Los datos se usan solo para <strong>leer y responder</strong> a su mensaje. El contenido se gestiona como correo ordinario en la bandeja del titular. <strong>No hay venta</strong> de datos personales ni creación de <strong>listas de marketing</strong> a partir del formulario.',
+      privacyH2Third: 'Terceros',
+      privacyPThird:
+        'Alojamiento: <strong>GitHub Pages</strong>. Backend del formulario: <strong>Google Apps Script</strong> / <strong>Google</strong>. Otros recursos de la página (p. ej. fuentes o CDN) se cargan según las políticas de esos proveedores.',
+      privacyH2Rights: 'Sus derechos',
+      privacyPRights:
+        'Según su jurisdicción (p. ej. LGPD / RGPD), puede tener derechos de acceso, rectificación o supresión de datos personales. Contacte a <a href="mailto:lenilsonpinheiro@gmail.com">lenilsonpinheiro@gmail.com</a>.',
+      privacyH2Changes: 'Cambios',
+      privacyPChanges:
+        'Esta página puede actualizarse cuando cambie el sitio o el tratamiento del formulario. La fecha superior se revisará en consecuencia.',
+      privacyFooterBack: 'Volver al portafolio',
       typing: [
         'Senior Project Manager',
         'Transformación digital y datos',
@@ -509,6 +593,31 @@
 
   function applySeo(lang) {
     var t = T[lang];
+    if (document.body && document.body.getAttribute('data-page') === 'privacy') {
+      document.documentElement.lang = t.htmlLang;
+      document.title = t.privacyDocTitle;
+      setMeta('description', t.privacyMetaDescription);
+      setMeta('og:title', t.privacyDocTitle, 'property');
+      setMeta('og:description', t.privacyMetaDescription, 'property');
+      setMeta('og:locale', t.ogLocale, 'property');
+      setMeta('og:url', CANONICAL_BASE + 'privacy.html', 'property');
+      setMeta('twitter:title', t.privacyDocTitle);
+      setMeta('twitter:description', t.privacyMetaDescription);
+      var pj = document.getElementById('privacy-jsonld');
+      if (pj) {
+        pj.textContent = JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'WebPage',
+          name: t.privacyDocTitle,
+          url: CANONICAL_BASE + 'privacy.html',
+          inLanguage: t.htmlLang,
+          description: t.privacyMetaDescription,
+          isPartOf: { '@type': 'WebSite', url: CANONICAL_BASE, name: t.schemaName + ' — Portfolio' },
+        });
+      }
+      return;
+    }
+
     document.documentElement.lang = t.htmlLang;
     document.title = t.metaTitle;
     setMeta('description', t.metaDescription);
@@ -595,6 +704,11 @@
     document.querySelectorAll('[data-i18n-placeholder]').forEach(function (el) {
       var k = el.getAttribute('data-i18n-placeholder');
       if (pack[k]) el.setAttribute('placeholder', pack[k]);
+    });
+
+    document.querySelectorAll('[data-i18n-aria-label]').forEach(function (el) {
+      var ka = el.getAttribute('data-i18n-aria-label');
+      if (pack[ka]) el.setAttribute('aria-label', pack[ka]);
     });
 
     var tmpl = document.getElementById('discovery-seeds');

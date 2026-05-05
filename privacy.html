@@ -1,53 +1,215 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="author" content="Lenilson Pinheiro Valério">
+    <meta name="theme-color" content="#0a0a0f">
+    <meta name="color-scheme" content="dark">
     <meta name="description" content="Privacy policy for the portfolio contact form (Google Apps Script / MailApp).">
     <title>Privacy policy · Lenilson Pinheiro Valério</title>
+
     <link rel="canonical" href="https://lenilsonpinheiro.github.io/portfolio2026/privacy.html">
+    <link rel="alternate" hreflang="en-US" href="https://lenilsonpinheiro.github.io/portfolio2026/privacy.html?lang=en">
+    <link rel="alternate" hreflang="pt-BR" href="https://lenilsonpinheiro.github.io/portfolio2026/privacy.html?lang=pt">
+    <link rel="alternate" hreflang="es-ES" href="https://lenilsonpinheiro.github.io/portfolio2026/privacy.html?lang=es">
+    <link rel="alternate" hreflang="x-default" href="https://lenilsonpinheiro.github.io/portfolio2026/privacy.html?lang=en">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lenilsonpinheiro.github.io/portfolio2026/privacy.html">
+    <meta property="og:title" content="Privacy policy · Lenilson Pinheiro Valério">
+    <meta property="og:description" content="Privacy policy for this portfolio: contact form, Google Apps Script, MailApp, GitHub Pages.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="pt_BR">
+    <meta property="og:locale:alternate" content="es_ES">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/LenilsonPinheiro?v=4">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Privacy policy · Lenilson Pinheiro Valério">
+    <meta name="twitter:description" content="Privacy policy for this portfolio: contact form, Google Apps Script, MailApp, GitHub Pages.">
+    <meta name="twitter:image" content="https://avatars.githubusercontent.com/LenilsonPinheiro?v=4">
+
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="favicon.svg">
+    <link rel="manifest" href="site.webmanifest">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet"></noscript>
+    <link rel="preload" href="css/site.css" as="style">
+    <link rel="preload" href="js/i18n.js" as="script">
     <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous"></noscript>
+
+    <script type="application/ld+json" id="privacy-jsonld">{}</script>
 </head>
-<body>
-    <header class="privacy-header">
-        <div class="container">
-            <p class="privacy-back"><a href="index.html">← Portfolio</a></p>
-            <h1>Privacy policy</h1>
-            <p class="privacy-updated">Last updated: <time datetime="2026-05-05">5 May 2026</time></p>
-        </div>
+<body data-page="privacy">
+    <a class="skip-link" href="#main" data-i18n="navSkip">Skip to main content</a>
+
+    <div class="loading-screen" id="loadingScreen" aria-hidden="true" data-i18n-title="loadingTitle">
+        <div class="loader" role="status"></div>
+    </div>
+
+    <div class="custom-cursor" id="customCursor" aria-hidden="true"></div>
+
+    <header>
+        <nav id="navbar" class="privacy-nav" aria-label="Primary" data-i18n-aria-label="privacyNavLabel">
+            <div class="nav-container">
+                <a href="index.html#home" class="logo" aria-label="Lenilson Pinheiro Valério home" data-i18n-title="titleLogo">&lt;LP/&gt;</a>
+                <div class="nav-right">
+                    <div class="lang-switcher">
+                        <label for="langSelect" data-i18n="langLabel">Language</label>
+                        <select id="langSelect" aria-label="Language" data-i18n-title="titleLang">
+                            <option value="en">English (US)</option>
+                            <option value="pt">Português (BR)</option>
+                            <option value="es">Español (ES)</option>
+                        </select>
+                    </div>
+                    <button type="button" class="mobile-menu-toggle" id="mobileMenuToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu">
+                        <i class="fas fa-bars" aria-hidden="true"></i>
+                    </button>
+                    <ul class="nav-links" id="navLinks">
+                        <li><a href="index.html#home" data-i18n="navHome" data-i18n-title="titleNavHome">Home</a></li>
+                        <li><a href="index.html#about" data-i18n="navAbout" data-i18n-title="titleNavAbout">About</a></li>
+                        <li><a href="index.html#experience" data-i18n="navExperience" data-i18n-title="titleNavExperience">Experience</a></li>
+                        <li><a href="index.html#tech" data-i18n="navTech" data-i18n-title="titleNavTech">Stack</a></li>
+                        <li><a href="index.html#projects" data-i18n="navProjects" data-i18n-title="titleNavProjects">Projects</a></li>
+                        <li><a href="index.html#contact" data-i18n="navContact" data-i18n-title="titleNavContact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
-    <main class="privacy-main">
-        <div class="container privacy-content">
-            <article>
-                <h2>Who operates this site</h2>
-                <p>This static portfolio is published by <strong>Lenilson Pinheiro Valério</strong>. Contact: <a href="mailto:lenilsonpinheiro@gmail.com">lenilsonpinheiro@gmail.com</a>.</p>
 
-                <h2>Contact form</h2>
-                <p>When you use the contact form on the portfolio, you voluntarily provide your <strong>name</strong>, <strong>email address</strong>, and <strong>message</strong>. This information is submitted over HTTPS to a <strong>Google Apps Script</strong> endpoint (Web App) and processed with Google’s <strong>MailApp</strong> service to deliver an email to the portfolio owner. Google processes this request under Google’s own terms and policies.</p>
-                <p>The form includes a hidden honeypot field to reduce automated spam; if it is filled, the submission is discarded.</p>
+    <main id="main" class="privacy-page-main">
+        <div class="privacy-top">
+            <div class="container">
+                <p class="privacy-kicker"><a href="index.html#home" data-i18n="privacyBackPortfolio">← Portfolio</a></p>
+                <h1 class="section-title privacy-title" id="privacy-h1" data-i18n="privacyPageTitle">Privacy policy</h1>
+                <p class="privacy-meta" data-i18n="privacyUpdatedLine" data-i18n-html="1">Last updated: <time datetime="2026-05-05">5 May 2026</time></p>
+            </div>
+        </div>
 
-                <h2>Purpose and retention</h2>
-                <p>Data is used solely to <strong>read and reply</strong> to your inquiry. Messages are handled like normal email in the owner’s mailbox. There is <strong>no sale</strong> of personal data and <strong>no marketing lists</strong> are built from the form.</p>
+        <div class="privacy-body-wrap">
+            <div class="container">
+                <article class="privacy-card reveal" aria-labelledby="privacy-h1">
+                    <h2 data-i18n="privacyH2Who">Who operates this site</h2>
+                    <p data-i18n="privacyPWho" data-i18n-html="1"></p>
 
-                <h2>Third parties</h2>
-                <p>Hosting: <strong>GitHub Pages</strong>. Form backend: <strong>Google Apps Script</strong> / <strong>Google</strong>. No other subprocessors are used for the form beyond those required to load the page (e.g. fonts or CDNs referenced in the portfolio).</p>
+                    <h2 data-i18n="privacyH2Form">Contact form</h2>
+                    <p data-i18n="privacyPForm1" data-i18n-html="1"></p>
+                    <p data-i18n="privacyPForm2" data-i18n-html="1"></p>
 
-                <h2>Your rights</h2>
-                <p>Depending on your jurisdiction (e.g. LGPD / GDPR), you may have rights to access, correct, or delete personal data. To exercise these rights, email <a href="mailto:lenilsonpinheiro@gmail.com">lenilsonpinheiro@gmail.com</a>.</p>
+                    <h2 data-i18n="privacyH2Purpose">Purpose and retention</h2>
+                    <p data-i18n="privacyPPurpose" data-i18n-html="1"></p>
 
-                <h2>Política de privacidade (PT)</h2>
-                <p>Este site é um portfólio estático. O formulário envia nome, e-mail e mensagem para um <strong>Google Apps Script</strong> que usa o <strong>MailApp</strong> da Google para entregar o e-mail ao titular. Os dados servem apenas para responder ao contacto; não são vendidos. Para questões de privacidade: <a href="mailto:lenilsonpinheiro@gmail.com">lenilsonpinheiro@gmail.com</a>.</p>
+                    <h2 data-i18n="privacyH2Third">Third parties</h2>
+                    <p data-i18n="privacyPThird" data-i18n-html="1"></p>
 
-                <h2>Changes</h2>
-                <p>This page may be updated when the site or form processing changes. The “Last updated” date at the top will be revised accordingly.</p>
-            </article>
+                    <h2 data-i18n="privacyH2Rights">Your rights</h2>
+                    <p data-i18n="privacyPRights" data-i18n-html="1"></p>
+
+                    <h2 data-i18n="privacyH2Changes">Changes</h2>
+                    <p data-i18n="privacyPChanges" data-i18n-html="1"></p>
+
+                    <p class="privacy-card-actions">
+                        <a href="index.html#home" class="btn btn-secondary privacy-footer-back" data-i18n="privacyFooterBack">Back to portfolio</a>
+                    </p>
+                </article>
+            </div>
         </div>
     </main>
+
     <footer>
         <div class="container">
-            <p class="footer-text"><a href="index.html">← Back to portfolio</a></p>
+            <p class="footer-text"><span data-i18n="footerCopy"></span> <span aria-hidden="true">·</span> <time datetime="2026">2026</time></p>
+            <p class="footer-legal"><a href="privacy.html" data-i18n="footerPrivacyLink">Privacy policy</a></p>
         </div>
     </footer>
+
+    <script src="js/i18n.js" defer></script>
+    <script>
+        window.addEventListener('load', function () {
+            var loadingScreen = document.getElementById('loadingScreen');
+            if (loadingScreen) {
+                setTimeout(function () {
+                    loadingScreen.classList.add('hidden');
+                    loadingScreen.setAttribute('aria-hidden', 'true');
+                }, 320);
+            }
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('sw.js', { scope: './' }).catch(function () {});
+            }
+        });
+
+        var cursor = document.getElementById('customCursor');
+        if (cursor) {
+            var mouseX = 0, mouseY = 0, cursorX = 0, cursorY = 0;
+            document.addEventListener('mousemove', function (e) {
+                mouseX = e.clientX;
+                mouseY = e.clientY;
+                cursor.classList.add('active');
+            });
+            document.addEventListener('mouseleave', function () {
+                cursor.classList.remove('active');
+            });
+            function animateCursor() {
+                cursorX += (mouseX - cursorX) * 0.12;
+                cursorY += (mouseY - cursorY) * 0.12;
+                cursor.style.left = cursorX + 'px';
+                cursor.style.top = cursorY + 'px';
+                requestAnimationFrame(animateCursor);
+            }
+            if (window.matchMedia('(pointer: fine)').matches) {
+                animateCursor();
+                document.querySelectorAll('a, button, select, input, textarea').forEach(function (el) {
+                    el.addEventListener('mouseenter', function () { cursor.classList.add('hover'); });
+                    el.addEventListener('mouseleave', function () { cursor.classList.remove('hover'); });
+                });
+            } else {
+                cursor.style.display = 'none';
+            }
+        }
+
+        var navbar = document.getElementById('navbar');
+        if (navbar) {
+            window.addEventListener('scroll', function () {
+                if (window.scrollY > 50) navbar.classList.add('scrolled');
+                else navbar.classList.remove('scrolled');
+            });
+        }
+
+        var mobileMenuToggle = document.getElementById('mobileMenuToggle');
+        var navLinks = document.getElementById('navLinks');
+        if (mobileMenuToggle && navLinks) {
+            function setMenuOpen(open) {
+                navLinks.classList.toggle('active', open);
+                mobileMenuToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+                var pack = window.PortfolioI18n && window.PortfolioI18n.T && window.__i18nActive ? window.PortfolioI18n.T[window.__i18nActive] : null;
+                var labelOpen = pack ? pack.ariaMenu : 'Menu';
+                var labelClose = pack ? pack.ariaMenuClose : 'Close';
+                mobileMenuToggle.setAttribute('aria-label', open ? labelClose : labelOpen);
+                var icon = mobileMenuToggle.querySelector('i');
+                if (icon) icon.className = open ? 'fas fa-times' : 'fas fa-bars';
+            }
+            mobileMenuToggle.addEventListener('click', function () {
+                setMenuOpen(!navLinks.classList.contains('active'));
+            });
+            document.querySelectorAll('.nav-links a').forEach(function (link) {
+                link.addEventListener('click', function () { setMenuOpen(false); });
+            });
+        }
+
+        function checkPrivacyReveal() {
+            document.querySelectorAll('.privacy-card.reveal').forEach(function (el) {
+                if (el.getBoundingClientRect().top < window.innerHeight - 80) el.classList.add('active');
+            });
+        }
+        window.addEventListener('scroll', checkPrivacyReveal);
+        window.addEventListener('load', checkPrivacyReveal);
+    </script>
 </body>
 </html>

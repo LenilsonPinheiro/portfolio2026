@@ -23,7 +23,7 @@ ASSETS = [
     ("/robots.txt", "robots", ["User-agent", "Sitemap"]),
     ("/sitemap.xml", "sitemap", ["<urlset", "loc"]),
     ("/llms.txt", "llms", ["Portfolio"]),
-    ("/privacy.html", "privacy", ["Privacy policy", "MailApp", "lenilsonpinheiro"]),
+    ("/privacy.html", "privacy", ["privacy-page-main", "privacy-card", "langselect"]),
 ]
 
 
