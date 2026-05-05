@@ -62,9 +62,9 @@
     <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
     <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet"></noscript>
-    <link rel="preload" href="css/site.css?v=20260509" as="style">
-    <link rel="preload" href="js/i18n.js?v=20260509" as="script">
-    <link rel="stylesheet" href="css/site.css?v=20260509">
+    <link rel="preload" href="css/site.css?v=20260510" as="style">
+    <link rel="preload" href="js/i18n.js?v=20260510" as="script">
+    <link rel="stylesheet" href="css/site.css?v=20260510">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous"></noscript>
 
@@ -416,11 +416,14 @@
         </div>
     </footer>
 
-    <script src="js/contact-endpoint.js?v=20260509" defer></script>
-    <script src="js/contact-form.js?v=20260509" defer></script>
-    <script src="js/i18n.js?v=20260509" defer></script>
-    <script src="js/theme.js?v=20260509" defer></script>
+    <script src="js/contact-endpoint.js?v=20260510" defer></script>
+    <script src="js/contact-form.js?v=20260510" defer></script>
+    <script src="js/i18n.js?v=20260510" defer></script>
+    <script src="js/theme.js?v=20260510" defer></script>
     <script>
+        try {
+            if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+        } catch (e0) {}
         window.addEventListener('load', function () {
             var loadingScreen = document.getElementById('loadingScreen');
             setTimeout(function () {
@@ -432,6 +435,22 @@
                     .register('sw.js', { scope: './' })
                     .catch(function () {});
             }
+            try {
+                var hash = window.location.hash;
+                if (hash && hash.length > 1) {
+                    var jump = document.querySelector(hash);
+                    if (jump) {
+                        var rmHash = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+                        setTimeout(function () {
+                            jump.scrollIntoView({
+                                behavior: rmHash ? 'auto' : 'smooth',
+                                block: 'start',
+                                inline: 'nearest',
+                            });
+                        }, 120);
+                    }
+                }
+            } catch (eHash) {}
         });
 
         var cursor = document.getElementById('customCursor');
@@ -571,6 +590,16 @@
         if (aboutSection) statsObserver.observe(aboutSection);
 
         var reduceMotionAnchor = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        function portfolioScrollTo(target) {
+            if (!target) return;
+            if (reduceMotionAnchor) {
+                target.scrollIntoView({ behavior: 'auto', block: 'start', inline: 'nearest' });
+                return;
+            }
+            requestAnimationFrame(function () {
+                target.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
+            });
+        }
         document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
             anchor.addEventListener('click', function (ev) {
                 var id = anchor.getAttribute('href');
@@ -578,7 +607,7 @@
                 var target = document.querySelector(id);
                 if (target) {
                     ev.preventDefault();
-                    target.scrollIntoView({ behavior: reduceMotionAnchor ? 'auto' : 'smooth', block: 'start' });
+                    portfolioScrollTo(target);
                 }
             });
         });
@@ -587,8 +616,11 @@
             var params = new URLSearchParams(window.location.search);
             if (params.get('sent') === '1') {
                 var el = document.getElementById('contact');
-                if (el) el.setAttribute('tabindex', '-1');
-                if (el) el.focus({ preventScroll: true });
+                if (el) {
+                    el.setAttribute('tabindex', '-1');
+                    el.focus({ preventScroll: true });
+                    portfolioScrollTo(el);
+                }
             }
         } catch (err) {}
     </script>

@@ -1,7 +1,7 @@
 # Lenilson Pinheiro Valério — Portfolio (llms.txt)
 # Machine-readable index for AI assistants, LLM crawlers, and discovery tools.
 # Canonical production URL: https://lenilsonpinheiro.github.io/portfolio2026/
-# Last updated (content policy): 2026-05-09
+# Last updated (content policy): 2026-05-10
 
 > Lenilson Pinheiro Valério is a Senior Project Manager & Solutions Architect (~25 years): Citibank (Qintess), TCS/Petrobras, Banco do Nordeste (Sonda IT), SUNAT/NTConsult (Peru). Since Oct 2024: independent consulting in enterprise SaaS, AI integration, mobile (React Native, Kotlin), n8n—specific clients/products often confidential and not named here. PhD in Applied IT (UNIFOR) on hold. PMP · PSM I. Open Finance, AI/ML for fraud (+15% precision uplift per résumé), SAP, OutSystems. Phone: +55 85 99733-1000 | Email: lenilsonpinheiro@gmail.com | LinkedIn: https://www.linkedin.com/in/lenilsonpinheiro/ | GitHub: https://github.com/LenilsonPinheiro
 

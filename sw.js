@@ -1,7 +1,7 @@
 /* Portfolio offline/cache — bump VERSION after deploy when assets change meaningfully. */
 'use strict';
 
-var VERSION = '2026-05-09-v26-tooltips-copy';
+var VERSION = '2026-05-10-v27-scroll-proximity';
 var CACHE_NAME = 'lp-portfolio-' + VERSION;
 var ORIGIN = self.location.origin;
 

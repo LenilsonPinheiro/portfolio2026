@@ -8,9 +8,9 @@ html{scroll-behavior:auto;-webkit-text-size-adjust:100%;text-size-adjust:100%;sc
 html::-webkit-scrollbar{width:0;height:0;display:none}
 body{scrollbar-width:none;-ms-overflow-style:none}
 body::-webkit-scrollbar{width:0;height:0;display:none}
-html.portfolio-snap{scroll-snap-type:y mandatory;scroll-padding-top:max(72px,calc(56px + env(safe-area-inset-top)));overscroll-behavior-y:contain}
-html.portfolio-snap main > section{scroll-snap-align:start;scroll-snap-stop:normal;scroll-margin-top:max(72px,calc(56px + env(safe-area-inset-top)))}
-html.portfolio-snap body > footer{scroll-snap-align:start;scroll-snap-stop:normal;scroll-margin-top:max(72px,calc(56px + env(safe-area-inset-top)))}
+html.portfolio-snap{scroll-snap-type:y proximity;scroll-padding-top:max(80px,calc(64px + env(safe-area-inset-top)));scroll-padding-bottom:env(safe-area-inset-bottom);overscroll-behavior-y:auto;-webkit-overflow-scrolling:touch}
+html.portfolio-snap main > section{scroll-snap-align:start;scroll-snap-stop:normal;scroll-margin-top:max(80px,calc(64px + env(safe-area-inset-top)))}
+html.portfolio-snap body > footer{scroll-snap-align:none;scroll-snap-stop:normal;scroll-margin-top:0}
 .nav-links{scrollbar-width:none;-ms-overflow-style:none}
 .nav-links::-webkit-scrollbar{width:0;height:0;display:none}
 body{font-family:var(--font-primary);background:var(--bg-primary);color:var(--text-primary);line-height:1.6;overflow-x:hidden;position:relative;padding-left:env(safe-area-inset-left);padding-right:env(safe-area-inset-right)}
@@ -206,6 +206,7 @@ html.portfolio-snap main > section,html.portfolio-snap body > footer{scroll-snap
 .cookie-banner-text a{color:var(--accent-cyan);text-underline-offset:3px}
 .cookie-banner .cookie-banner-accept{flex-shrink:0;padding:12px 22px;border-radius:12px;font-size:.94rem;min-height:44px}
 html.has-cookie-banner body{padding-bottom:max(104px,calc(88px + env(safe-area-inset-bottom)))}
+html.has-cookie-banner.portfolio-snap{scroll-padding-bottom:max(96px,calc(80px + env(safe-area-inset-bottom)))}
 @media (max-width:480px){
 .cookie-banner-inner{padding-left:20px;padding-right:20px}
 }
