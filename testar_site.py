@@ -12,7 +12,7 @@ import urllib.request
 
 BASE = "https://lenilsonpinheiro.github.io/portfolio2026"
 ASSETS = [
-    ("/", "index", ["<html", "lenilson", "contact-endpoint.js", "contact-form.js", "contactform"]),
+    ("/", "index", ["<html", "lenilson", "contact-endpoint.js", "contact-form.js", "contactform", "theme.js", "themetoggle"]),
     ("/index.html", "index.html", ["<html", "lenilson"]),
     ("/sw.js", "sw", ["addEventListener", "CACHE_NAME", "baseDir"]),
     ("/css/site.css", "css", ["body", "{"]),
@@ -23,7 +23,7 @@ ASSETS = [
     ("/robots.txt", "robots", ["User-agent", "Sitemap"]),
     ("/sitemap.xml", "sitemap", ["<urlset", "loc"]),
     ("/llms.txt", "llms", ["Portfolio"]),
-    ("/privacy.html", "privacy", ["privacy-page-main", "privacy-card", "langselect"]),
+    ("/privacy.html", "privacy", ["privacy-page-main", "privacy-card", "langselect", "theme.js", "themetoggle"]),
 ]
 
 

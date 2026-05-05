@@ -210,6 +210,10 @@
       ],
       ariaMenu: 'Open menu',
       ariaMenuClose: 'Close menu',
+      ariaThemeToLight: 'Switch to light theme',
+      ariaThemeToDark: 'Switch to dark theme',
+      titleThemeToLight: 'Use light theme',
+      titleThemeToDark: 'Use dark theme',
     },
     pt: {
       htmlLang: 'pt-BR',
@@ -381,6 +385,10 @@
       ],
       ariaMenu: 'Abrir menu',
       ariaMenuClose: 'Fechar menu',
+      ariaThemeToLight: 'Mudar para tema claro',
+      ariaThemeToDark: 'Mudar para tema escuro',
+      titleThemeToLight: 'Usar tema claro',
+      titleThemeToDark: 'Usar tema escuro',
     },
     es: {
       htmlLang: 'es-ES',
@@ -552,6 +560,10 @@
       ],
       ariaMenu: 'Abrir menú',
       ariaMenuClose: 'Cerrar menú',
+      ariaThemeToLight: 'Cambiar a tema claro',
+      ariaThemeToDark: 'Cambiar a tema oscuro',
+      titleThemeToLight: 'Usar tema claro',
+      titleThemeToDark: 'Usar tema oscuro',
     },
   };
 

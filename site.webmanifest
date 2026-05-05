@@ -1,19 +1,30 @@
 {
+  "id": "/portfolio2026/",
   "name": "Lenilson Pinheiro Valério — Portfolio",
   "short_name": "Lenilson P.",
   "description": "Senior Project Manager: digital transformation, data & AI. Open Finance, banking, energy. PMP · PSM I. Fortaleza, Brazil.",
-  "start_url": "/portfolio2026/",
+  "start_url": "/portfolio2026/?source=pwa",
   "scope": "/portfolio2026/",
   "display": "standalone",
+  "display_override": ["standalone", "browser"],
+  "orientation": "any",
   "background_color": "#0a0a0f",
-  "theme_color": "#00f0ff",
+  "theme_color": "#0369a1",
   "lang": "en-US",
+  "dir": "ltr",
+  "categories": ["business", "productivity"],
   "icons": [
     {
       "src": "favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
     }
   ]
 }
