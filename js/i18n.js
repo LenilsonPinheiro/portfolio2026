@@ -46,11 +46,11 @@
       schemaJobTitle: 'Senior Project Manager & Solutions Architect',
       metaTitle: 'Lenilson Pinheiro Valério — Portfolio · Senior PM & Solutions Architect · Digital Transformation, Data & AI',
       metaDescription:
-        'Senior PM & Solutions Architect (~25 yrs): Citibank (Qintess), TCS/Petrobras, Banco do Nordeste, SUNAT (Peru). Consulting: Projeto Sentinela (SaaS, FastAPI, RAG), React Native, Kotlin, n8n. PMP · PSM I · Fortaleza — open to senior roles & advisory.',
+        'Senior PM & Solutions Architect (~25 yrs): Citibank (Qintess), TCS/Petrobras, Banco do Nordeste, SUNAT (Peru). Since Oct 2024: consulting in enterprise SaaS, AI integration, React Native, Kotlin, n8n—client details often confidential. PMP · PSM I · Fortaleza — open to senior roles & advisory.',
       metaKeywords:
-        'Lenilson Pinheiro Valério,Senior Project Manager,Solutions Architect,program director,technical program management,PMP,PSM I,n8n,React Native,Kotlin,FastAPI,RAG,Open Finance,Pentaho,IBM Watson,Google Cloud AI,digital transformation,data governance,AI,Machine Learning,executive hiring,talent acquisition,Citibank,Qintess,TCS,Petrobras,Sentinela,SaaS,Banco do Nordeste,SUNAT,NTConsult,SAP,OutSystems,Salesforce,Power BI,Tableau,Hadoop,Spark,AWS,Azure,GCP,Python,Java,Kubernetes,Kafka,MongoDB,Scrum,agile,ITIL,COBIT,UNIFOR',
+        'Lenilson Pinheiro Valério,Senior Project Manager,Solutions Architect,program director,technical program management,PMP,PSM I,n8n,React Native,Kotlin,FastAPI,RAG,Open Finance,Pentaho,IBM Watson,Google Cloud AI,digital transformation,data governance,AI,Machine Learning,executive hiring,talent acquisition,Citibank,Qintess,TCS,Petrobras,SaaS,enterprise SaaS,Banco do Nordeste,SUNAT,NTConsult,SAP,OutSystems,Salesforce,Power BI,Tableau,Hadoop,Spark,AWS,Azure,GCP,Python,Java,Kubernetes,Kafka,MongoDB,Scrum,agile,ITIL,COBIT,UNIFOR',
       discoveryBio:
-        'Lenilson Pinheiro Valério — Senior Project Manager & Solutions Architect, Fortaleza, CE, Brazil (~25 yrs). Employers and programs include Citibank (Qintess), TCS/Petrobras, Banco do Nordeste (Sonda IT), SUNAT (NTConsult, Peru). Since Oct 2024: independent consulting — Projeto Sentinela (SaaS, FastAPI, RAG), React Native, Kotlin, n8n automation. Certifications: PMP, PSM I. For dates and metrics, corroborate on LinkedIn and owner CV PDFs (2026.1 EN/PT). Canonical profile site: https://lenilsonpinheiro.github.io/portfolio2026/ — Machine-readable index: /llms.txt',
+        'Lenilson Pinheiro Valério — Senior PM & Solutions Architect, Fortaleza, CE, Brazil (~25 yrs). Citibank (Qintess), TCS/Petrobras, Banco do Nordeste, SUNAT (NTConsult, Peru). Since Oct 2024: independent consulting—enterprise SaaS, AI integration, mobile (React Native, Kotlin), n8n; specific clients/products often confidential. PMP, PSM I. Corroborate dates on LinkedIn and CV PDFs (2026.1). Site: https://lenilsonpinheiro.github.io/portfolio2026/ — /llms.txt',
       ogLocale: 'en_US',
       langLabel: 'Language',
       navSkip: 'Skip to main content',
@@ -70,7 +70,7 @@
       aboutP1:
         'I am a <span class="highlight">Senior Project Manager</span> and <span class="highlight">Solutions Architect</span> with <span class="highlight">~25 years</span> leading strategic initiatives for global and regulated organizations—including <span class="highlight">Citibank (Qintess)</span>, <span class="highlight">TCS on Petrobras</span>, <span class="highlight">Banco do Nordeste (Sonda IT)</span>, and <span class="highlight">SUNAT (NTConsult, Peru)</span>. Since <span class="highlight">Oct 2024</span> I deliver independent consulting focused on <span class="highlight">SaaS, intelligent automation (n8n), React Native, Kotlin, Python/FastAPI and RAG</span>. I combine <span class="highlight">PMP and Scrum (PSM I)</span> discipline with deep technical fluency.',
       aboutP2:
-        'Recent impact: leadership of <span class="highlight">Projeto Sentinela</span> (control-plane SaaS architecture); <span class="highlight">Open Finance</span> with SWIFT / ISO 20022 and mobile stacks (<span class="highlight">React Native & Kotlin</span>); <span class="highlight">+15% uplift in fraud-model precision</span> at Citibank; <span class="highlight">Petrobras modernization</span> toward <span class="highlight">OutSystems and SAP</span> with agile outsourcing governance.',
+        'Recent impact: enterprise SaaS and AI integration under <span class="highlight">confidential consulting</span> engagements; <span class="highlight">Open Finance</span> with SWIFT / ISO 20022 and mobile stacks (<span class="highlight">React Native & Kotlin</span>); <span class="highlight">+15% uplift in fraud-model precision</span> at Citibank; <span class="highlight">Petrobras modernization</span> toward <span class="highlight">OutSystems and SAP</span> with agile outsourcing governance.',
       aboutP3:
         'Education: <span class="highlight">PhD in Applied IT — UNIFOR (on hold)</span> to focus on projects and contracting; MBA in IT Project Management (Farias Brito, 2016); M.Sc. Applied Informatics (UNIFOR, 2014); B.Sc. Computer Science (UNIFOR, 2010). Certifications: <span class="highlight">PMP (PMI)</span> and <span class="highlight">PSM I (Scrum.org)</span>; training in ITIL, COBIT, and TOGAF; recent technical depth in <span class="highlight">n8n, React Native, Kotlin, SAP CPS, OutSystems, Salesforce, and Data Science (2023–2025)</span>.',
       statProjects: 'Years in IT, data & delivery leadership',
@@ -79,11 +79,11 @@
       statTech: 'Years leading Citibank programs (Qintess)',
       expTitle: 'Experience (résumé-aligned)',
       expSubtitle:
-        'Independent consulting (Projeto Sentinela, mobile, n8n), flagship employers, and credentials—aligned with your latest résumé.',
+        'Independent consulting (enterprise SaaS, mobile, n8n), flagship employers, and credentials—aligned with your latest résumé.',
       exp1Role: 'Independent consulting (PJ) · Solutions Architect',
       exp1Meta: 'Oct 2024 – Present · SaaS, mobile & intelligent automation',
       exp1b1:
-        'Leadership and development of <span class="highlight">Projeto Sentinela</span>, a SaaS control plane using advanced architecture (<span class="highlight">Python, FastAPI, RAG</span>).',
+        'Architecture and delivery of <span class="highlight">enterprise SaaS and AI-enabled platforms</span> under consulting agreements—<span class="highlight">client and product names omitted when confidential</span>.',
       exp1b2:
         'Cross-platform mobile delivery with <span class="highlight">React Native</span> and native modules in <span class="highlight">Kotlin</span> for high performance.',
       exp1b3:
@@ -125,7 +125,7 @@
         'Management, data platforms, cloud/AI services, and enterprise development stack—verbatim themes from your 2026.1 CV.',
       projTitle: 'Program highlights',
       projSubtitle:
-        'Consulting flagship (Sentinela), regulated banking programs, energy transformation, and automation stacks. Verify dates on LinkedIn / PDF résumés.',
+        'Consulting work (often under confidentiality), regulated banking programs, energy transformation, and automation stacks. Verify dates on LinkedIn / PDF résumés.',
       proj1Title: 'Open Finance & global payments (Citibank / Qintess)',
       proj1Desc:
         'Directed Open Finance with major budget ownership (EN ~USD 1M; PT ~R$ 5M), <span class="highlight">~10% ahead</span> of the regulatory milestone; mobile delivery with <span class="highlight">React Native / Kotlin</span> and SWIFT / ISO 20022 orchestration.',
@@ -135,9 +135,9 @@
       proj3Title: 'Petrobras digital transformation (TCS)',
       proj3Desc:
         'Senior PM for Petrobras programs: <span class="highlight">legacy → OutSystems / SAP</span>, agile outsourcing governance, risk mitigation, and executive reporting.',
-      proj4Title: 'Projeto Sentinela — SaaS control plane (consulting)',
+      proj4Title: 'Enterprise SaaS & AI consulting (confidential engagements)',
       proj4Desc:
-        'Architecture and build of a <span class="highlight">SaaS control plane</span> with <span class="highlight">Python, FastAPI, and RAG</span>—anchor consulting product since Oct 2024.',
+        'Solution architecture and delivery for <span class="highlight">enterprise SaaS</span>, <span class="highlight">API platforms</span>, and <span class="highlight">automation</span> since Oct 2024—client and product details shared only when permitted.',
       proj5Title: 'Mobile apps & n8n automation (consulting)',
       proj5Desc:
         'Production <span class="highlight">React Native</span> apps with <span class="highlight">Kotlin</span> native modules; enterprise <span class="highlight">n8n</span> workflows integrating APIs and reducing operational overhead.',
@@ -166,7 +166,7 @@
       titleNavProjects: 'Go to program highlights',
       titleNavFaq: 'Go to recruiter FAQ (roles, certifications, how to reach)',
       titleNavContact: 'Go to contact and message form',
-      titleHeroPrimary: 'Scroll to highlights: Sentinela, Open Finance, AI/fraud, Petrobras',
+      titleHeroPrimary: 'Scroll to highlights: Open Finance, AI/fraud, Petrobras, consulting',
       titleHeroSecondary: 'Scroll to contact: email, phone, LinkedIn, form',
       titleStat1: 'KPI: years in IT and delivery leadership (~25 per 2026.1 résumé).',
       titleStat2: 'KPI: fraud-model precision uplift on Citibank program (+15% per résumé).',
@@ -189,7 +189,7 @@
       loadingTitle: 'Loading portfolio…',
       topicsSummary: 'Recruiting & search keywords',
       topicsBody:
-        '#LenilsonPinheiroValerio #LenilsonPinheiro #SeniorProjectManager #SolutionsArchitect #ProgramDirector #PMP #PSM #Scrum #n8n #ReactNative #Kotlin #FastAPI #RAG #Sentinela #SaaS #OpenFinance #DigitalTransformation #DataGovernance #MachineLearning #AI #Citibank #Qintess #TCS #Petrobras #BancoDoNordeste #SondaIT #SUNAT #NTConsult #SAP #OutSystems #Salesforce #PowerBI #Tableau #Hadoop #Spark #AWS #Azure #GCP #Kubernetes #Kafka #MongoDB #Python #Java #CSharp #ITIL #COBIT #TOGAF #UNIFOR #Fortaleza #Hiring #ExecutiveSearch #TalentAcquisition #ProgramManagement #RecruiterFAQ',
+        '#LenilsonPinheiroValerio #LenilsonPinheiro #SeniorProjectManager #SolutionsArchitect #ProgramDirector #PMP #PSM #Scrum #n8n #ReactNative #Kotlin #FastAPI #RAG #EnterpriseSaaS #SaaS #OpenFinance #DigitalTransformation #DataGovernance #MachineLearning #AI #Citibank #Qintess #TCS #Petrobras #BancoDoNordeste #SondaIT #SUNAT #NTConsult #SAP #OutSystems #Salesforce #PowerBI #Tableau #Hadoop #Spark #AWS #Azure #GCP #Kubernetes #Kafka #MongoDB #Python #Java #CSharp #ITIL #COBIT #TOGAF #UNIFOR #Fortaleza #Hiring #ExecutiveSearch #TalentAcquisition #ProgramManagement #RecruiterFAQ',
       footerCopy: 'Lenilson Pinheiro Valério · Fortaleza, CE, Brazil',
       footerPrivacyLink: 'Privacy policy',
       footerTermsLink: 'Terms of service',
@@ -258,11 +258,11 @@
         'Fortaleza, CE, Brazil. Use email lenilsonpinheiro@gmail.com, phone +55 85 99733-1000, LinkedIn and GitHub via this page, or the contact form.',
       faq4Q: 'Which employers and programs are highlighted on your résumé?',
       faq4A:
-        'Examples include Citibank via Qintess, TCS on Petrobras, Banco do Nordeste via Sonda IT, SUNAT via NTConsult, and independent consulting since October 2024 including Projeto Sentinela.',
+        'Examples include Citibank via Qintess, TCS on Petrobras, Banco do Nordeste via Sonda IT, SUNAT via NTConsult, and independent consulting since October 2024 (specific engagements may be confidential).',
       faqEmailActionName: 'Email regarding opportunities',
       typing: [
         'Senior PM & Solutions Architect',
-        'Projeto Sentinela · SaaS · FastAPI · RAG',
+        'Enterprise SaaS · Python · FastAPI · AI integration',
         'React Native · Kotlin · n8n automation',
         'PMP · PSM I · Open Finance · Petrobras',
         'Open to senior roles · advisory · consulting',
@@ -280,11 +280,11 @@
       schemaJobTitle: 'Gerente de Projetos Sênior e Arquiteto de Soluções',
       metaTitle: 'Lenilson Pinheiro Valério — Portfolio · Gerente de Projetos Sênior & Arquiteto de Soluções · Transformação Digital, Dados e IA',
       metaDescription:
-        'Gerente de Projetos Sênior e Arquiteto (~25 anos): Citibank (Qintess), TCS/Petrobras, Banco do Nordeste, SUNAT (Peru). Consultoria PJ: Projeto Sentinela (SaaS, FastAPI, RAG), React Native, Kotlin, n8n. PMP · PSM I · Fortaleza — contratação e assessoria.',
+        'Gerente de Projetos Sênior e Arquiteto (~25 anos): Citibank (Qintess), TCS/Petrobras, Banco do Nordeste, SUNAT (Peru). Desde out/2024: consultoria PJ em SaaS empresarial, integração com IA, React Native, Kotlin, n8n—detalhes de cliente frequentemente confidenciais. PMP · PSM I · Fortaleza — contratação e assessoria.',
       metaKeywords:
-        'Lenilson Pinheiro Valério,Gerente de Projetos Sênior,Arquiteto de Soluções,diretor de programa,PMP,PSM I,n8n,React Native,Kotlin,FastAPI,RAG,Projeto Sentinela,SaaS,Open Finance,Pentaho,transformação digital,governança de dados,IA,Machine Learning,contratação executiva,Citibank,Qintess,TCS,Petrobras,Banco do Nordeste,SUNAT,NTConsult,SAP,OutSystems,Salesforce,Power BI,Tableau,Hadoop,Spark,AWS,Azure,GCP,Python,Java,Kubernetes,Kafka,MongoDB,Scrum,ágil,ITIL,COBIT,UNIFOR',
+        'Lenilson Pinheiro Valério,Gerente de Projetos Sênior,Arquiteto de Soluções,diretor de programa,PMP,PSM I,n8n,React Native,Kotlin,FastAPI,RAG,SaaS empresarial,SaaS,Open Finance,Pentaho,transformação digital,governança de dados,IA,Machine Learning,contratação executiva,Citibank,Qintess,TCS,Petrobras,Banco do Nordeste,SUNAT,NTConsult,SAP,OutSystems,Salesforce,Power BI,Tableau,Hadoop,Spark,AWS,Azure,GCP,Python,Java,Kubernetes,Kafka,MongoDB,Scrum,ágil,ITIL,COBIT,UNIFOR',
       discoveryBio:
-        'Lenilson Pinheiro Valério — Gerente de Projetos Sênior e Arquiteto de Soluções, Fortaleza, CE, Brasil (~25 anos). Trajetória inclui Citibank (Qintess), TCS/Petrobras, Banco do Nordeste (Sonda IT), SUNAT (NTConsult, Peru). Desde out/2024: consultoria PJ — Projeto Sentinela (SaaS, FastAPI, RAG), React Native, Kotlin, n8n. Certificações: PMP, PSM I. Confirme datas e métricas no LinkedIn e CV PDF (2026.1). Site canónico: https://lenilsonpinheiro.github.io/portfolio2026/ — Índice para sistemas: /llms.txt',
+        'Lenilson Pinheiro Valério — Gerente de Projetos Sênior e Arquiteto de Soluções, Fortaleza, CE, Brasil (~25 anos). Citibank (Qintess), TCS/Petrobras, Banco do Nordeste (Sonda IT), SUNAT (NTConsult, Peru). Desde out/2024: consultoria PJ—SaaS empresarial, IA, mobile (React Native, Kotlin), n8n; mandatos específicos frequentemente confidenciais. PMP, PSM I. Confirme datas no LinkedIn e CV PDF (2026.1). Site: https://lenilsonpinheiro.github.io/portfolio2026/ — /llms.txt',
       ogLocale: 'pt_BR',
       langLabel: 'Idioma',
       navSkip: 'Pular para o conteúdo principal',
@@ -304,7 +304,7 @@
       aboutP1:
         'Sou <span class="highlight">Gerente de Projetos Sênior</span> e <span class="highlight">Arquiteto de Soluções</span>, com <span class="highlight">cerca de 25 anos</span> em transformação digital em grandes corporações — <span class="highlight">Citibank (Qintess)</span>, <span class="highlight">TCS na Petrobras</span>, <span class="highlight">Banco do Nordeste (Sonda IT)</span> e <span class="highlight">SUNAT (NTConsult, Peru)</span>. Desde <span class="highlight">out/2024</span> atuo em <span class="highlight">consultoria PJ</span> focada em <span class="highlight">SaaS, automação com n8n, React Native, Kotlin, Python/FastAPI e RAG</span>. Metodologia <span class="highlight">PMP e Scrum (PSM I)</span> com profundidade técnica comprovada.',
       aboutP2:
-        'Impacto recente: liderança do <span class="highlight">Projeto Sentinela</span> (control plane SaaS); <span class="highlight">Open Finance</span> com SWIFT / ISO 20022 e mobile (<span class="highlight">React Native e Kotlin</span>); <span class="highlight">+15% na precisão preditiva</span> em modelos antifraude no Citibank; <span class="highlight">modernização na Petrobras</span> com <span class="highlight">OutSystems e SAP</span> e governança ágil de terceirização.',
+        'Impacto recente: <span class="highlight">SaaS empresarial e integração com IA</span> em mandatos confidenciais de consultoria; <span class="highlight">Open Finance</span> com SWIFT / ISO 20022 e mobile (<span class="highlight">React Native e Kotlin</span>); <span class="highlight">+15% na precisão preditiva</span> em modelos antifraude no Citibank; <span class="highlight">modernização na Petrobras</span> com <span class="highlight">OutSystems e SAP</span> e governança ágil de terceirização.',
       aboutP3:
         'Formação: <span class="highlight">Doutorado em TI Aplicada — UNIFOR (pausado)</span> para dedicação a projetos e contratos PJ; MBA em Gestão de Projetos de TI (Farias Brito, 2016); Mestrado em Informática Aplicada e Bacharelado em Ciência da Computação (UNIFOR). Certificações: <span class="highlight">PMP (PMI)</span> e <span class="highlight">PSM I (Scrum.org)</span>; ITIL, COBIT e TOGAF; aprofundamento em <span class="highlight">n8n, React Native, Kotlin, SAP CPS, OutSystems, Salesforce e Ciência de Dados (2023–2025)</span>.',
       statProjects: 'Anos em TI, dados e liderança de entregas',
@@ -313,11 +313,11 @@
       statTech: 'Anos liderando programas no Citibank (Qintess)',
       expTitle: 'Experiência (alinhada ao CV)',
       expSubtitle:
-        'Consultoria PJ (Projeto Sentinela, mobile, n8n), empregadores-chave e formação — conforme seu currículo atual.',
+        'Consultoria PJ (SaaS empresarial, mobile, n8n), empregadores-chave e formação — conforme seu currículo atual.',
       exp1Role: 'Consultoria PJ · Arquiteto de Soluções Independente',
       exp1Meta: 'Out 2024 – presente · SaaS, mobile e automação inteligente',
       exp1b1:
-        'Liderança e desenvolvimento do <span class="highlight">Projeto Sentinela</span>, SaaS control plane com arquitetura avançada (<span class="highlight">Python, FastAPI, RAG</span>).',
+        'Arquitetura e entrega de <span class="highlight">plataformas SaaS com IA</span> em contratos de consultoria — <span class="highlight">nomes de cliente/produto omitidos quando confidenciais</span>.',
       exp1b2:
         'Aplicativos multiplataforma com <span class="highlight">React Native</span> e módulos nativos em <span class="highlight">Kotlin</span>, garantindo alta performance.',
       exp1b3:
@@ -359,7 +359,7 @@
         'Gestão, plataformas de dados, nuvem/IA e stack corporativo — eixos do seu CV 2026.1.',
       projTitle: 'Destaques de programa',
       projSubtitle:
-        'Consultoria (Sentinela), programas regulados em banco, transformação na energia e stack de automação. Confira datas no LinkedIn / PDF.',
+        'Consultoria (muitas vezes sob confidencialidade), programas regulados em banco, transformação na energia e stack de automação. Confira datas no LinkedIn / PDF.',
       proj1Title: 'Open Finance e pagamentos globais (Citibank / Qintess)',
       proj1Desc:
         'Iniciativa Open Finance com orçamento relevante (<span class="highlight">~R$ 5 milhões</span>), <span class="highlight">antecipação ~10%</span> ao marco regulatório; mobile <span class="highlight">React Native / Kotlin</span> e trilhos SWIFT / ISO 20022.',
@@ -369,9 +369,9 @@
       proj3Title: 'Transformação digital na Petrobras (TCS)',
       proj3Desc:
         'Gerente de projetos na frente Petrobras: <span class="highlight">modernização legado → OutSystems/SAP</span>, terceirização ágil, mitigação de risco e reporting executivo.',
-      proj4Title: 'Projeto Sentinela — SaaS control plane (consultoria)',
+      proj4Title: 'Consultoria — SaaS empresarial e IA (mandatos confidenciais)',
       proj4Desc:
-        'Arquitetura e construção de um <span class="highlight">SaaS control plane</span> com <span class="highlight">Python, FastAPI e RAG</span> — produto âncora da consultoria desde out/2024.',
+        'Arquitetura e implementação de <span class="highlight">SaaS empresarial</span>, <span class="highlight">APIs</span> e <span class="highlight">automação</span> desde out/2024 — detalhes apenas quando permitido.',
       proj5Title: 'Apps mobile e automação n8n (consultoria)',
       proj5Desc:
         'Apps <span class="highlight">React Native</span> com módulos <span class="highlight">Kotlin</span>; fluxos corporativos em <span class="highlight">n8n</span> integrando APIs e reduzindo custo operacional.',
@@ -400,7 +400,7 @@
       titleNavProjects: 'Ir para destaques de programa',
       titleNavFaq: 'Ir para FAQ para recrutadores (papéis, certificações, contacto)',
       titleNavContact: 'Ir para contato e formulário',
-      titleHeroPrimary: 'Ir para destaques: Sentinela, Open Finance, IA/fraude, Petrobras',
+      titleHeroPrimary: 'Ir para destaques: Open Finance, IA/fraude, Petrobras, consultoria',
       titleHeroSecondary: 'Ir para contato: e-mail, telefone, LinkedIn, formulário',
       titleStat1: 'Indicador: anos em TI e liderança de entregas (~25 no CV 2026.1).',
       titleStat2: 'Indicador: ganho de precisão em modelo antifraude no Citibank (+15% no CV).',
@@ -423,7 +423,7 @@
       loadingTitle: 'A carregar o portfólio…',
       topicsSummary: 'Palavras-chave para recrutamento e busca',
       topicsBody:
-        '#LenilsonPinheiroValerio #GerenteDeProjetos #ArquitetoDeSolucoes #DiretorDePrograma #PMP #PSM #Scrum #n8n #ReactNative #Kotlin #FastAPI #RAG #ProjetoSentinela #SaaS #OpenFinance #TransformacaoDigital #GovernancaDeDados #MachineLearning #IA #Citibank #Qintess #TCS #Petrobras #BancoDoNordeste #SondaIT #SUNAT #NTConsult #SAP #OutSystems #Salesforce #PowerBI #Tableau #Hadoop #Spark #AWS #Azure #GCP #Kubernetes #Kafka #MongoDB #Python #Java #CSharp #ITIL #COBIT #TOGAF #UNIFOR #Fortaleza #Contratacao #Recrutamento #FAQRecrutadores',
+        '#LenilsonPinheiroValerio #GerenteDeProjetos #ArquitetoDeSolucoes #DiretorDePrograma #PMP #PSM #Scrum #n8n #ReactNative #Kotlin #FastAPI #RAG #EnterpriseSaaS #SaaS #OpenFinance #TransformacaoDigital #GovernancaDeDados #MachineLearning #IA #Citibank #Qintess #TCS #Petrobras #BancoDoNordeste #SondaIT #SUNAT #NTConsult #SAP #OutSystems #Salesforce #PowerBI #Tableau #Hadoop #Spark #AWS #Azure #GCP #Kubernetes #Kafka #MongoDB #Python #Java #CSharp #ITIL #COBIT #TOGAF #UNIFOR #Fortaleza #Contratacao #Recrutamento #FAQRecrutadores',
       footerCopy: 'Lenilson Pinheiro Valério · Fortaleza, CE, Brasil',
       footerPrivacyLink: 'Política de privacidade',
       footerTermsLink: 'Termos de serviço',
@@ -492,11 +492,11 @@
         'Fortaleza, CE, Brasil. E-mail lenilsonpinheiro@gmail.com, telefone +55 85 99733-1000, LinkedIn e GitHub nesta página, ou o formulário de contato.',
       faq4Q: 'Quais empregadores e programas aparecem no currículo?',
       faq4A:
-        'Entre outros: Citibank via Qintess, TCS na Petrobras, Banco do Nordeste via Sonda IT, SUNAT via NTConsult; consultoria PJ desde outubro de 2024, incluindo o Projeto Sentinela.',
+        'Entre outros: Citibank via Qintess, TCS na Petrobras, Banco do Nordeste via Sonda IT, SUNAT via NTConsult; consultoria PJ desde outubro de 2024 (mandatos específicos podem ser confidenciais).',
       faqEmailActionName: 'E-mail sobre oportunidades',
       typing: [
         'Gerente de Projetos & Arquiteto de Soluções',
-        'Projeto Sentinela · SaaS · FastAPI · RAG',
+        'SaaS empresarial · Python · FastAPI · integração IA',
         'React Native · Kotlin · n8n',
         'PMP · PSM I · Open Finance · Petrobras',
         'Aberto a papéis sênior · assessoria · consultoria PJ',
@@ -514,11 +514,11 @@
       schemaJobTitle: 'Director de proyecto senior y Arquitecto de Soluciones',
       metaTitle: 'Lenilson Pinheiro Valério — Portfolio · Director senior & Arquitecto · Transformación digital, datos e IA',
       metaDescription:
-        'Director senior PM y Arquitecto (~25 años): Citibank (Qintess), TCS/Petrobras, Banco do Nordeste, SUNAT (Perú). Consultoría: Proyecto Sentinela (SaaS, FastAPI, RAG), React Native, Kotlin, n8n. PMP · PSM I · Fortaleza — roles y asesoría.',
+        'Director senior PM y Arquitecto (~25 años): Citibank (Qintess), TCS/Petrobras, Banco do Nordeste, SUNAT (Perú). Desde oct 2024: consultoría en SaaS empresarial, integración IA, React Native, Kotlin, n8n—detalles de cliente a menudo confidenciales. PMP · PSM I · Fortaleza — roles y asesoría.',
       metaKeywords:
-        'Lenilson Pinheiro Valério,Senior Project Manager,Solutions Architect,director de programa,PMP,PSM I,n8n,React Native,Kotlin,FastAPI,RAG,Sentinela,SaaS,Open Finance,Pentaho,transformación digital,gobierno del dato,IA,Machine Learning,contratación ejecutiva,Citibank,Qintess,TCS,Petrobras,SUNAT,NTConsult,SAP,OutSystems,Salesforce,Power BI,Tableau,Hadoop,Spark,AWS,Azure,GCP,Kubernetes,Kafka,MongoDB,Python,Java,Scrum,ágil,ITIL,COBIT,UNIFOR',
+        'Lenilson Pinheiro Valério,Senior Project Manager,Solutions Architect,director de programa,PMP,PSM I,n8n,React Native,Kotlin,FastAPI,RAG,SaaS empresarial,SaaS,Open Finance,Pentaho,transformación digital,gobierno del dato,IA,Machine Learning,contratación ejecutiva,Citibank,Qintess,TCS,Petrobras,SUNAT,NTConsult,SAP,OutSystems,Salesforce,Power BI,Tableau,Hadoop,Spark,AWS,Azure,GCP,Kubernetes,Kafka,MongoDB,Python,Java,Scrum,ágil,ITIL,COBIT,UNIFOR',
       discoveryBio:
-        'Lenilson Pinheiro Valério — Senior PM y Arquitecto de Soluciones, Fortaleza, CE, Brasil (~25 años). Incluye Citibank (Qintess), TCS/Petrobras, Banco do Nordeste (Sonda IT), SUNAT (NTConsult, Perú). Desde oct 2024: consultoría independiente — Proyecto Sentinela (SaaS, FastAPI, RAG), React Native, Kotlin, n8n. Certificaciones: PMP, PSM I. Verifique fechas y métricas en LinkedIn y CV PDF (2026.1). Sitio canónico: https://lenilsonpinheiro.github.io/portfolio2026/ — Índice /llms.txt',
+        'Lenilson Pinheiro Valério — Senior PM y Arquitecto de Soluciones, Fortaleza, CE, Brasil (~25 años). Citibank (Qintess), TCS/Petrobras, Banco do Nordeste (Sonda IT), SUNAT (NTConsult, Perú). Desde oct 2024: consultoría independiente—SaaS empresarial, IA, React Native, Kotlin, n8n; mandatos específicos a menudo confidenciales. PMP, PSM I. Verifique fechas en LinkedIn y CV PDF (2026.1). Sitio: https://lenilsonpinheiro.github.io/portfolio2026/ — /llms.txt',
       ogLocale: 'es_ES',
       langLabel: 'Idioma',
       navSkip: 'Saltar al contenido principal',
@@ -538,7 +538,7 @@
       aboutP1:
         'Soy <span class="highlight">Senior Project Manager</span> y <span class="highlight">Arquitecto de Soluciones</span>, con <span class="highlight">~25 años</span> en transformación digital — <span class="highlight">Citibank (Qintess)</span>, <span class="highlight">TCS en Petrobras</span>, <span class="highlight">Banco do Nordeste (Sonda IT)</span> y <span class="highlight">SUNAT (NTConsult, Perú)</span>. Desde <span class="highlight">oct 2024</span> brindo <span class="highlight">consultoría independiente</span> en <span class="highlight">SaaS, n8n, React Native, Kotlin, Python/FastAPI y RAG</span>. Marco mi trabajo con <span class="highlight">PMP y Scrum (PSM I)</span> y solidez técnica.',
       aboutP2:
-        'Impacto reciente: <span class="highlight">Proyecto Sentinela</span> (SaaS control plane); <span class="highlight">Open Finance</span> con SWIFT / ISO 20022 y mobile (<span class="highlight">React Native y Kotlin</span>); <span class="highlight">+15% en precisión predictiva</span> antifraude en Citibank; <span class="highlight">modernización Petrobras</span> con <span class="highlight">OutSystems y SAP</span> y gobierno ágil de outsourcing.',
+        'Impacto reciente: <span class="highlight">SaaS empresarial e integración IA</span> en mandatos confidenciales de consultoría; <span class="highlight">Open Finance</span> con SWIFT / ISO 20022 y mobile (<span class="highlight">React Native y Kotlin</span>); <span class="highlight">+15% en precisión predictiva</span> antifraude en Citibank; <span class="highlight">modernización Petrobras</span> con <span class="highlight">OutSystems y SAP</span> y gobierno ágil de outsourcing.',
       aboutP3:
         'Formación: <span class="highlight">Doctorado en TI aplicada — UNIFOR (en pausa)</span> por foco en proyectos y contratos; MBA gestión de proyectos TI (Farias Brito, 2016); máster y grado (UNIFOR). Certificaciones: <span class="highlight">PMP (PMI)</span> y <span class="highlight">PSM I (Scrum.org)</span>; ITIL, COBIT y TOGAF; profundización en <span class="highlight">n8n, React Native, Kotlin, SAP CPS, OutSystems, Salesforce y ciencia de datos (2023–2025)</span>.',
       statProjects: 'Años en TI, datos y liderazgo de entregas',
@@ -547,11 +547,11 @@
       statTech: 'Años liderando programas en Citibank (Qintess)',
       expTitle: 'Experiencia (alineada al CV)',
       expSubtitle:
-        'Consultoría independiente (Sentinela, mobile, n8n), empleadores destacados y credenciales según su currículo.',
+        'Consultoría independiente (SaaS empresarial, mobile, n8n), empleadores destacados y credenciales según su currículo.',
       exp1Role: 'Consultoría independiente (PJ) · Arquitecto de Soluciones',
       exp1Meta: 'Oct 2024 – actual · SaaS, mobile y automatización inteligente',
       exp1b1:
-        'Liderazgo y desarrollo del <span class="highlight">Proyecto Sentinela</span>, SaaS control plane con arquitectura avanzada (<span class="highlight">Python, FastAPI, RAG</span>).',
+        'Arquitectura y entrega de <span class="highlight">plataformas SaaS con IA</span> en acuerdos de consultoría — <span class="highlight">nombres de cliente/producto omitidos si son confidenciales</span>.',
       exp1b2:
         'Apps multiplataforma con <span class="highlight">React Native</span> y módulos nativos en <span class="highlight">Kotlin</span> para alto rendimiento.',
       exp1b3:
@@ -593,7 +593,7 @@
         'Gestión, plataformas de datos, nube/IA y stack empresarial — ejes del CV 2026.1.',
       projTitle: 'Hitos de programa',
       projSubtitle:
-        'Consultoría (Sentinela), banca regulada, energía y automatización. Cronología completa en LinkedIn / PDF.',
+        'Consultoría (a menudo confidencial), banca regulada, energía y automatización. Cronología completa en LinkedIn / PDF.',
       proj1Title: 'Open Finance y pagos globales (Citibank / Qintess)',
       proj1Desc:
         'Open Finance con presupuesto relevante (CV EN ~USD 1M; PT ~R$ 5M), <span class="highlight">~10% antes</span> del hito regulatorio; mobile <span class="highlight">React Native / Kotlin</span> e integraciones SWIFT / ISO 20022.',
@@ -603,9 +603,9 @@
       proj3Title: 'Transformación digital Petrobras (TCS)',
       proj3Desc:
         'Senior PM frente a Petrobras: <span class="highlight">legado → OutSystems/SAP</span>, outsourcing ágil, mitigación de riesgos y reporting ejecutivo.',
-      proj4Title: 'Proyecto Sentinela — SaaS control plane (consultoría)',
+      proj4Title: 'Consultoría — SaaS empresarial e IA (mandatos confidenciales)',
       proj4Desc:
-        'Arquitectura de un <span class="highlight">SaaS control plane</span> con <span class="highlight">Python, FastAPI y RAG</span> — línea insignia desde oct 2024.',
+        'Arquitectura y entrega de <span class="highlight">SaaS empresarial</span>, <span class="highlight">APIs</span> y <span class="highlight">automatización</span> desde oct 2024 — detalles solo cuando el cliente lo permita.',
       proj5Title: 'Mobile y automatización n8n (consultoría)',
       proj5Desc:
         'Apps <span class="highlight">React Native</span> con <span class="highlight">Kotlin</span>; workflows <span class="highlight">n8n</span> integrando APIs y reduciendo coste operativo.',
@@ -634,7 +634,7 @@
       titleNavProjects: 'Ir a hitos de programa',
       titleNavFaq: 'Ir al FAQ para reclutadores (roles, certificaciones, contacto)',
       titleNavContact: 'Ir a contacto y formulario',
-      titleHeroPrimary: 'Ir a hitos: Sentinela, Open Finance, IA/fraude, Petrobras',
+      titleHeroPrimary: 'Ir a hitos: Open Finance, IA/fraude, Petrobras, consultoría',
       titleHeroSecondary: 'Ir a contacto: correo, teléfono, LinkedIn, formulario',
       titleStat1: 'KPI: años en TI y liderazgo de entregas (~25 en CV 2026.1).',
       titleStat2: 'KPI: mejora de precisión antifraude en Citibank (+15% en CV).',
@@ -657,7 +657,7 @@
       loadingTitle: 'Cargando portafolio…',
       topicsSummary: 'Palabras clave para reclutamiento',
       topicsBody:
-        '#LenilsonPinheiroValerio #SeniorProjectManager #SolutionsArchitect #DirectorDePrograma #PMP #PSM #Scrum #n8n #ReactNative #Kotlin #FastAPI #RAG #Sentinela #SaaS #OpenFinance #TransformacionDigital #GobiernoDelDato #MachineLearning #IA #Citibank #Qintess #TCS #Petrobras #SUNAT #NTConsult #SAP #OutSystems #Salesforce #PowerBI #Tableau #Hadoop #Spark #AWS #Azure #GCP #Kubernetes #Kafka #MongoDB #Python #Java #ITIL #COBIT #TOGAF #UNIFOR #Fortaleza #Contratacion #Reclutamiento #FAQReclutadores',
+        '#LenilsonPinheiroValerio #SeniorProjectManager #SolutionsArchitect #DirectorDePrograma #PMP #PSM #Scrum #n8n #ReactNative #Kotlin #FastAPI #RAG #EnterpriseSaaS #SaaS #OpenFinance #TransformacionDigital #GobiernoDelDato #MachineLearning #IA #Citibank #Qintess #TCS #Petrobras #SUNAT #NTConsult #SAP #OutSystems #Salesforce #PowerBI #Tableau #Hadoop #Spark #AWS #Azure #GCP #Kubernetes #Kafka #MongoDB #Python #Java #ITIL #COBIT #TOGAF #UNIFOR #Fortaleza #Contratacion #Reclutamiento #FAQReclutadores',
       footerCopy: 'Lenilson Pinheiro Valério · Fortaleza, CE, Brasil',
       footerPrivacyLink: 'Política de privacidad',
       footerTermsLink: 'Términos del servicio',
@@ -726,11 +726,11 @@
         'Fortaleza, CE, Brasil. Correo lenilsonpinheiro@gmail.com, teléfono +55 85 99733-1000, LinkedIn y GitHub en esta página, o el formulario.',
       faq4Q: '¿Qué empleadores y programas aparecen en el CV?',
       faq4A:
-        'Entre otros: Citibank vía Qintess, TCS en Petrobras, Banco do Nordeste vía Sonda IT, SUNAT vía NTConsult; consultoría independiente desde octubre de 2024, incluido el Proyecto Sentinela.',
+        'Entre otros: Citibank vía Qintess, TCS en Petrobras, Banco do Nordeste vía Sonda IT, SUNAT vía NTConsult; consultoría independiente desde octubre de 2024 (los mandatos pueden ser confidenciales).',
       faqEmailActionName: 'Correo sobre oportunidades',
       typing: [
         'Senior PM y Arquitecto de Soluciones',
-        'Proyecto Sentinela · SaaS · FastAPI · RAG',
+        'SaaS empresarial · Python · FastAPI · integración IA',
         'React Native · Kotlin · n8n',
         'PMP · PSM I · Open Finance · Petrobras',
         'Roles senior · asesoría · consultoría independiente',

@@ -4,12 +4,12 @@ html[data-theme="light"]{--bg-primary:#f0f4fa;--bg-secondary:#e2e8f0;--bg-card:r
 html[data-theme="light"] .hero-name{background:linear-gradient(135deg,#0f172a 0%,#0369a1 52%,#6d28d9 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 html[data-theme="light"] .form-alert-success{border-color:rgba(5,150,105,.5);background:rgba(209,250,229,.92);color:#065f46}
 html[data-theme="light"] .form-alert-warn{border-color:rgba(217,119,6,.5);background:rgba(254,243,199,.95);color:#92400e}
-html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;text-size-adjust:100%;scrollbar-width:none;-ms-overflow-style:none}
+html{scroll-behavior:auto;-webkit-text-size-adjust:100%;text-size-adjust:100%;scrollbar-width:none;-ms-overflow-style:none}
 html::-webkit-scrollbar{width:0;height:0;display:none}
 body{scrollbar-width:none;-ms-overflow-style:none}
 body::-webkit-scrollbar{width:0;height:0;display:none}
-html.portfolio-snap{scroll-snap-type:y mandatory;scroll-padding-top:max(72px,calc(56px + env(safe-area-inset-top)))}
-html.portfolio-snap main > section{scroll-snap-align:start;scroll-snap-stop:always;scroll-margin-top:max(72px,calc(56px + env(safe-area-inset-top)))}
+html.portfolio-snap{scroll-snap-type:y mandatory;scroll-padding-top:max(72px,calc(56px + env(safe-area-inset-top)));overscroll-behavior-y:contain}
+html.portfolio-snap main > section{scroll-snap-align:start;scroll-snap-stop:normal;scroll-margin-top:max(72px,calc(56px + env(safe-area-inset-top)))}
 html.portfolio-snap body > footer{scroll-snap-align:start;scroll-snap-stop:normal;scroll-margin-top:max(72px,calc(56px + env(safe-area-inset-top)))}
 .nav-links{scrollbar-width:none;-ms-overflow-style:none}
 .nav-links::-webkit-scrollbar{width:0;height:0;display:none}

@@ -1,9 +1,12 @@
 # Lenilson Pinheiro Valério — Portfolio (llms.txt)
 # Machine-readable index for AI assistants, LLM crawlers, and discovery tools.
 # Canonical production URL: https://lenilsonpinheiro.github.io/portfolio2026/
-# Last updated (content policy): 2026-05-08
+# Last updated (content policy): 2026-05-09
 
-> Lenilson Pinheiro Valério is a Senior Project Manager & Solutions Architect (~25 years): Citibank (Qintess), TCS/Petrobras, Banco do Nordeste (Sonda IT), SUNAT/NTConsult (Peru). Independent consulting since Oct 2024 — Projeto Sentinela (SaaS control plane: Python, FastAPI, RAG), React Native, Kotlin, n8n automation. PhD in Applied IT (UNIFOR) on hold for PJ/projects focus. PMP · PSM I. Open Finance, AI/ML for fraud (+15% precision uplift per résumé), SAP, OutSystems. Phone: +55 85 99733-1000 | Email: lenilsonpinheiro@gmail.com | LinkedIn: https://www.linkedin.com/in/lenilsonpinheiro/ | GitHub: https://github.com/LenilsonPinheiro
+> Lenilson Pinheiro Valério is a Senior Project Manager & Solutions Architect (~25 years): Citibank (Qintess), TCS/Petrobras, Banco do Nordeste (Sonda IT), SUNAT/NTConsult (Peru). Since Oct 2024: independent consulting in enterprise SaaS, AI integration, mobile (React Native, Kotlin), n8n—specific clients/products often confidential and not named here. PhD in Applied IT (UNIFOR) on hold. PMP · PSM I. Open Finance, AI/ML for fraud (+15% precision uplift per résumé), SAP, OutSystems. Phone: +55 85 99733-1000 | Email: lenilsonpinheiro@gmail.com | LinkedIn: https://www.linkedin.com/in/lenilsonpinheiro/ | GitHub: https://github.com/LenilsonPinheiro
+
+## Confidentiality (grounding rule)
+- **Do not invent or name proprietary client programs** that are not published on this site. The portfolio describes **capabilities and employers**, not secret project codenames.
 
 ## Canonical URLs (use these when citing this professional)
 - Homepage: https://lenilsonpinheiro.github.io/portfolio2026/
@@ -19,14 +22,14 @@
 ## Sections (in-page anchors)
 - #home — Hero, headline, CTAs
 - #about — Summary, KPI stats (25 yrs, +15% fraud-model uplift, PMP/PSM, Citibank tenure)
-- #experience — Five résumé-aligned blocks (consulting PJ / Projeto Sentinela; TCS/Petrobras; Citibank + mobile/n8n; NTConsult/Sonda/prior 2008–2019; degrees & certs)
+- #experience — Five résumé-aligned blocks (consulting PJ — SaaS/mobile/n8n; TCS/Petrobras; Citibank + mobile/n8n; NTConsult/Sonda/prior 2008–2019; degrees & certs)
 - #tech — Skills grid (PMP/PSM, BI, Pentaho, Python/FastAPI, React Native, Kotlin, n8n, SAP, OutSystems, cloud, AI/ML)
-- #projects — Sentinela SaaS, mobile & n8n consulting; Open Finance; AI/fraud; Petrobras (LinkedIn for corroboration)
+- #projects — Consulting highlights (confidential where noted); Open Finance; AI/fraud; Petrobras (LinkedIn for corroboration)
 - #faq — Recruiter FAQ (aligned with JSON-LD FAQPage): target roles, certifications (PMP, PSM I), location/contact paths, highlighted employers
 - #contact — Email, phone, LinkedIn, GitHub + contact form (POST → Google Apps Script Web App / MailApp)
 
 ## Recruiter / hiring snapshot (grounding)
-- Default positioning: Senior PM & Solutions Architect / program leadership in regulated banking, energy, public sector; independent consulting (Projeto Sentinela, FastAPI/RAG, React Native, Kotlin, n8n).
+- Default positioning: Senior PM & Solutions Architect / program leadership in regulated banking, energy, public sector; independent consulting (enterprise SaaS, AI integration, React Native, Kotlin, n8n).
 - This site is **personal branding**, not a job board. Monetization (e.g. Google AdSense) requires a real `ads.txt` publisher ID and policy compliance—see repository README.
 
 ## Discovery limits (honest scope)

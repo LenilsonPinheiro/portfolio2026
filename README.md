@@ -62,6 +62,8 @@ Para **remover o aviso de app não verificada** no fluxo OAuth (verificação Go
 - **Monetização (AdSense):** não há blocos de anúncios por defeito. Com conta AdSense aprovada, publique **`ads.txt`** na raiz com o **Publisher ID real** (`google.com, pub-…, DIRECT, f08c47fec0942fa0`). Não invente IDs.
 - **Tópicos / keywords:** JSON-LD + `<template id="discovery-seeds">` + `knowsAbout` no `Person`.
 
+- **Confidencialidade:** não nomeie projetos de cliente não públicos no site; o portfólio descreve **capacidades** (SaaS empresarial, IA, mobile, n8n) e empregadores declarados — detalhes podem estar sob **NDA**.
+
 ## Testar localmente
 
 ```bash
