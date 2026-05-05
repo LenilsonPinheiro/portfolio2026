@@ -232,7 +232,7 @@
       footerTermsLink: 'Terms of service',
       cookieBannerAria: 'Privacy and essential cookies notice',
       cookieBannerText:
-        'This site uses only <strong>essential</strong> cookies: <code>lp_lang</code> (language preference, ~1 year, SameSite=Lax). Theme uses <strong>browser local storage</strong> (<code>portfolio_theme</code>). No advertising or third-party marketing cookies by default. See the <a href="privacy.html">privacy policy</a>.',
+        'This site uses only <strong>essential cookies</strong> to remember your language. Your theme choice is stored in your browser’s local storage. We do not use advertising or third-party marketing cookies by default. See the <a href="privacy.html">privacy policy</a>.',
       cookieAccept: 'Understood',
       privacyDocTitle: 'Privacy policy · Lenilson Pinheiro Valério',
       privacyMetaDescription:
@@ -476,7 +476,7 @@
       footerTermsLink: 'Termos de serviço',
       cookieBannerAria: 'Aviso de privacidade e cookies essenciais',
       cookieBannerText:
-        'Este site utiliza apenas cookies <strong>essenciais</strong>: <code>lp_lang</code> (idioma, ~1 ano, SameSite=Lax). O tema usa <strong>armazenamento local</strong> (<code>portfolio_theme</code>). Sem cookies de publicidade ou de marketing de terceiros por defeito. Consulte a <a href="privacy.html">política de privacidade</a>.',
+        'Este site utiliza apenas <strong>cookies essenciais</strong> para memorizar o seu idioma. A preferência de tema é guardada no armazenamento local do navegador. Não utilizamos cookies de publicidade nem de marketing de terceiros por padrão. Consulte a <a href="privacy.html">política de privacidade</a>.',
       cookieAccept: 'Compreendi',
       privacyDocTitle: 'Política de privacidade · Lenilson Pinheiro Valério',
       privacyMetaDescription:
@@ -720,7 +720,7 @@
       footerTermsLink: 'Términos del servicio',
       cookieBannerAria: 'Aviso de privacidad y cookies esenciales',
       cookieBannerText:
-        'Este sitio usa solo cookies <strong>esenciales</strong>: <code>lp_lang</code> (idioma, ~1 año, SameSite=Lax). El tema usa <strong>almacenamiento local</strong> (<code>portfolio_theme</code>). Sin cookies publicitarias ni de marketing de terceros por defecto. Consulte la <a href="privacy.html">política de privacidad</a>.',
+        'Este sitio solo utiliza <strong>cookies esenciales</strong> para recordar su idioma. La preferencia de tema se guarda en el almacenamiento local del navegador. No utilizamos cookies publicitarias ni de marketing de terceros por defecto. Consulte la <a href="privacy.html">política de privacidad</a>.',
       cookieAccept: 'Entendido',
       privacyDocTitle: 'Política de privacidad · Lenilson Pinheiro Valério',
       privacyMetaDescription:
